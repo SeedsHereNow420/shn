@@ -1,2 +1,2 @@
 # shn
-Seeds Here Now Presta Shop codebase
+Seeds Here Now Presta Shop codebase.
