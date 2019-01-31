@@ -32,3 +32,8 @@ admin-dev/import/
 download/
 /img/*
 upload/
+
+# Forum content
+# The following folders contain custom forum-related content.
+forum/
+forum/*
