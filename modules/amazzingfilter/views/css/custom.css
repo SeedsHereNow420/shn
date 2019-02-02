@@ -1,0 +1,31 @@
+/*
+* Override this file if you want to keep custom styles after module upgrade
+*/
+
+/* custom slider handles */
+.af_filter .ui-slider-horizontal {
+	height: 10px;
+	margin: 0 8px;
+	padding: 0;
+	border: 1px solid #CCC;
+}
+.af_filter .ui-slider-horizontal .ui-slider-handle {
+    margin-left: -10px;
+    width: 20px;
+    height: 20px;
+    top: -6px;
+    border-radius: 100%;
+    outline: none;
+    background: #EEE;
+}
+
+/* special fix for uniform drop-down lists in default-bootstrap theme */
+@media (min-width: 480px) {
+	.af_filter.type-3 .af_filter_content .selector {
+		padding-left: 0;
+		border-left: 1px solid #DDD;
+	}
+	.af_filter.type-3 .af_filter_content .selector span {
+		padding-left: 10px;
+	}
+}

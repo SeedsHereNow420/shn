@@ -1,0 +1,7 @@
+Features v1.0.0
+
+-	Admin can change the order status from the order list without open any order
+
+# Features v7.0.1
+
+-	Admin can also filter the order status by selecting desire order status from the list

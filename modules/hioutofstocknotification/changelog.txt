@@ -1,0 +1,43 @@
+Version 1.2.3
+	* Display form when stock manangment is disabled and product is not available for order.
+
+Version 1.2.2
+	* Added email notifications for administrator.
+	* Design update for subscription form.
+	* Fixed My Account page bug ( PrestaShop 1.7 ).
+	* Fixed quick view bug ( PrestaShop 1.6 ).
+	* Bug fixes and improvements.
+
+Version 1.2.1
+	*Improvements
+
+Version 1.2.0
+	*Added PrestaShop 1.7 support.
+	*Email templates will be created automatically for all languages.
+	*Fixed bug when product quantity is < 0.
+	*Added option to remove all DB data when module uninstalled.
+	*Code improvements.
+
+Version 1.1.3
+	*Added option to change email subject from module configuration page.
+	*Bug fixes.	
+
+Version 1.1.2
+	*Added Cron functionality
+	*Added popup option
+	*Fixed “View” and “Buy Now” buttons issue from email template
+	*Added pagination in admin page
+
+Version 1.1.1
+	*Display/Hide form when product is out of stock and orders allowed
+	*Send email notification when product is out of stock but product changed to allow orders
+	*Custom hook support
+	*Bug fixes
+
+Version 1.1.0
+	*Email template redesign
+	*Added Statistics
+	*Bug fixes
+
+Version 1.0.0
+	*initial release

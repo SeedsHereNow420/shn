@@ -1,0 +1,31 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_eb6b06cab0dd72e04c4da68d511facf2'] = 'Search Results';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_53a16780d81dcc809bc1a45997671482'] = 'Best Sellers Page';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_ea9fa9065e0a63e8c304657059fa8924'] = 'Search Results Page';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_cd0320fca3f3969c1180530f182fd967'] = 'Relpad Product List';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_9ff0635f5737513b1a6f559ac2bff745'] = 'New Products';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_bd7929bc6bed5d8ec99db715a980ba04'] = 'Best Sellers';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_6de5d0b17afc50642850ff9486934f87'] = 'Price Drops';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_fcebe56087b9373f15514831184fa572'] = 'IN-STOCK';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_af1b98adf7f686b84cd0b443e022b7a0'] = 'Breeders';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_33802e85233c8c2ada130dc78faebb23'] = 'New Products First';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_e2174d7435696694b8f4d984d99eef03'] = 'Price - Low to High';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_0ee81913615b71aba7dc8bbf1f144672'] = 'Price - High to Low';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_a3c255ae1b9e0f61260a33358bece103'] = 'Relevance - Reverse';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_978e53bc2184d019722c8b24f56d2702'] = 'Old Products First';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_34afdcfdb31b7bec98a01d503f2f6cc8'] = 'Last Updated First';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_ce54e91b98aaf4a449fc607abf879ab1'] = 'Last Updated LAst';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_0f03509443995b9b07d5a5e1667cd316'] = 'Stock - Reverse';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_39d8a85e82c25172aebd22ed2ea9cd85'] = 'Reference - A to Z';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_d775b1412765225fd360dc0add807590'] = 'Reference - Reverse';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_f96e3bb6ac2b2874622898dccf4a8ff0'] = 'Instant Filet';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_1f0e9c979b965d24aa3c2c4b832c3ba1'] = 'Filter By';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_0b275442d6556cff30b75f37f1918899'] = 'RESET FILTERS';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_81aa2078d1eceede831b2976dbf32e62'] = 'CLEAR ALL';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_b47b72ddf8a3fa1949a7fb6bb5dbc60c'] = 'No Filters';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_1f67ea7a0b26e9eacc70523bde28df0c'] = 'LOAD MORE...';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_e37e8d912e8f7b8f9b5ef9452ba47ff1'] = 'LESS';
+$_MODULE['<{amazzingfilter}prestashop>amazzingfilter_c61ab4204f572e9b3aa84a040e0dab31'] = 'View Products';

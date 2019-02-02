@@ -1,0 +1,35 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{lgdetailedorder}prestashop>lgdetailedorder_583ecab2d2dbc0fb9517adc7426892eb'] = 'Fast Access to the Order Details';
+$_MODULE['<{lgdetailedorder}prestashop>lgdetailedorder_9a12d0d9ecbbe91faed0264ca8729a2b'] = 'Access easily to the details of orders. Go to your Orders page and use the green icon.';
+$_MODULE['<{lgdetailedorder}prestashop>lgdetailedorder_bb8956c67b82c7444a80c6b2433dd8b4'] = 'Are you sure you want to uninstall this module?';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_a240fa27925a635b08dc28c9e4f9216d'] = 'Order';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_c453a4b8e8d98e82f35b67f433e3b4da'] = 'Payment';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_63d5049791d9d79d86e9a108b0a999ca'] = 'Reference';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_ec53a8c4f07baed5d8825072c89799be'] = 'Status';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_44749712dbec183e983dcd78a7736c41'] = 'Date';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_f734d99571f87785e67e99aa66a84887'] = 'Prepared by';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_be53a0541a6d36f6ecb879fa2c584b08'] = 'Image';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_deb10517653c255364175796ace3553f'] = 'Product';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_694e8d1f2ee056f98ee488bdc4982d73'] = 'Quantity	';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_6c957f72dc8cdacc75762f2cbdcdfaf2'] = 'Unit price';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_0eede552438475bdfe820c13f24c9399'] = 'Total price';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_104d9898c04874d0fbac36e125fa1369'] = 'Discount';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_41c1d61bfff3fc9b1fd8f195061b8caa'] = 'Gift-wrapping';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_ea9cf7e47ff33b2be14e6dd07cbcefc6'] = 'Shipping';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_b24ce0cd392a5b0b8dedc66c25213594'] = 'Free';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_96b0141273eabab320119c467cdcaf17'] = 'Total';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_bb909452c3e32fcbc924dcab407614e3'] = 'Gift-wrapping selected';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_94cc4c8ff8622fcc69e2d2a30653e194'] = 'Recycled packaging selected';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_914419aa32f04011357d3b604a86d7eb'] = 'Carrier';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_5068c162a60b5859f973f701333f45c5'] = 'Tracking number';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_0c458988127eb2150776881e2ef3f0c4'] = 'Shipping address';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_1fbc7e5f1b92c7ec072397b59a0bb5da'] = 'Billing addres';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_682cebb3ab990c44d9ab925002436216'] = 'Customer message';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_0fe067d5d05655a4c80602c1d6e7d0c5'] = 'Gift message';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_1d949d2235747b894bbaae35fbf44f1d'] = 'Customer information';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_20db0bfeecd8fe60533206a2b5e9891a'] = 'First name';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_8d3f5eff9c40ee315d452392bed5309b'] = 'Last name';
+$_MODULE['<{lgdetailedorder}prestashop>orderdetails_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Email';

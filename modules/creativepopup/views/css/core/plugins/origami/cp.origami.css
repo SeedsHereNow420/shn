@@ -1,0 +1,121 @@
+.cp-origami-block {
+	position: absolute;
+	height : 100%;
+	top : 0;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.cp-origami-tile {
+	position: absolute;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	z-index: 20;
+}
+
+.cp-origami-tile {
+	width: 100%;
+	height: 100%;
+}
+
+.cp-origami-left .cp-origami-tile {
+	left: 100%;
+	top: 0;
+	-webkit-transform-origin: 0 100%;
+	-moz-transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+	-o-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+}
+
+.cp-origami-left > .cp-origami-tile {
+	width: 50%;
+	left: 0;
+}
+
+.cp-origami-right .cp-origami-tile {
+	right: 100%;
+	top: 0;
+	-webkit-transform-origin: 100% 0;
+	-moz-transform-origin: 100% 0;
+	-ms-transform-origin: 100% 0;
+	-o-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+.cp-origami-right > .cp-origami-tile {
+	width: 50%;
+	right: 0;
+}
+
+.cp-origami-top .cp-origami-tile {
+	left: 0;
+	top: 100%;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.cp-origami-top > .cp-origami-tile {
+	height: 50%;
+	top: 0;
+}
+
+.cp-origami-bottom .cp-origami-tile {
+	left: 0;
+	bottom: 100%;
+	-webkit-transform-origin: 100% 100%;
+	-moz-transform-origin: 100% 100%;
+	-ms-transform-origin: 100% 100%;
+	-o-transform-origin: 100% 100%;
+	transform-origin: 100% 100%;
+}
+
+.cp-origami-bottom > .cp-origami-tile {
+	height: 50%;
+	bottom: 0;
+}
+
+.cp-light,
+.cp-origami-image-holder {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+}
+
+.cp-light {
+	z-index: 1;
+}
+
+.cp-origami-image-holder {
+	z-index: 10;
+}
+
+.cp-origami-image-holder > img {
+	position: relative;
+	z-index: 2;
+}
+
+.cp-white {
+	background: white;
+}
+
+.cp-black {
+	background: black;
+}

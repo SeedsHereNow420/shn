@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<title>Message from {shop_name}</title>
+		
+		
+		<style>	
+	@media only screen and (max-width: 300px){ 
+		body {
+			width:218px !important;
+			margin:auto !important;
+		}
+		.table {width:195px !important;margin:auto !important;}
+		.logo, .titleblock, .linkbelow, .box, .footer, .space_footer{width:auto !important;display: block !important;}		
+		span.title{font-size:20px !important;line-height: 23px !important}
+		span.subtitle{font-size: 14px !important;line-height: 18px !important;padding-top:10px !important;display:block !important;}		
+		td.box p{font-size: 12px !important;font-weight: bold !important;}
+		.table-recap table, .table-recap thead, .table-recap tbody, .table-recap th, .table-recap td, .table-recap tr { 
+			display: block !important; 
+		}
+		.table-recap{width: 200px!important;}
+		.table-recap tr td, .conf_body td{text-align:center !important;}	
+		.address{display: block !important;margin-bottom: 10px !important;}
+		.space_address{display: none !important;}	
+	}
+	@media only screen and (min-width: 301px) and (max-width: 500px) { 
+		body {width:308px!important;margin:auto!important;}
+		.table {width:285px!important;margin:auto!important;}	
+		.logo, .titleblock, .linkbelow, .box, .footer, .space_footer{width:auto!important;display: block!important;}	
+		.table-recap table, .table-recap thead, .table-recap tbody, .table-recap th, .table-recap td, .table-recap tr { 
+			display: block !important; 
+		}
+		.table-recap{width: 295px !important;}
+		.table-recap tr td, .conf_body td{text-align:center !important;}
+		
+	}
+	@media only screen and (min-width: 501px) and (max-width: 768px) {
+		body {width:478px!important;margin:auto!important;}
+		.table {width:450px!important;margin:auto!important;}	
+		.logo, .titleblock, .linkbelow, .box, .footer, .space_footer{width:auto!important;display: block!important;}			
+	}
+	@media only screen and (max-device-width: 480px) { 
+		body {width:308px!important;margin:auto!important;}
+		.table {width:285px;margin:auto!important;}	
+		.logo, .titleblock, .linkbelow, .box, .footer, .space_footer{width:auto!important;display: block!important;}
+		
+		.table-recap{width: 295px!important;}
+		.table-recap tr td, .conf_body td{text-align:center!important;}	
+		.address{display: block !important;margin-bottom: 10px !important;}
+		.space_address{display: none !important;}	
+	}
+</style>
+
+	</head>
+	<body style="-webkit-text-size-adjust:none;background-color:#fff;width:650px;font-family:Open-sans, sans-serif;color:#555454;font-size:13px;line-height:18px;margin:auto">
+		<table class="table table-mail"
+			style="width:700px;
+					margin:0 auto;
+					margin-top:10px;
+					-moz-box-shadow:0 0 5px #afafaf;
+					-webkit-box-shadow:0 0 5px #afafaf;
+					-o-box-shadow:0 0 5px #afafaf;
+					box-shadow:0 0 5px #afafaf;
+					filter:progid:DXImageTransform.Microsoft.Shadow(color=#afafaf,Direction=134,Strength=5)" background = "{moduledir}/views/img/emailbg.png">
+			<tr>
+				<td class="space" style="width:20px;padding:7px 0">&nbsp;</td>
+				<td align="center" style="padding:7px 0">
+					<table class="table" style="width:100%">
+						<tr>
+							<td align="center" class="logo" style="border-bottom:2px solid #5d6e76;padding:7px 0">
+								<a title="{shop_name}" href="{shop_url}" style="color:#337ff1">
+									<img src="{shop_logo}" alt="{shop_name}" />
+								</a>
+							</td>
+						</tr>
+
+<tr>
+	<td align="center" class="titleblock" style="padding:46px 0; line-height:33px">
+		<font size="2" face="Open-sans, sans-serif" color="#fff">
+			<span class="title" style="font-weight:500;font-size:24px;text-transform:uppercase;line-height:33px">Dear {firstname} {lastname},</span><br/>
+			<span class="subtitle" style="font-weight:500;font-size:17px;text-transform:uppercase;line-height:25px">This item is once again in-stock.</span>
+		</font>
+	</td>
+</tr>
+
+<tr>
+	<td class="box" style="background-color:#fff">
+		<table class="table" style="width:100%">
+			<tr >
+				<td width="10" style="padding:7px 0">&nbsp;</td>
+				<td style="padding:7px 0">
+					<font size="2" face="Open-sans, sans-serif" color="#555454">
+						<table>
+							<tr>
+								<td style="border:0;border-right:1px;border-color: #ADADBC; border-style:solid; min-width: 260px;">
+									<table style="text-align: center;">
+										<tr><td><img src="{img_link}"/></td></tr>
+										<tr style="display: block; margin-top:15px;">
+											<td style="
+											margin-bottom: 10px;
+											display: inline-block";>
+												<a href="{statistic_link}oosn=1&id_product={id_product}&id_product_attribute={id_product_attribute}&id={id}&email={statistic_email}&action=view&attr_url_name={attr_url_name}" title="{name}" 
+													style="
+														border-radius: 5px;
+														color:#5F62D8;
+														font-size:14px;
+														padding:10px 13px 10px 13px;
+														border: 1px solid #B4BECB;
+														text-decoration:none;">VIEW
+												</a>
+											</td>
+											<td style="
+										    display: inline-block;
+										    margin-bottom: 10px;
+										    padding: 8px 0px;">
+												<a href="{statistic_link}oosn=1&id_product={id_product}&id_product_attribute={id_product_attribute}&id={id}&email={statistic_email}&action=buy_now" title="buy now" 
+													style="
+														color:#5F62D8;
+														font-size:14px;
+														padding:10px 13px 10px 13px;
+														border: 1px solid #B4BECB;
+														border-radius: 5px;
+														text-decoration:none;">BUY&nbsp;NOW
+												</a>
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td> </td>
+								<td style="display: block;">
+									<table>
+										<tr style="display: block; margin-bottom: 7px;">
+											<td>
+												<a href="{pr_link}" style="text-decoration:none; color:#343434; font-size:23px" title="{name}">{name}
+												</a>
+											</td>
+										</tr>
+										<tr style="display: block; margin-bottom: 5px;">
+											<td>
+												{reference}
+											</td>
+										</tr>
+										<tr style="display: block; margin-bottom: 10px;"><td>{group_name}</td></tr>
+										<tr style="display: block; margin-bottom: 20px;">
+											{grade_html}
+											{grade_info}
+										</tr>
+										<tr><td style="font-size:30px;color:#999999;">{price} {sign}</td></tr>
+										<tr>
+											<td style="width:100%;font-size:16px; line-height:29px;color:#adadad;">
+												{description}
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</font>
+				</td>
+				<td width="10" style="padding:7px 0">&nbsp;</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td class="space_footer" style="padding:0!important">&nbsp;</td>
+</tr>
+						<tr>
+							<td class="space_footer" style="padding:0!important">&nbsp;</td>
+						</tr>
+						<tr>
+							<td class="footer" style="border-top:2px solid #5d6e76;padding:7px 0">
+								<span style="color:#fff"><a href="{shop_url}" style="color:#fff">{shop_name}</a> powered by &nbsp;
+									<a href="http://www.prestashop.com/" style="color:#fff">PrestaShop&trade;</a>
+								</span>
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td class="space" style="width:20px;padding:7px 0">&nbsp;</td>
+			</tr>
+		</table>
+		<img src="{statistic_link}oosn=1&id_product={id_product}&id={id}&email={statistic_email}&action=opened" width="1" height="1" />
+	</body>
+</html>

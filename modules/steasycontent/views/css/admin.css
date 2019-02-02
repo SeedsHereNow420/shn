@@ -1,0 +1,197 @@
+.mce-i-template:before { font-family: Material Icons; content: "flash_on"; color: #FF8230;}
+.fontello_list{
+  list-style: none;
+}
+.fontello_list li{
+  float: left;
+  min-width: 60px;
+}
+.fontello_list.fontello_detail_list{
+  min-width: 120px;
+}
+[class^="fto-"]:before, [class*=" fto-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  font-size: 16px;
+}
+.fontshow{
+    border: 1px solid #CCCED7;
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    font-size:16px;
+    text-align:center;
+}
+.easy_image_list { padding-left: 0;}
+.easy_image_list li { float: left; margin:0 12px 12px 0; border:1px solid #DDDDDD;box-shadow: 0 0 2px rgba(0,0,0,0.1); list-style: none; cursor: pointer;}
+.easy_image_list li label{ margin-bottom: 0;}
+.easy_image_list li .easy_image_name{ display: block; padding: 4px 6px; font-size: 14px; font-weight: normal; background: #f2f2f2;}
+.easy_image_list li .easy_imgage{max-width: 180px;height: auto;}
+.easy_image_list li.easy_clicked{
+  /*border-color: #D0E9C6;
+  box-shadow: 0 0 4px rgba(208,233,198,0.4);*/
+}
+.easy_image_list li.easy_clicked .easy_image_name{
+  /*background: #DFF0D8;color: #3c763d;*/
+}
+.easy_image_list li.easy_selected{
+  border-color: #ebcccc;
+  box-shadow: 0 0 4px rgba(235,204,204,0.4);
+}
+.easy_image_list li.easy_selected .easy_image_name{
+  background: #F2DEDE;color: #a94442;
+}
+.easy_pre_style_list{
+  display: none;
+}
+.easy_pre_style_list.style_selected{
+  display: block;
+}
+.st_help_box{display: none;}
+.st_help_block.open .st_help_box{display: block;}
+
+#column_list_preview{
+  width: 100%;
+  padding: 20px 0;
+  background: #f2f2f2;
+  border: 1px solid #D5D5D5; 
+}
+#column_list_preview .column_item{
+  border: 1px solid #D5D5D5; 
+  background: #fff;
+  padding:6px;
+  display: inline-block;
+}
+
+#column_list_preview.column_1 .column_item{width:100%; }
+#column_list_preview.column_2 .column_item{width: 50%; }
+#column_list_preview.column_3 .column_item{width: 33.3333%; }
+#column_list_preview.column_4 .column_item{width: 25%; }
+#column_list_preview.column_5 .column_item{width: 20%; }
+#column_list_preview.column_6 .column_item{width: 16.66666%; } 
+#column_list_preview.column_7 .column_item{width: 14.285714%; }
+#column_list_preview.column_8 .column_item{width: 12.5%; }
+#column_list_preview.column_9 .column_item{width: 11.111111%; }
+#column_list_preview.column_10 .column_item {width: 10%; }
+#column_list_preview.column_11 .column_item {width: 9.090909%; }
+#column_list_preview.column_12 .column_item {width: 8.333333%; }
+
+.mce-tinymce.mce-container.mce-panel{border:1px solid #eee!important;}
+
+#st_tab .panel{display:none;}
+#st_tab .panel.selected{display:block;border-bottom: none; margin-bottom: 0;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;}
+#st_tab .panel.selected:last-child{border-bottom: 1px solid #e6e6e6;}
+#st_tab .preference_description br{display:block;}
+
+/* custom inclusion of right, left and below tabs */
+.st_sidebar .nav-tabs {
+  border-bottom: 0;
+  float: left;
+  width:100%!important;
+}
+.st_sidebar{
+    margin-right:-10px!important;
+    /*margin-top:20px;*/
+}
+.st_sidebar .nav-tabs > li {
+  float: none;
+}
+.st_sidebar .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+  margin-right: -1px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  text-transform: none;
+  outline: none;
+  font-size: 16px;
+}
+.st_sidebar .nav-tabs > li > a:hover,
+.st_sidebar .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee!important;
+}
+.st_sidebar .nav-tabs .active > a,
+.st_sidebar .nav-tabs .active > a:hover,
+.st_sidebar .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd!important;
+  *border-right-color: #ffffff;
+}
+.pre_box{
+}
+.pre_box_title{
+  font-size: 1.1666em;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.breadcrumb_dropdown{
+  display: inline-block;
+}
+.breadcrumb_dropdown i{
+    margin-left:2px;
+}
+.bootstrap a.action-enabled{
+  color: #72C279;
+}
+.bootstrap a.action-disabled{
+  color: #E08F95;
+}
+.image_thumb_block{
+  display: block;
+  padding: 6px 0;
+}
+.image_thumb_block img{
+  display: block;
+  max-width: 200px;
+  margin-bottom: 6px;
+}
+.span-block{
+    display:block;
+    font-style: normal;
+    margin-bottom:0;
+}
+.pstaggerTagsWrapper .pstaggerTag {
+    font-size:1em; 
+    margin:0 0.156rem; 
+    position:relative; 
+    height:1.35rem; 
+    padding:0 8px; 
+    color:#fff; 
+    text-align:center; 
+    background-color:#3ed2f0; 
+    border-radius:0.25rem; 
+}
+.parttern_wrap{display:inline-block;position:relative;width: 60px;height:60px;overflow:hidden;margin-right:3px;}
+.parttern_wrap span{position:absolute;left:0;top:0;color:#333;display:inline-block;background:#fff;padding:2px;}

@@ -1,0 +1,93 @@
+.lgwindow {
+    display:none;
+    position:fixed;
+    left:30%;
+    top:15%;
+    width:40%;
+    height: auto;
+    max-height: 80%;
+    overflow-y: auto;
+    border:1px solid #000;
+    background:#FFF;
+    text-align:left;
+    z-index:999;
+}
+@media screen and (max-width: 800px) {
+    .lgwindow {
+        left:2%;
+        width:96%;
+    }
+}
+@font-face {
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff?v=4.1.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.1.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular") format("svg");
+}
+[class^="icon-"] {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+.icon-credit-card:before{
+    content:"\f09d";
+    font-family:"FontAwesome"
+}
+.icon-time:before{
+    content:"\f017";
+    font-family:"FontAwesome"
+}
+.icon-calendar:before{
+    content:"\f073";
+    font-family:"FontAwesome"
+}
+.icon-user:before{
+    content:"\f007";
+    font-family:"FontAwesome"
+}
+.icon-gift:before{
+    content:"\f06b";
+    font-family:"FontAwesome"
+}
+.icon-recycle:before{
+    content:"\f1b8";
+    font-family:"FontAwesome"
+}
+.icon-truck:before{
+    content:"\f0d1";
+    font-family:"FontAwesome"
+}
+.icon-globe:before{
+    content:"\f0ac";
+    font-family:"FontAwesome"
+}
+.icon-map-marker:before{
+    content:"\f041";
+    font-family:"FontAwesome"
+}
+.icon-file-text:before{
+    content:"\f15c";
+    font-family:"FontAwesome"
+}
+.icon-phone:before{
+    content:"\f095";
+    font-family:"FontAwesome"
+}
+.icon-mobile-phone:before{
+    content:"\f10b";
+    font-family:"FontAwesome"
+}
+.icon-info:before{
+    content:"\f129";
+    font-family:"FontAwesome"
+}
+.icon-pencil:before{
+    content:"\f040";
+    font-family:"FontAwesome"
+}
+.icon-envelope-o:before{
+    content:"\f003";
+    font-family:"FontAwesome"
+}

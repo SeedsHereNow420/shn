@@ -1,0 +1,62 @@
+.select_products,
+.select_attachments {
+  padding: 10px; }
+  .select_products .search_product, .select_products .search_attachment,
+  .select_attachments .search_product,
+  .select_attachments .search_attachment {
+    display: block;
+    line-height: 22px;
+    font-size: 16px;
+    border: 1px solid #979797;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box; }
+  .select_products .search_row:not(:last-child),
+  .select_attachments .search_row:not(:last-child) {
+    margin-bottom: 15px; }
+  .select_products .search_row > label,
+  .select_attachments .search_row > label {
+    display: block;
+    float: none;
+    clear: both;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 15px;
+    text-align: left !important;
+    width: auto !important; }
+  .select_products .search_row .left_column, .select_products .search_row .right_column,
+  .select_attachments .search_row .left_column,
+  .select_attachments .search_row .right_column {
+    float: left;
+    width: 40%; }
+  .select_products .search_row .left_column,
+  .select_attachments .search_row .left_column {
+    margin-right: 10%; }
+  .select_products .search_row:after,
+  .select_attachments .search_row:after {
+    content: '';
+    display: block;
+    clear: both; }
+  .select_products .search_row select,
+  .select_attachments .search_row select {
+    width: 100%;
+    height: 200px !important;
+    font-size: 16px;
+    border: 1px solid #979797;
+    border-radius: 3px;
+    line-height: 20px;
+    color: #333333; }
+    .select_products .search_row select option,
+    .select_attachments .search_row select option {
+      font-size: 14px;
+      line-height: 20px;
+      color: #333333; }
+  .select_products .search_row input[type=button],
+  .select_attachments .search_row input[type=button] {
+    margin-top: 15px;
+    display: block;
+    font-size: 16px;
+    padding: 3px 15px;
+    text-align: center; }
+
+/*# sourceMappingURL=search_products.css.map */

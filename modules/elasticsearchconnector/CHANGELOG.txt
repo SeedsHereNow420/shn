@@ -1,0 +1,13 @@
+2015-01-04 22:35:35 +0100   Initial commit
+2015-03-14 08:56:43 +0100   Company name change
+2015-09-27 21:56:23 +0100   Index search visible products only
+2016-02-23 17:22:43 +0100   Weight of the field implemented
+2016-03-11 16:50:12 +0100   Config UI redesing, advanced search configuration added, inteligent search added
+2016-05-05 11:32:51 +0100   Timeout protection on slow server on regenerate index
+2016-07-30 10:22:31 +0100   Better result order by shingle filter use & switch to handle search via PS engine while ElasticSearch indexation in progress.
+2016-08-10 11:21:53 +0100   Disable elasticsearch while full indexation and use default PS search engine.
+2016-10-11 14:52:32 +0100   Add missing products to index, cron links for indexation.
+2017-01-14 11:23:15 +0100   ElasticSearch 5.X support, prevent indexation request caching, fix ajax result sorting, PrestaShop 1.7.X support
+2017-06-13 23:45:17 +0100   Supplier filed added to index and available for search.
+2017-06-21 17:11:52 +0100   PHP <= 5.6.6 support
+2017-10-19 22:22:31 +0100   EAN13 filed added to index and available for search.

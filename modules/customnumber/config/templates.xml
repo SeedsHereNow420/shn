@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template file="_product_line.tpl" admin="AdminOrdersController">
+        <pattern>
+            <match><![CDATA[#{Configuration::get('PS_INVOICE_PREFIX', $current_id_lang, null, $order->id_shop)}{'%06d'|sprintf:$invoice->number}]]></match>
+            <replace><![CDATA[{$invoice->getInvoiceNumberFormatted($current_id_lang, $order->id_shop)}]]></replace>
+        </pattern>
+        <pattern>
+            <match><![CDATA[#{Configuration::get('PS_INVOICE_PREFIX', $current_id_lang)}{'%06d'|sprintf:$invoice->number}]]></match>
+            <replace><![CDATA[{$invoice->getInvoiceNumberFormatted($current_id_lang, $order->id_shop)}]]></replace>
+        </pattern>
+    </template>
+    <template file="_documents.tpl" admin="AdminOrdersController">
+        <pattern>
+            <match><![CDATA[#{Configuration::get('PS_DELIVERY_PREFIX', $current_id_lang, null, $order->id_shop)}{'%06d'|sprintf:$document->delivery_number}]]></match>
+            <replace><![CDATA[{$document->getInvoiceNumberFormatted($current_id_lang, $order->id_shop, 'DELIVERY')}]]></replace>
+        </pattern>
+        <pattern>
+            <match><![CDATA[#{Configuration::get('PS_CREDIT_SLIP_PREFIX', $current_id_lang)}{'%06d'|sprintf:$document->id}]]></match>
+            <replace><![CDATA[{$document->getSlipNumberFormatted($current_id_lang, $order->id_shop)}]]></replace>
+        </pattern>
+        <pattern>
+            <match><![CDATA[#{Configuration::get('PS_DELIVERY_PREFIX', $current_id_lang)}{'%06d'|sprintf:$document->delivery_number}]]></match>
+            <replace><![CDATA[{$document->getInvoiceNumberFormatted($current_id_lang, $order->id_shop, 'DELIVERY')}]]></replace>
+        </pattern>
+        <pattern>
+            <match><![CDATA[{l s='#%d' sprintf=$document->id}]]></match>
+            <replace><![CDATA[{$document->getSlipNumberFormatted($current_id_lang, $order->id_shop)}]]></replace>
+        </pattern>
+        <pattern>
+            <match><![CDATA[{Configuration::get('PS_DELIVERY_PREFIX', $current_id_lang, null, $order->id_shop)}{'%06d'|sprintf:$document->delivery_number}]]></match>
+            <replace><![CDATA[{$document->getInvoiceNumberFormatted($current_id_lang, $order->id_shop, 'DELIVERY')}]]></replace>
+        </pattern>
+        <pattern>
+            <match><![CDATA[{Configuration::get('PS_CREDIT_SLIP_PREFIX', $current_id_lang)}{'%06d'|sprintf:$document->id}]]></match>
+            <replace><![CDATA[{$document->getSlipNumberFormatted($current_id_lang, $order->id_shop)}]]></replace>
+        </pattern>
+    </template>
+    <template file="order-confirmation.tpl">
+        <pattern>
+            <match><![CDATA[{$id_order_formatted}]]></match>
+            <replace><![CDATA[{$reference_order}]]></replace>
+        </pattern>
+    </template>
+</templates>

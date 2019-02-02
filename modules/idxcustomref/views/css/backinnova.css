@@ -1,0 +1,277 @@
+/**
+* 2007-2016 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* @author    Innovadeluxe SL
+* @copyright 2016 Innovadeluxe SL
+
+* @license   INNOVADELUXE
+*/
+
+@media (max-width:2500px) {
+ .innova-contenedor {padding: 10px 10px 0 10px !important;}
+ .innova-banner{ padding:0 10px 0 10px;}
+  .innovacolumna1,
+  .innovacolumna2{ margin:0; padding:0;}
+ .innova-banner .innova-logo{
+ 	display:block; 
+	float:left;
+	margin-right:30px;}
+ .block-services {
+	background-color: #ade9ff;
+	width: 228px;
+	padding: 6px 6px 0 6px;
+	border-radius: 6px;
+	display:block;
+	float:left;
+	font-size: 13px;
+	font-family: "Helvetica";
+	font-weight: 'normal';
+	color: #000;
+	text-transform: uppercase;
+	margin-right:30px;
+ }
+ .block-services a {
+  display: block;
+  float: left;
+  width: 72px;
+  text-align:center;
+  color: #000;
+ }
+ .block-services a:hover {
+  color: #36b8e9;
+ }
+ .block-services i, 
+ .block-services span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+ }
+ .block-services i {
+  font-size: 36px;
+  margin-bottom:1px;
+ }
+ .interesting-modules {
+	width: 190px;
+	display:block;
+	float:left;
+	margin-top:5px;
+	margin-right:30px;
+ }
+ .interesting-modules a {
+  font-size: 13px;
+  font-family: "Helvetica";
+  font-weight: bold;
+  color: #36b8e9;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height:18px;
+  padding-top:3px;
+ }
+ .interesting-modules a:hover {
+	  text-decoration:none;
+	  color:#000;
+  }
+ .module-info {
+  width: 500px;
+	display:block;
+	float:left;
+ }
+ .module-info a {
+  display: block;
+  width: 33.25%;
+  float: left;
+  text-decoration: none !important;
+  padding-right:5px;
+ }
+ .module-info img {
+  float: left;
+  margin-right: 6px;
+ }
+ .module-info p {
+	 font-size:11px;
+	 line-height:14px;
+	 padding-top:5px;
+ }
+ .all-our-modules {
+  width: 150px;
+	display:block;
+	float:right;
+ }
+ .all-our-modules a {
+  display: block;
+  width: 100%;
+  float: left;
+  text-decoration: none !important;
+ }
+  .all-our-modules a{
+	color: #000;
+ }
+ .all-our-modules a:hover{
+	color: #36b8e9;
+ }
+ .all-our-modules img {
+  float: left;
+  margin-right: 10px;
+  width:64px;
+ }
+ .all-our-modules a:hover{ color: #36b8e9;}
+ .all-our-modules p {
+  font-size: 12px;
+  line-height:16px;
+  text-align:center;
+  font-family: "Helvetica";
+  font-weight: bold;
+  text-transform: uppercase;
+  float: left;
+  width:74px;
+  margin-bottom:0;
+ }
+}
+@media (max-width:1750px) {
+ .innovacolumna1,
+  .innovacolumna2{ 
+ 	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:5px;}
+ .innovacolumna1{ 
+ 	border-bottom:1px solid #dfdfdf;
+	padding-bottom:5px;}
+ .innova-banner .innova-logo{
+	 float:right;}
+ .block-services {
+	margin-right:90px; }
+ .module-info {
+  width: 600px;
+  margin-left:50px }
+ .module-info p {
+	font-size:12px;
+	line-height:15px;
+	padding-top:9px; }
+  .all-our-modules {
+	margin-right:50px }
+}
+@media (max-width:1500px) {
+ .innovacolumna1,
+  .innovacolumna2{ 
+ 	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:5px;}
+ .innovacolumna1{ 
+ 	border-bottom:1px solid #dfdfdf;
+	padding-bottom:5px;}
+ .innova-banner .innova-logo{
+	 float:right;}
+ .block-services {
+	margin-right:90px; }
+ .module-info {
+  width: 600px;
+  margin-left:50px }
+ .module-info p {
+	font-size:12px;
+	line-height:15px;
+	padding-top:9px; }
+  .all-our-modules {
+	margin-right:50px }
+}
+@media (max-width:1200px) {
+  .innovacolumna1,
+  .innovacolumna2{ 
+ 	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:5px;}
+ .innovacolumna1{ 
+ 	border-bottom:1px solid #dfdfdf;
+	padding-bottom:5px;}
+ .innova-banner .innova-logo{
+	 float:right;
+	 margin-right:0;}
+ .block-services {
+	margin-right:10px; }
+.interesting-modules {
+	width: 180px;
+	margin-right:0;
+ }
+ .interesting-modules a {
+  font-size: 12px;
+  line-height:18px;
+  padding-top:3px;
+ }
+ .module-info {
+  width: 560px;
+  margin-left:0; }
+ .module-info p {
+	font-size:12px;
+	line-height:15px;
+	padding-top:9px; }
+  .all-our-modules {
+	margin-right:0; }
+}
+
+@media (max-width:1000px) {
+ .innovacolumna1{ border: none;}
+ .innova-banner .innova-logo{ 
+ 	width:100%;
+	margin-bottom:5px;
+	text-align:center !important;}
+ .block-services{ width:100%;}
+ .block-services a { width:33%; }
+ .interesting-modules {width:100%;}
+ .module-info {width:100%;}
+ .module-info a {
+  width: 100%;
+  padding-right:0;
+  margin-bottom:5px;
+ }
+ .module-info p {
+	font-size:14px;
+	line-height:18px;
+	padding-top:12px; }
+ .all-our-modules {width:100%;}
+ .all-our-modules p {
+  font-size: 12px;
+  line-height:16px;
+  text-align:center;
+  width:300px;
+  margin-top:15px;
+ }
+}
+
+@media (max-width:580px) {
+ .innovacolumna1{ border: none;}
+ .innova-banner .innova-logo{ 
+ 	width:100%;
+	margin-bottom:5px;
+	text-align:center !important;}
+ .block-services{ width:100%;}
+ .block-services a { width:33%; }
+ .interesting-modules {width:100%;}
+ .module-info {width:100%;}
+ .module-info a {
+  width: 100%;
+  padding-right:0;
+  margin-bottom:5px;
+ }
+ .module-info p {
+	font-size:14px;
+	line-height:18px;
+	padding-top:12px; }
+ .all-our-modules {width:100%;}
+ .all-our-modules p {
+  font-size: 12px;
+  line-height:16px;
+  text-align:center;
+  width:300px;
+  margin-top:15px;
+ }
+}
+
+/*
+backinnova sustituido
+*/

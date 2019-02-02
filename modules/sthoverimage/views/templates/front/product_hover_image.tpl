@@ -1,0 +1,1 @@
+<img class="replace-2x img-responsive back-image" src="{$link->getImageLink($product_link_rewrite, $product_id_image, 'home_default')|escape:'html':'UTF-8'}" alt="{if !empty($product_legend)}{$product_legend|escape:'html':'UTF-8'}{else}{$product_name|escape:'html':'UTF-8'}{/if}" width="{$home_default_width}" height="{$home_default_height}" />

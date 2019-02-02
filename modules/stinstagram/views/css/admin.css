@@ -1,0 +1,115 @@
+.pattern{
+	dislay: block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	background-color: #fff;
+	margin: 0px 6px 6px 0;
+ }
+ .delete_image{display:block;}
+ .img_preview{max-height: 200px;}
+ .st_thumb_nail{max-width: 200px;}
+ .parttern_wrap{display:inline-block;position:relative;width: 60px;height:60px;overflow:hidden;margin-right:3px;}
+ .parttern_wrap span{position:absolute;left:0;top:0;color:#333;display:inline-block;background:#fff;padding:2px;}
+ 
+#stinstagram .panel{display:none;}
+#stinstagram .form-group .panel{display:block;}
+#stinstagram .panel.selected{display:block;border-bottom: none; margin-bottom: 0;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;}
+#stinstagram .panel.selected:last-child{border-bottom: 1px solid #e6e6e6;}
+#stinstagram .preference_description br{display:block;}
+.st_tabs li{float:left;list-style: none;}
+.st_tabs li a{display:inline-block;padding:10px 6px;background:#FAFAFA;border: 1px solid #CCCED7;border-right:none;font-size:14px;font-weight:normal;margin-bottom:-1px;}
+.st_tabs li:last-child a{border-right: 1px solid #CCCED7;}
+.st_tabs li a:hover,
+.st_tabs li.selected a{background:#EBEDF4;border-bottom-color:#EBEDF4;}
+
+/* custom inclusion of right, left and below tabs */
+.stinstagram .nav-tabs {
+  border-bottom: 0;
+  float: left;
+  width:100%!important;
+}
+.stinstagram > .st_sidebar{
+    margin-right:-10px!important;
+    /*margin-top:20px;*/
+}
+.stinstagram .nav-tabs > li {
+  float: none;
+}
+.stinstagram .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+  margin-right: -1px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  text-transform: none;
+  outline: none;
+  font-size: 16px;
+}
+.stinstagram .nav-tabs > li > a:hover,
+.stinstagram .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee!important;
+}
+.stinstagram .nav-tabs .active > a,
+.stinstagram .nav-tabs .active > a:hover,
+.stinstagram .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd!important;
+  *border-right-color: #ffffff;
+}
+
+ #custom_css_code,#custom_js_code{height:auto!important;overflow:scroll!important;}
+ #message_box{margin-top: 10px;}
+#ins_account_info{margin-bottom: 12px;}
+ #ins_account_info img{
+  width: 50px;
+  float: left;
+ }
+ #ins_account_info div{
+  margin-left: 66px;margin-bottom: 4px;
+ }
+
+.fontello_list{
+  list-style: none;
+}
+.fontello_list li{
+  float: left;
+  min-width: 60px;
+}
+[class^="fto-"]:before, [class*=" fto-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  font-size: 16px;
+}

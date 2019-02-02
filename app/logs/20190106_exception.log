@@ -1,0 +1,7 @@
+*ERROR* 	v1.7.2.4	2019/01/06 - 04:30:52: Dispatcher::createUrl() miss required parameter "categories" for route "category_rule" at line 678 in file classes/Dispatcher.php
+*ERROR* 	v1.7.2.4	2019/01/06 - 04:30:52: Dispatcher::createUrl() miss required parameter "categories" for route "category_rule" at line 678 in file classes/Dispatcher.php
+*ERROR* 	v1.7.2.4	2019/01/06 - 04:30:52: Dispatcher::createUrl() miss required parameter "categories" for route "category_rule" at line 678 in file classes/Dispatcher.php
+*ERROR* 	v1.7.2.4	2019/01/06 - 04:30:53: Dispatcher::createUrl() miss required parameter "categories" for route "category_rule" at line 678 in file classes/Dispatcher.php
+*ERROR* 	v1.7.2.4	2019/01/06 - 04:30:53: Dispatcher::createUrl() miss required parameter "categories" for route "category_rule" at line 678 in file classes/Dispatcher.php
+*ERROR* 	v1.7.2.4	2019/01/06 - 04:30:53: Dispatcher::createUrl() miss required parameter "categories" for route "category_rule" at line 678 in file classes/Dispatcher.php
+*ERROR* 	v1.7.2.4	2019/01/06 - 23:39:02: Module layerslider not found at line 51 in file classes/controller/ModuleAdminController.php

@@ -1,0 +1,539 @@
+#amazzing_filter form {
+	padding-top: 5px;
+}
+#amazzing_filter.block .title_block {
+	margin-bottom: 5px;
+}
+#amazzing_filter .btn-holder {
+	padding-top: 10px;
+}
+.af_filter, .af_filter.type-3.closed {
+	margin-bottom: 5px;
+	border-bottom: 1px solid #DADADA;
+	padding-bottom: 5px;
+}
+.af_filter.type-3 {
+	padding-bottom: 10px;
+}
+.af_filter li {
+  cursor: pointer;
+  padding: 5px 0;
+  margin: 0;
+  position: relative;
+}
+.af_filter li,
+.hide-zero-matches .no-matches.active,
+.hide-zero-matches .no-matches.has-customer-filter {
+	display: block;
+}
+.hide-zero-matches .no-matches {
+	display: none;
+}
+.af_filter label {
+	font-weight: normal;
+	text-align: left;
+	cursor: pointer;
+	display: block;
+}
+.af_filter ul {
+	margin: 0;
+}
+.af_filter.color-group ul {
+	overflow: visible;
+	max-height: none;
+}
+.af-parent-category > ul {
+	margin: 0 0 0 15px;
+	max-height: 100%;
+}
+
+/* foldered */
+.af_filter .af-toggle-child {
+	padding: 5px;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 18px;
+}
+.af_filter.foldered .af-parent-category > ul,
+.af_filter.foldered .af-parent-category > label .af-toggle-child .visible-on-open,
+.af_filter.foldered .af-parent-category.open > label .af-toggle-child .hidden-on-open {
+	display: none;
+}
+.af_filter.foldered .af-parent-category.open > ul {
+	display: block
+}
+.af_filter.foldered .af-parent-category.open > label .af-toggle-child .visible-on-open {
+	display: inline-block;
+}
+
+.af_filter .name{
+	padding-left: 5px;
+}
+.af_filter .count {
+	color: #CCC;
+}
+.af-total-count {
+	opacity: 0.5;
+}
+.af_filter .count:before,
+.af-total-count:before {
+	content: '(';
+}
+.af_filter .count:after,
+.af-total-count:after {
+	content: ')';
+}
+
+.af_filter .checker,
+.af.checkbox,
+.af.radio {
+	display: inline-block;
+	vertical-align: top;
+	margin: 2px 0 0 0;
+}
+
+.af_filter select {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #DADADA;
+}
+
+.dim-zero-matches .no-matches label {
+	opacity: 0.4;
+}
+.color_attribute .checkbox, .color_attribute .styled-checkbox{
+	display:none;
+}
+
+.af_filter .color_attribute {
+	padding: 1px;
+	float: left;
+	margin: 2px 4px 2px 0;
+	position: relative;
+	border: 1px solid #DADADA;
+}
+
+.dim-zero-matches .af_filter .color_attribute.no-matches:before {
+	content: '';
+	position: absolute;
+	background: #FFF;
+	height: 2px;
+	display: block;
+	left: 8px;
+	right: 8px;
+	top: 50%;
+	margin-top: -1px;
+	transform: rotate(45deg);
+	z-index: 10;
+}
+.dim-zero-matches .af_filter .color_attribute.no-matches:after {
+	content: '';
+	position: absolute;
+	display: block;
+	border: 2px solid #FFF;
+	border-radius: 100%;
+	left: 7px;
+	right: 7px;
+	top: 7px;
+	bottom: 7px;
+	z-index: 10;
+}
+
+.af_filter li.color_attribute label {
+	float:left;
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	margin: 0;
+}
+.af_filter li.color_attribute label * {
+	display: none;
+}
+
+.af_filter li.color_attribute.active {
+	 border-color: #999;
+}
+
+.color_attribute input{
+	visibility:hidden;
+	position:absolute;
+}
+/* sliders */
+.af_filter .slider {
+	margin-bottom: 10px;
+}
+.af_filter .slider-bar {
+	margin: 5px 0 14px;
+	clear: both;
+}
+.slider .slider_value {
+	display:inline-block;
+	float: left;
+	margin-bottom: 5px;
+	border: 1px solid transparent;
+	padding: 1px 3px;
+	cursor: pointer;
+	position: relative;
+}
+.af_filter:hover .slider_value,
+.slider .slider_value.edit {
+	border-color: #DDD;
+}
+.slider .slider_value.to_display {
+	float: right;
+}
+.slider .slider_value .input-text,
+.slider .slider_value.edit > span {
+	display: none;
+}
+.slider .slider_value.edit .input-text {
+	display: inline-block;
+	border: 0;
+	padding: 0;
+	max-width: 50px;
+	outline: none;
+    line-height: 1em;
+}
+
+.selectedFilters > div{
+	background: #EEE;
+	padding: 5px 15px 5px 5px;
+	position:relative;
+}
+.selectedFilters .clearAll{
+	background:#E1E1E1;
+}
+.selectedFilters a {
+	cursor:pointer;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 7px;
+	color: #666;
+	font-size: 1em;
+}
+
+#amazzing_filter .inactive,  #amazzing_filter .inactive a{
+	color: #999;
+}
+
+/* load more, infinite scroll */
+.dynamic-loading {
+	text-align: center;
+	margin-bottom: 2em;
+	position: relative;
+}
+.dynamic-loading.infinite-scroll {
+	margin: 0;
+}
+.loading-indicator {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 1em;
+}
+.dynamic-loading.infinite-scroll .loadMore {
+	display: none;
+}
+.dynamic-loading .loadMore, .dynamic-loading.loading .loading-indicator {
+	visibility: visible;
+}
+.dynamic-loading .loading-indicator, .dynamic-loading.loading .loadMore {
+	visibility: hidden;
+}
+
+.manage-permanent-filters {
+	width: 100%;
+	margin-top: 10px;
+}
+.hidden-name .name {
+	display:none;
+}
+.customer-filter-label.for-select {
+	float: left;
+	line-height: 30px;
+}
+.selector-with-customer-filter {
+	padding-left: 15px;
+}
+.btn.full-width {
+	width: 100%;
+}
+.force-hidden {
+	display: none;
+}
+.af-basic-layout {
+	margin-top: 15px;
+}
+.af-basic-layout .showall {
+	display: none;
+}
+.hide-counters .count,
+.dim-zero-matches .no-matches .count {
+	display: none;
+}
+
+#amazzing_filter a, #amazzing_filter a:focus {
+	text-decoration: none;
+}
+
+/* cut off */
+.af_filter {
+	position: relative;
+}
+.af_filter.type-1 .af_filter_content,
+.af_filter.type-2 .af_filter_content {
+	max-height: 300px;
+	overflow-y: auto;
+}
+.af_filter.full.type-1 .af_filter_content,
+.af_filter.full.type-2 .af_filter_content {
+	max-height: none;
+}
+.af_filter .toggle-cut-off {
+	position: absolute;
+	bottom: -1em;
+	font-size: 1em;
+	text-align: center;
+	display: none;
+	left: 0;
+	right: 0;
+	line-height: 2em;
+	display: none;
+}
+.af_filter .toggle-cut-off span {
+	padding: 0 5px;
+	background: #FFF;
+	color: #999;
+}
+.af_filter.expandable .toggle-cut-off{
+	display: block;
+}
+.af_filter.expandable:not(.full) .af_filter_content {
+	margin-bottom: 10px;
+}
+.full .toggle-cut-off .less, .toggle-cut-off .more {
+	display: inline-block;
+}
+.full .toggle-cut-off .more, .toggle-cut-off .less {
+	display: none;
+}
+
+/* toggle filters */
+.af_subtitle {
+	cursor: pointer;
+	position: relative;
+	margin: 0;
+	padding: 10px 0;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.af_subtitle:before {
+	content: '';
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	border: 2px solid #CCC;
+	width: 7px;
+	height: 7px;
+	border-width: 2px 0 0 2px;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.closed .af_filter_content,
+.af_filter.expandable.closed .toggle-cut-off {
+	display: none;
+}
+.closed .af_subtitle:before {
+	border-width: 0 2px 2px 0;
+	top: 13px;
+}
+.special .af_filter_content {
+	display: block;
+	margin-top: 5px;
+}
+
+/* horizontal layout */
+@media (min-width: 480px) {
+	.horizontal-layout {
+		margin: 0 -15px 15px;
+	}
+	.horizontal-layout:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+	.horizontal-layout .title_block,
+	.horizontal-layout .af_subtitle:before,
+	.horizontal-layout .from_display .suffix,
+	.horizontal-layout .to_display .prefix,
+	.horizontal-layout .selectedFilters  {
+		display: none;
+	}
+	.horizontal-layout .from_display {
+		margin-right: 10px;
+	}
+	.horizontal-layout .from_display:after {
+		content: '-';
+		position: absolute;
+		top: 0;
+		right: -9px;
+	}
+	.horizontal-layout .slider-values {
+		float: right;
+		margin-top: -60px;
+	}
+	.horizontal-layout .af_filter .slider {
+		margin: 8px 0;
+	}
+	.horizontal-layout .af_filter {
+		float: left;
+		width: 50%;
+		padding: 0 15px;
+		border: 0;
+	}
+	.horizontal-layout .af_filter.range-filter,
+	.horizontal-layout .af_filter.type-1,
+	.horizontal-layout .af_filter.type-2 {
+		max-height: 67px;
+		overflow-y: auto;
+	}
+	#amazzing_filter.horizontal-layout .btn-holder {
+		float: left;
+		width: 50%;
+		padding: 35px 15px 0;
+	}
+	#amazzing_filter.horizontal-layout .btn-holder .btn {
+		margin: 0;
+	}
+}
+@media (min-width: 768px) {
+	.horizontal-layout .af_filter,
+	#amazzing_filter.horizontal-layout .btn-holder {
+		width: 33%;
+	}
+}
+@media (min-width: 1200px) {
+	.horizontal-layout .af_filter,
+	#amazzing_filter.horizontal-layout .btn-holder {
+		width: 25%;
+	}
+}
+
+/* compact view */
+.show-filter {
+	overflow: hidden;
+	position: fixed;
+}
+#amazzing_filter.compact {
+	transition: transform .2s;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	width: 100%;
+	right: 0;
+	transform: translateX(100%);
+	background: #FFF;
+	border-left: 1px solid #DDD;
+	height: 100%;
+	padding: 0;
+}
+.show-filter #amazzing_filter.compact {
+	transform: translateX(40px);
+}
+.compact_block_content {
+	padding: 10px 50px 10px 10px;
+	max-height: 100%;
+	overflow-y: auto;
+}
+.show-filter .compact_block_content,
+.show-filter .af_filter.type-1 .af_filter_content,
+.show-filter .af_filter.type-2 .af_filter_content {
+	-webkit-overflow-scrolling: touch;
+}
+.compact_block_content form {
+	padding-bottom: 60px;
+}
+#amazzing_filter.compact .btn-holder {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 40px;
+	padding: 15px 10px;
+	background: #EEE;
+	z-index: 10;
+}
+#amazzing_filter .compact-toggle {
+	position: absolute;
+	left: -41px;
+	top: 30px;
+	width: 40px;
+	height: 40px;
+	line-height: 42px;
+	text-align: center;
+	font-size: 21px;
+	padding: 0;
+}
+.show-filter .icon-filter.compact-toggle:before {
+	content: '';
+    height: 0;
+    border: 2px solid #FFF;
+    border-width: 2px 2px 0 0;
+    display: block;
+    height: 12px;
+    width: 12px;
+    margin: 14px 10px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#amazzing_filter.compact .ui-slider-horizontal .ui-slider-handle:before {
+    content: ''; /* increase touch area for better response */
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -50%;
+    right: -50%;
+}
+
+/* retro-compatibility */
+.icon-times:before {
+  content: "\f00d";
+}
+
+/* extended compatibility */
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+.hidden {
+	display: none;
+}
+.clear-both {
+	clear: both;
+}
+/* the code below maybe used in upcoming versions
+@media (min-width: 1200px) {
+	#amazzing_filter.displayHome {
+		display: inline-block;
+		width: 100%;
+	}
+	#amazzing_filter.displayHome .af_filter {
+		float: left;
+		width: 25%;
+		padding-right: 15px;
+	}
+	#amazzing_filter.displayHome .btn-holder {
+		float: left;
+		width: 25%;
+	}
+	#amazzing_filter.displayHome .btn-holder .btn {
+		margin-top: 31px;
+		height: 31px;
+	}
+}
+*/
+/* since 2.8.0 */

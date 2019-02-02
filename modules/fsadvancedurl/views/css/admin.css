@@ -1,0 +1,79 @@
+/**
+ *  2017 ModuleFactory.co
+ *
+ *  @author    ModuleFactory.co <info@modulefactory.co>
+ *  @copyright 2017 ModuleFactory.co
+ *  @license   ModuleFactory.co Commercial License
+ */
+
+.fsau-schema-url {
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+#fsau-developed-by img {
+    max-width: 100%;
+    text-align: center;
+}
+
+.fsau_progress {
+    margin-bottom: 0 !important;
+    margin-top: 8px;
+}
+
+#fsau_tabs_content_15 .product-tab-content {
+    display: none;
+}
+
+#fsau_tabs_content_15 .product-tab-content.active {
+    display: block;
+}
+
+.fsau-duplicate-alert {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.fsau-line-through {
+    text-decoration: line-through;
+}
+
+.fsau-bold {
+    font-weight: bold;
+}
+
+.fsau-hide {
+    display: none;
+}
+
+.fsau-u {
+    text-decoration: underline;
+}
+
+#fsau-help h2 {
+    margin-top: 22px;
+}
+
+.fsau-help-title {
+    cursor: pointer;
+    text-decoration: underline;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
+.fsau-help-title:hover {
+    color: #00aff0;
+}
+
+.fsau-help-body {
+    background-color: #eff1f2;
+    padding: 9px 10px 6px 10px;
+}
+
+.fsau-help-table th, .fsau-help-table td {
+    padding-right: 10px;
+    padding-bottom: 2px;
+}
+

@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'filterIcons';
+    src:    url('../fonts/filterIcons.eot?v250');
+    src:    url('../fonts/filterIcons.eot?v250#iefix') format('embedded-opentype'),
+        url('../fonts/filterIcons.ttf?v250') format('truetype'),
+        url('../fonts/filterIcons.woff?v250') format('woff'),
+        url('../fonts/filterIcons.svg?v250#filterIcons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.af [class^="icon-"]:before, .af [class*=" icon-"]:before {
+    font: normal normal normal 14px/1 filterIcons;
+    font-size: inherit;
+    speak: none;
+    text-transform: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    display: inline-block;
+}
+
+.af .icon-save:before {
+  content: "\e90a";
+}
+.af .icon-plus:before {
+  content: "\e900";
+}
+.af .icon-filter:before {
+  content: "\e902";
+}
+.af .icon-eraser:before {
+  content: "\e903";
+}
+.af .icon-unlock-alt:before {
+  content: "\e904";
+}
+.af .icon-lock:before {
+  content: "\e905";
+}
+.af .icon-check:before {
+  content: "\e906";
+}
+.af .icon-minus:before {
+  content: "\e907";
+}
+.af .icon-refresh:before {
+  content: "\e908";
+}
+.af .icon-times:before {
+  content: "\e909";
+}
+/* since 2.5.0 */

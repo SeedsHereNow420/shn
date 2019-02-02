@@ -1,0 +1,68 @@
+/* Creative Popup No Skin */
+
+
+
+.cp-noskin .cp-playvideo {
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+
+.cp-noskin .cp-nav-sides,
+.cp-noskin .cp-bottom-nav-wrapper,
+.cp-noskin .cp-bottom-slidebuttons a,
+.cp-noskin .cp-nav-prev,
+.cp-noskin .cp-nav-next,
+.cp-noskin .cp-nav-start,
+.cp-noskin .cp-nav-stop {
+	display: none;
+	visibility: hidden;
+}
+
+
+.cp-noskin .cp-playvideo,
+.cp-noskin .cp-loading-container {
+	background-image: url(../../../../img/core/skins/noskin/skin.png);
+}
+
+.cp-noskin .cp-playvideo {
+	background-position: -300px -150px;
+}
+
+.cp-noskin .cp-playvideo:hover,
+.cp-noskin .cp-vpcontainer:hover .cp-playvideo {
+	background-position: -375px -150px;
+}
+
+.cp-noskin .cp-thumbnail {
+	top: 0px;
+}
+
+.cp-noskin .cp-thumbnail-inner {
+	padding: 5px;
+	margin-left: -5px;
+}
+
+.cp-noskin .cp-thumbnail-slide a {
+	margin-right: 5px;
+}
+
+.cp-noskin .cp-nothumb {
+	background: #eee;
+}
+
+.cp-noskin .cp-loading-container {
+	width: 40px;
+	height: 40px;
+	margin-left: -20px;
+	margin-top: -20px;
+	background-position: -450px -150px;
+}
+
+.cp-noskin .cp-loading-indicator {
+	width: 22px;
+	height: 22px;
+	margin-top: 9px;
+	background-image: url(../../../../img/core/skins/noskin/loading.gif);
+}

@@ -1,0 +1,10 @@
+{shop_name} - Advanced Sales Statistics report module.
+
+Report: {report_name}
+{country}
+{customer_name}
+{category_name}
+
+Period: {report_start_date} - {report_end_date}
+
+{report}

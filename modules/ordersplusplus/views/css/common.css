@@ -1,0 +1,354 @@
+/* Common fonts */
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../fonts/fontawesome-webfont.eot?v=4.1.0");
+    src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff?v=4.1.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.1.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+/* End of common fonts */
+/* Begin of configuration page */
+#mHeader {
+    height: 80px;
+}
+#mHeader_sx {
+    float: left;
+}
+#mHeader_menu{
+    float: right;
+}
+@media (max-width: 600px) {
+    #mHeader_menu {
+    min-height: 120px;
+    margin: 10px 0;
+    }
+    #mHeader_menu a span {
+        display:none;
+    }
+    #mHeader_menu a {
+        padding: 4px 10px 3px 10px;
+        min-height: 20px;
+        width: 22px;
+    }
+}
+#btnGuide, #btnAssistenza {
+    margin: 1px 1px 0 1px;
+    display: block;
+    float:left;
+    padding: 5px 10px 10px 10px;
+    border: 2px solid #b4eae7;
+    max-width: 80px;
+    min-height: 50px;
+    text-align:center;
+    margin: 1px 1px 0 0;
+    text-align:center;
+    text-decoration:none;
+}
+#btnGuide:hover, #btnAssistenza:hover {
+    background: url(../img/text1_10.png) #D8F4F2;
+}
+#btnGuide i:before{
+    font-family: "FontAwesome";
+    font-size: 24px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    display: block;
+    font-style: normal;
+    content: "\f05A";
+    color:#08bdb3;
+}
+#btnAssistenza i:before{
+    font-family: "FontAwesome";
+    font-size: 24px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    display: block;
+    font-style: normal;
+    content: "\f0fa";
+    /*content: "\f1CD";*/
+    color:#08bdb3;
+}
+#mHeader_logo {
+    float: right;
+}
+#mHeader_logo img {
+    width: 160px;
+    padding: 10px;
+}
+@media (max-width: 1200px) {
+    #mHeader_logo {
+        display: none;
+    }
+}
+/* End of configuration page */
+/* Begin of common (controllers and hooks) parts */
+.hiddenBook {
+    display: none;
+}
+/* End of common (controllers and hooks) parts */
+/* Begin of controller page */
+.btn-configure-view {
+}
+.btn-new-order {
+}
+.opp-save-filter {
+    color: #000 !important;
+    background-color: #95CC6B !important;
+    border-color: #579428 !important;
+}
+.opp-save-filter:hover {
+    color: #FFF !important;
+    background-color: #7AB84B !important;
+    border-color: #579428 !important;
+}
+.opp-reset-filter {
+    color: #FFF !important;
+    background-color: #FBBB22 !important;
+    border-color: #FBB309 !important;
+}
+.opp-reset-filter:hover {
+    color: #FFF !important;
+    background-color: #E6A304 !important;
+    border-color: #C38A04 !important;
+}
+.adminordersplusplus .ui-tooltip {
+    max-width: none;
+}
+.adminordersplusplus .bootstrap .table-responsive-row td:before {
+    position: static;
+    top: auto;
+    left: auto;
+    margin-right: 5px;
+}
+.adminordersplusplus .bootstrap .table tbody > tr > td {
+    border-bottom: 1px solid #D5D5D5 !important;
+    background-color: transparent !important;
+    padding: 8px !important;
+}
+.adminordersplusplus .bootstrap .table thead > tr > th {
+    vertical-align: middle;
+}
+.adminordersplusplus .bootstrap .fixed-width-md {
+    width: 80px !important;
+}
+.adminordersplusplus .bootstrap .fixed-width-sm {
+    width: 100% !important;
+}
+/* Begin of controller columns */
+.opp-id-col {
+    width: 3%;
+    text-align: center;
+}
+.opp-reference-col {
+    cursor: default !important;
+}
+/* Begin of reference column */
+.opp-reference {
+}
+.opp-marketplace-ref-label {
+    color: #3A6EA7;
+    font-style: italic;
+}
+.opp-marketplace-ref {
+}
+/* End of reference column */
+/* Begin of new customer column */
+.opp-new-customer-col {
+    width: 3%;
+    text-align: center;
+}
+th.opp-new-customer-col span {
+    white-space: normal !important;
+}
+.opp-new-cust-container {
+}
+.opp-new-cust-container .icon {
+    color: orange;
+    font-size: 16px;
+}
+/* End of new customer column */
+/* Begin of delivery column */
+.opp-delivery-col {
+    min-width: 110px;
+}
+.opp-country {
+    font-weight: bold;
+}
+.opp-carrier-icon {
+    color: #3A6EA7;
+}
+.opp-carrier {
+    font-weight: bold;
+}
+.opp-weight-label {
+    color: #3A6EA7;
+    font-style: italic;
+}
+.opp-weight {
+    font-weight: bold;
+}
+.opp-price-label {
+    color: #3A6EA7;
+    font-style: italic;
+}
+.opp-carr-price {
+    font-weight: bold;
+}
+/* End of delivery column */
+/* Begin of customer column */
+.opp-customer-col {
+    min-width: 130px;
+}
+@media (min-width: 992px) {
+    .opp-customer-col {
+        max-width: 200px;
+    }
+}
+.opp-company {
+    font-weight: bold;
+}
+.opp-customer-name {
+    font-weight: bold;
+}
+.opp-addr-label {
+    color: #3A6EA7;
+    font-style: italic;
+}
+.opp-dni-label {
+    color: #3A6EA7;
+    font-style: italic;
+}
+.opp-dni {
+}
+.opp-vat-number-label {
+    color: #3A6EA7;
+    font-style: italic;
+}
+.opp-vat-number {
+}
+.opp-addr-company {
+}
+.opp-firstlastname {
+}
+.opp-addr1 {
+}
+.opp-addr2 {
+}
+.opp-postcode-city {
+}
+.opp-phone-icon {
+    color: #3A6EA7;
+}
+.opp-phone {
+}
+/* End of customer column */
+/* Begin of products column */
+.opp-products-col {
+    min-width: 220px;
+}
+.opp-tooltip-icon {
+    color: #3A6EA7;
+}
+.opp-product-separator {
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+    border-color: rgb(182, 182, 182) !important;
+    border-style: dotted !important;
+}
+.opp-product-name-container {
+    margin-bottom: 5px;
+}
+.opp-product-name {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.opp-product-reference {
+    font-weight: bold;
+    color: #4DB84D;
+}
+.opp-ean13-icon {
+    color: #3A6EA7;
+}
+.opp-product-ean13 {
+    font-weight: bold;
+}
+.opp-product-price-label {
+    color: #3A6EA7;
+    font-style: italic;
+}
+.opp-unit-price {
+}
+.opp-multiply-sign {
+}
+.opp-product-quantity {
+}
+.opp-equals-sign {
+}
+.opp-total-price {
+}
+.opp-prod-qty-highlight {
+    padding: 2px 6px;
+    background-color: orange;
+    color: white;
+    border-radius: 0.25em;
+    width: 80%;
+    font-weight: bold;
+    margin-top: 3px !important;
+}
+/* End of products column */
+/* Begin of bookmarks columns */
+.opp-bookmark-col {
+    text-align: center;
+    cursor: auto !important;
+}
+.opp-bookmark-container {
+}
+.opp-bookmark-container:hover {
+    background-color: rgb(218, 218, 218) !important;
+    border-color: rgb(182, 182, 182) !important;
+}
+.opp-bookmark-enabled {
+    color: green !important;
+    font-size: 16px !important;
+}
+.opp-bookmark-disabled {
+    color: red !important;
+    font-size: 16px !important;
+}
+/* End of bookmarks columns */
+.opp-notes-col {
+    cursor: auto !important;
+}
+@media (min-width: 992px) {
+    .opp-notes-col {
+        max-width: 150px;
+    }
+}
+.opp-notes-container .icon {
+    color: blue !important;
+    font-size: 16px !important;
+}
+.opp-notes-container:hover {
+    background-color: rgb(218, 218, 218) !important;
+    border-color: rgb(182, 182, 182) !important;
+}
+.opp-order-total-col {
+}
+.opp-order-payment-col {
+}
+.opp-order-status-col {
+}
+.opp-order-status-col .label {
+    text-align: left;
+    display: inline-block;
+    line-height: 15px;
+    white-space: normal;
+}
+.opp-order-date-col {
+}
+.opp-pdf-col {
+    text-align: center;
+    cursor: auto !important;
+}
+/* End of controller columns */
+/* End of controller page */

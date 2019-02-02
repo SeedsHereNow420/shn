@@ -1,0 +1,20 @@
+.lgwindow {
+    display:none;
+    position:fixed;
+    left:30%;
+    top:15%;
+    width:40%;
+    height: auto;
+    max-height: 80%;
+    overflow-y: auto;
+    border:1px solid #000;
+    background:#FFF;
+    text-align:left;
+    z-index:999;
+}
+@media screen and (max-width: 800px) {
+    .lgwindow {
+        left:2%;
+        width:96%;
+    }
+}

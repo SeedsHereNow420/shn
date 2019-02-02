@@ -1,0 +1,501 @@
+/**
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/osl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+*  @author    Presta-Module
+*  @author    202 ecommerce
+*  @copyright 2009-2016 Presta-Module
+*  @copyright 2017-2018 202 ecommerce
+*  @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+*/
+#module-zendesk-configuration {
+  padding: 4em 10%;
+  background-color: #FFF;
+  font-family: DNRR, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571;
+  color: #666; }
+
+  #module-zendesk-configuration h2 {
+    color: #333; }
+
+#module-zendesk-configuration strong
+{
+  font-family: DNRM, sans-serif;
+}
+
+#module-zendesk-configuration input:focus, #module-zendesk-configuration select:focus, #module-zendesk-configuration textarea:focus
+{
+  outline: 0;
+  border-color: #78a300 !important;
+  box-shadow: 0 0 2px #78a300;
+}
+
+#module-zendesk-configuration a, #module-zendesk-configuration a:hover
+{
+  color: #358fb2;
+}
+#module-zendesk-configuration a:hover
+{
+  text-decoration: none;
+}
+
+
+
+#module-zendesk-configuration a.zendesk-btn, #module-zendesk-configuration button {
+  padding: 18px 15px;
+  min-width: 180px;
+  display: inline-block;
+  font: 16px DNLTR;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 3px;
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  transition: all 300ms linear;
+  text-decoration: none;
+}
+
+#module-zendesk-configuration a.zendesk-btn-gray {
+  background: #e5e5e5;
+  color: #2d2d2d;
+}
+
+#module-zendesk-configuration a.zendesk-btn-gray:hover {
+  background-color: #808080;
+  color: #fff;
+}
+
+#module-zendesk-configuration a.zendesk-btn-orange {
+  background: #ffac1a;
+  color: #fff;
+}
+
+#module-zendesk-configuration a.zendesk-btn-orange:hover {
+  background: #e97000;
+}
+
+#module-zendesk-configuration.loading a.zendesk-btn
+{
+  background-color: #f1f1f1;
+}
+
+#module-zendesk-configuration button
+{
+  background-color: #333;
+  color: #fff;
+  border: 0;
+  min-width: 100px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+#module-zendesk-configuration article.reg-refresh .step-wrap
+{
+  width: 350px;
+}
+#module-zendesk-configuration article.reg-refresh .step
+{
+  top: 0px;
+  position: relative;
+  padding: 0;
+}
+#module-zendesk-configuration article.reg-refresh form li
+{
+  margin-top: 1em;
+}
+#module-zendesk-configuration article.reg-refresh form li label.side-label
+{
+  display: block;
+  padding: 0;
+  background-color: transparent;
+  line-height: 1.5;
+}
+
+#module-zendesk-configuration article.reg-refresh form input[type="text"], #module-zendesk-configuration article.reg-refresh form input[type="email"], #module-zendesk-configuration article.reg-refresh form input[type="number"], #module-zendesk-configuration article.reg-refresh form input[type="password"],
+#module-zendesk-configuration article.reg-refresh form select, #module-zendesk-configuration article.reg-refresh form .select, #module-zendesk-configuration article.reg-refresh form textarea
+{
+  margin-top: 0px;
+}
+#module-zendesk-configuration article.reg-refresh form ul li:last-child
+{
+  padding-top: 0px;
+}
+
+#module-zendesk-configuration article.reg-refresh form ul li.full
+{
+  text-align: center;
+  padding-top: 20px;
+}
+
+#module-zendesk-configuration p#hero-buttons span
+{
+  margin: 0 1.5em;
+  color: #999;
+}
+#module-zendesk-configuration p#hero-buttons a.zendesk-btn, #module-zendesk-configuration form.reg li.full a.zendesk-btn
+{
+  width: 15em;
+}
+
+#module-zendesk-configuration article.reg-refresh form .select.language, article.reg-refresh form .select.refer
+{
+  color: #aaa;
+}
+#module-zendesk-configuration article.reg-refresh .languages a, #module-zendesk-configuration article.reg-refresh .refer a
+{
+  background-color: #f1f1f1;
+  color: #aaa;
+}
+
+#module-zendesk-configuration article.reg-refresh form div.description
+{
+  font-size: 12px;
+  color: #ccc;
+  margin: 1em 0;
+}
+#module-zendesk-configuration article.reg-refresh form div.description ul
+{
+  margin-left: 1.12em;
+}
+#module-zendesk-configuration article.reg-refresh form div.description ul li
+{
+  margin: 0;
+  padding: 0;
+  list-style: disc;
+}
+
+
+#module-zendesk-configuration section#features-faqs #switcher_faqs p
+{
+  color: #999;
+}
+#module-zendesk-configuration section#features-faqs #switcher_faqs p strong
+{
+  color: #333;
+}
+
+
+#module-zendesk-configuration .hero
+{
+  text-align: center;
+}
+#module-zendesk-configuration .hero h2
+{
+  color: #999;
+}
+
+
+#module-zendesk-configuration ul.nav
+{
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 3em;
+}
+#module-zendesk-configuration ul.nav li
+{
+  display: inline-block;
+  margin: 0 3em;
+}
+#module-zendesk-configuration ul.nav li.active
+{
+  font-weight: bold;
+  border-bottom: 3px solid #78a300;
+}
+#module-zendesk-configuration ul.nav li a
+{
+  color: #999;
+}
+
+
+
+
+#module-zendesk-configuration article.reg-refresh section.settings
+{
+  clear: both;
+  overflow: hidden;
+  padding-top: 1em;
+  padding-bottom: 3em;
+  border: 1px solid #e5e5e5;
+  border-left: 0;
+  border-right: 0;
+}
+#module-zendesk-configuration article.reg-refresh section.settings + section.settings
+{
+  border-top: 0;
+}
+#module-zendesk-configuration article.reg-refresh section.settings div.demo
+{
+  float: right;
+  margin-left: 80px;
+  width: 318px;
+}
+#module-zendesk-configuration article.reg-refresh section.settings div.demo video
+{
+  width: 100%;
+}
+#module-zendesk-configuration article.reg-refresh section.settings h2
+{
+  margin-top: 1.5em;
+  margin-bottom: .3em;
+}
+
+
+#module-zendesk-configuration article.reg-refresh section.settings p
+{
+  color: #aaa;
+}
+#module-zendesk-configuration article.reg-refresh section.settings p strong
+{
+  color: #333;
+}
+
+
+#module-zendesk-configuration div.submit-row
+{
+  text-align: right;
+  padding: 2em 0;
+}
+
+
+#module-zendesk-configuration .zendesk-video-thumb {
+  width: 320px;
+  height: 180px;
+  background: url('https://d1eipm3vz40hy0.cloudfront.net/images/prestashop-zendesk-thumb.jpg') no-repeat;
+  background-size: 320px 180px;
+  margin: 2.5em auto;
+  margin-bottom: 3.5em;
+}
+
+
+#module-zendesk-configuration .switch {
+  position: relative;
+  width: 76px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+#module-zendesk-configuration .switch-checkbox {
+  display: none
+}
+
+#module-zendesk-configuration .switch-label {
+  display: block;
+  height: 30px;
+  margin-bottom: 0;
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent
+}
+
+#module-zendesk-configuration .switch-bg {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  -webkit-transition: margin 0.15s ease-in 0s;
+  transition: margin 0.15s ease-in 0s
+}
+
+#module-zendesk-configuration .switch-content {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  border-radius: 6px
+}
+
+#module-zendesk-configuration .switch-content:before,.switch-content:after {
+  position: absolute;
+  padding: 0;
+  line-height: 30px;
+  font-size: 13px;
+  color: white;
+  font-weight: 600
+}
+
+#module-zendesk-configuration .switch-content:before {
+  content: attr(data-on-label);
+  opacity: 0;
+  text-align: left;
+  left: 20%
+}
+
+#module-zendesk-configuration .switch-content:after {
+  content: attr(data-off-label);
+  text-align: right;
+  right: 20%
+}
+
+#module-zendesk-configuration .switch-toggle {
+  display: block;
+  width: 24px;
+  margin: 3px;
+  background: white;
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 45px;
+  -webkit-transition: all 0.15s ease-in 0s;
+  transition: all 0.15s ease-in 0s
+}
+
+#module-zendesk-configuration .switch-container.disabled .switch-toggle {
+  background-color: #777;
+  cursor: not-allowed !important
+}
+
+#module-zendesk-configuration .switch-container.disabled .switch-content {
+  background-color: #AAA;
+  cursor: not-allowed !important
+}
+
+#module-zendesk-configuration .switch-checkbox+.switch-content {
+  background-color: #DEDEDE;
+  -webkit-transition: background-color 0.15s ease-in 0s;
+  transition: background-color 0.15s ease-in 0s
+}
+
+#module-zendesk-configuration .switch-checkbox:checked+.switch-content {
+  background-color: #78A300
+}
+
+#module-zendesk-configuration .switch-checkbox:checked+.switch-content .switch-bg {
+  margin-left: 0
+}
+
+#module-zendesk-configuration .switch-checkbox:checked+.switch-content .switch-toggle {
+  right: 0px
+}
+
+#module-zendesk-configuration .switch-checkbox:checked+.switch-content:before {
+  opacity: 1
+}
+
+#module-zendesk-configuration .switch-checkbox:checked+.switch-content:after {
+  opacity: 0
+}
+
+#module-zendesk-configuration .switch-checkbox[disabled]+.switch-content {
+  background-color: #DEDEDE;
+  cursor: not-allowed
+}
+
+
+
+
+#module-zendesk-configuration article.reg-refresh form label.switch-label
+{
+  display: block;
+}
+#module-zendesk-configuration article.reg-refresh form label.switch-label span:before, #module-zendesk-configuration article.reg-refresh form label.switch-label span.ico-iphone:after
+{
+  content: '';
+}
+
+#module-zendesk-configuration div.switch-container
+{
+  margin-left: 3em;
+}
+
+
+
+
+
+#module-zendesk-configuration a.back:before
+{
+  content: '‹';
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+
+#module-zendesk-configuration.loading div.loading-indicator
+{
+  background: url(../img/loading.gif) center -20px no-repeat;
+  height: 15px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-out;
+     -moz-transition: all 0.3s ease-out;
+      -ms-transition: all 0.3s ease-out;
+       -o-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+}
+#module-zendesk-configuration.loading div.loading-indicator
+{
+  background-position: center top;
+  margin-bottom: 1em;
+}
+
+#module-zendesk-configuration article.reg-refresh .domain-box, 
+#module-zendesk-configuration article.reg-refresh .step-wrap .domain-box {
+  background-color: #f9f9f9;
+  display: inline-block;
+  font: 16px DNLTR;
+  margin: 0;
+  padding: 15px 15px 14px 15px;
+  position: absolute;
+  right: 1px;
+  bottom: 6px;
+  top: auto;
+  z-index: 1;
+  -webkit-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0
+}
+
+#module-zendesk-configuration article.reg-refresh .domain.error .domain-box, 
+#module-zendesk-configuration article.reg-refresh .step-wrap .domain.error .domain-box {
+  bottom: 50px;
+}
+
+
+@media only screen and (max-width: 700px) {
+  #module-zendesk-configuration article.reg-refresh .domain-box {
+    font-size:22px;
+    padding: 15px 7px
+  }
+}
+
+/* PrestaShop 1.5 */
+#content #module-zendesk-configuration .error {
+  background: inherit;
+  border: inherit;
+  color: inherit;
+}
+#content #module-zendesk-configuration label.error,
+#content #module-zendesk-configuration label.suggested,
+#content #module-zendesk-configuration label.switch-label {
+  float: inherit;
+  width: inherit;
+  text-align: inherit;
+}
+#content #module-zendesk-configuration .info {
+  background: inherit;
+  border: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  margin-bottom: inherit;
+  padding: inherit;
+  border-radius: inherit;
+  min-height: inherit;
+}

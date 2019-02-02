@@ -1,0 +1,31 @@
+.fontshow{
+    border: 1px solid #CCCED7;
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    font-size:16px;
+    text-align:center;
+}
+#curr_google_font_name{list-style: none;}
+.mce-i-template:before { font-family: Material Icons; content: "flash_on"; color: #FF8230;}
+
+.pattern{
+	dislay: block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	background-color: #fff;
+	margin: 0px 6px 6px 0;
+ }
+.bootstrap .table td.dragHandle .btn-group{
+    display:none!important;
+}
+.bootstrap .table td.dragHandle .dragGroup:before{
+    top:8px!important;
+}
+ .delete_image{display:block;}
+ .img_preview{max-height: 200px;}
+ .st_thumb_nail{max-width: 200px;}
+ .parttern_wrap{display:inline-block;position:relative;width: 60px;height:60px;overflow:hidden;margin-right:3px;}
+ .parttern_wrap span{position:absolute;left:0;top:0;color:#333;display:inline-block;background:#fff;padding:2px;}
+ 

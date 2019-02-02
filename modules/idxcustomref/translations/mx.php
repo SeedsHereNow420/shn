@@ -1,0 +1,34 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_19139e568ddd985d056beb57dfbae420'] = 'Personalizar Referencia en los pedidos';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_ea5a574ef917ae5748656be08fe93155'] = 'Con este módulo puedes usar referencia numérica en tus pedidos y añadirle un prefijo.';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_152b709f70c0ed06a486b063592114d6'] = 'El número de referencia actual no puede ser inferior a la referencia anterior';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_926cd76346b93c64f18486f728f26be7'] = 'El número mínimo permitido no puede ser superior al máximo valor.';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_0adb43ee89b2132314e7fa130f7c1882'] = 'El nuevo número de pedido no puede ser superior a 9 caractéres. La suma de los caracteres que componen el Prefijo y el número de referencia no puede exceder a 9.';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_cddda36333e82c0f76e159e34371fc6b'] = 'Los cambios han sido actualizados';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_794df3791a8c800841516007427a2aa3'] = 'Licencia';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_a77d1540925b8613ddf32b875e4c4685'] = 'Clave de licencia';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_ebb36f86737be18cb17842c2e8bd7cda'] = 'Se requiere una licencia válida para utilizar este módulo';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_cc0bbff7c14b57ecfae28d80593d692e'] = 'Validar Licencia';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_f4f70727dc34561dfde1a3c529b6205c'] = 'Opciones';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_dde45ddbf7c929ee4d36d2e70f8e69d6'] = ' ¿Usar referencia numérica en tus pedidos? ';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_087138227da9242a62af21e4234427e1'] = 'Puedes cambiar la referencia de tus pedidos. Por ejemplo: 000000001 o INT000001';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Habilitado';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_b9f5c797ebbf55adccdd8539a65a0241'] = 'Deshabilitado';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_e31d4c9c2e2c5c8fb6e91f1846626d0e'] = ' Longitud de la referencia numérica. ';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_27dec687ba92761797cc9b66de29d4d4'] = 'Estableza el prefijo para sus pedidos';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_811e1f07013cbe07136b68642aba7a88'] = 'La longitud de este valor condicionará la longitud del número de referencia. El número de referencia que configure no podrá exceder en 9 caracteres.';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_c28581a4e960ef0ef5116f8eaa23777d'] = ' Estableza el siguiente número de referencia ';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_aabd391631d891e2f9946be80e54055b'] = ' Este es el número que será usado en su próximo pedido. ';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_2edd4fd7922298418056dec29be5bb54'] = 'Incrementar el número de referencia en: ';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_cc432adaf227f473f61b66b8f11e3e9c'] = ' El número a incrementar en cada pedido. Si la funcionalidad aleatoria está habilitada. ';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_f818c3dd42e2b609e834069833b4141c'] = '¿ Usar un número aleatorio para incrementar.?';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_2ef630e4de1c670c389c2f58a44cb9d2'] = ' Generar aleatoriamente el próximo número de pedido. El actual actuará como valor máximo ';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_7efaa57d6815c33b5d4424bfaecfaba5'] = ' Número mínimo a incrementar';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_f2398963d8990bf40f8dd3cece9a960b'] = ' El número mínimo permitido a incrementar en cada pedido, habilitado sólo cuando la funcionalidad aleatoria esta activa ';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_d464d13692d2581590b107ad448492a4'] = 'Longitud permitida: ';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_2593c7ce3ff937293feb1e61c152e551'] = 'caratéres';
+$_MODULE['<{idxcustomref}prestashop>idxcustomref_fb1de9d6d7987221b1f13cb07237c063'] = 'La referencia le quedará algo parecido a: ';

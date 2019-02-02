@@ -1,0 +1,102 @@
+.drag_option
+{
+    margin-bottom: 20px;
+}
+
+.drag_option > div button
+{
+    display: block;
+    font-family: FontAwesome;
+}
+
+.drag_option > div button:before
+{
+    display: block;
+    clear: both;
+}
+
+@media (min-width: 769px) {
+    .drag_option > select,
+    .drag_option > div
+    {
+        float: left;
+    }
+
+    .drag_option:after
+    {
+        content: '';
+        clear: both;
+        display: block;
+    }
+
+    .drag_option
+    {
+        position: relative;
+    }
+
+    .drag_option select:first-child
+    {
+        margin-right: 6%;
+    }
+
+    .drag_option select
+    {
+        width: 47%;
+    }
+
+    .drag_option > div
+    {
+        width: 6%;
+        position: absolute;
+        height: 100%;
+        left: 47%;
+    }
+
+    .drag_option > div button
+    {
+        height: 50%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .drag_option > div button:last-child
+    {
+        top: 50%;
+    }
+
+    .drag_option > div button.select_options:before
+    {
+        content: "\f061";
+    }
+
+    .drag_option > div button.unselect_options:before
+    {
+        content: "\f060";
+    }
+}
+
+@media (max-width: 768px)
+{
+    .drag_option > div button.select_options:before
+    {
+        content: "\f063";
+    }
+
+    .drag_option > div button.unselect_options:before
+    {
+        content: "\f062";
+    }
+
+    .drag_option > div button
+    {
+        width: 50%;
+        float: left;
+    }
+
+    .drag_option > div:after
+    {
+        content: '';
+        clear: both;
+        display: block;
+    }
+}

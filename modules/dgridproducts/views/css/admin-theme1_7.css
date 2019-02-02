@@ -1,0 +1,9 @@
+.form_more.content_form label.control-label,
+#form_create_combination label.control-label,
+.form_edit_attributes label.control-label {
+    text-align: right;
+    margin-top: 5px;
+}
+.mce-tinymce.mce-panel {
+    border: 1px solid #ccc !important;
+}

@@ -1,0 +1,8 @@
+/* module positions */
+.module_col_icon {
+    padding-right: 15px;
+}
+.module_col_icon img {
+    max-width: 100%;
+}
+/* since 2.5.0 */

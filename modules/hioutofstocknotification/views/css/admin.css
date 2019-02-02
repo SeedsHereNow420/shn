@@ -1,0 +1,103 @@
+.form_content {
+    margin-left: 190px !important;
+}
+.productTabs{
+	width: 170px;
+    background: #fff;
+    border: none;
+    margin-right: 20px;
+}
+.productTabs ul li.tab-row a{
+    margin-bottom: -1px;
+    border: 1px solid #ddd;
+}
+.productTabs ul li.tab-row a.selected{
+    border-right: 1px solid #CCCED7;
+}
+.productTabs ul li.tab-row:first-child  a{
+    border-top: 1px solid #CCCED7;
+}
+
+#oosn_product_quantity{
+	width: 160px;
+}
+.oosn-product-table{
+	width: 100%;
+}
+.oosn-product-table small, small > a{
+	color: #666 !important;
+}
+.oosn-product div{
+	float: left;
+}
+.oosn-product :first-child{
+	margin-right: 3px;
+}
+.oosn-product-table .subscribe_email{
+	padding: 2px;
+	color:#666;
+}
+
+#oosn-product-form{
+	background-color: #ebedf4;
+	border: 1px solid #ccced7;
+	padding: 5px 10px 10px;
+}
+/* Export Style*/
+.colum_table tr {
+	display: block;
+	width: 120px;
+	margin-bottom: 3px;
+	color: #656565;
+	border-bottom: 1px solid #d6d4d4;
+}
+.filtr{
+	width:100% !important;
+	margin-top: 7px;
+	padding-bottom:3px;
+}
+.filtr th{text-align: right;}
+.colum_table th {width: 100px;}
+.colum_table td {padding-left:10px;}
+/*Ps 1.5 style*/
+.pagination_1_5 {
+	margin-top: 4px;
+}
+.pagination_1_5>li>a,
+.pagination_1_5>li>span{
+	position: relative;
+    float: left;
+    padding: 6px 8px;
+    line-height: 1.42857;
+    text-decoration: none;
+    color: #00aff0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+}
+.pagination_1_5>li>a:hover{
+	background-color: #eee;
+}
+.pagination_1_5>.active>span,
+.pagination_1_5>.active>span:hover{
+	z-index: 2;
+    color: #fff;
+    background-color: #00aff0;
+    border-color: #00aff0;
+    cursor: default;
+}
+.pagination_1_5>.disabled>span,
+.pagination_1_5>.disabled>span:hover,
+.pagination_1_5>.disabled>span:focus,
+.pagination_1_5>.disabled>a,
+.pagination_1_5>.disabled>a:hover,
+.pagination_1_5>.disabled>a:focus{
+	color: #999;
+    background-color: #fff;
+    border-color: #ddd;
+    cursor: not-allowed;
+}
+.email-popup-container .subscribe_email{
+	padding:10px 5px 5px 10px ;
+    text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+#amazzing_filter {
+    box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5625rem;
+    background: #FFF;
+    padding: 1.25rem;
+}
+.af_subtitle {
+    font-size: 1rem;
+}
+.dynamic-product-count {
+    position: absolute;
+    left: 0;
+    line-height: 2.3;
+}
+.manage-permanent-filters {
+    font-size: 12px;
+    border: 1px solid;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+/* my account page */
+.page-my-account #content .links a.af i {
+    height: 0;
+}
+/* since 2.7.0 */

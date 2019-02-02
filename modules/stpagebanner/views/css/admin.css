@@ -1,0 +1,17 @@
+.bootstrap .table td.dragHandle .btn-group{
+    display:none!important;
+}
+.bootstrap .table td.dragHandle .dragGroup:before{
+    top:8px!important;
+}
+.fontshow{
+    border: 1px solid #CCCED7;
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    font-size:16px;
+    text-align:center;
+}
+
+#curr_google_font_name{list-style: none;}
+.mce-i-template:before { content: "\f0e7"; color: #FF8230;}

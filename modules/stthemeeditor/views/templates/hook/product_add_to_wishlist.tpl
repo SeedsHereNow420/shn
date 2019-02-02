@@ -1,0 +1,5 @@
+{if isset($wishlists) && count($wishlists) > 1}
+	<a href="javascript:;" class="wishlist_button_list addToWishlist wishlistProd_{$id_product|intval}" data-pid="{$id_product|intval}" title="{l s='Add to wishlist' d='Shop.Theme.Transformer'}" rel="nofollow"><div><i class="icon-heart-empty-1 icon-small icon_btn icon-mar-lr2"></i><span>{l s='Add to wishlist' d='Shop.Theme.Transformer'}</span></div></a>
+{else}
+	<a class="addToWishlist wishlistProd_{$id_product|intval}" href="#" data-pid="{$id_product|intval}" onclick="WishlistCart('wishlist_block_list', 'add', '{$id_product|intval}', false, 1,this); return false;" title="{l s='Add to wishlist' d='Shop.Theme.Transformer'}" rel="nofollow"><div><i class="icon-heart-empty-1 icon_btn icon-small icon-mar-lr2"></i><span>{l s='Add to wishlist' d='Shop.Theme.Transformer'}</span></div></a>
+{/if}

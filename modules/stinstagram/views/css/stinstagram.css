@@ -1,0 +1,511 @@
+.ins_image_wrap {
+  line-height: 150%;
+  padding: 0;
+}
+
+.ins_image_box {
+  display: block;
+  position: relative;
+}
+
+.ins_image_box:hover .ins_external, .ins_image_box:hover .ins_view_larger {
+  display: block;
+}
+
+.ins_image_link.scaling:hover .ins_image, .ins_image_link.scaling:hover .ins_force_square  {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.ins_image_link.scaling_down .ins_image, .ins_image_link.scaling_down .ins_force_square  {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.ins_image_link.scaling_down:hover .ins_image, .ins_image_link.scaling_down:hover .ins_force_square  {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.ins_image_link.scaling:hover .ins_force_square .ins_image,
+.ins_image_link.scaling.scaling_down .ins_force_square .ins_image,
+.ins_image_link.scaling_down:hover .ins_force_square .ins_image{
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.ins_image_link {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.ins_image {
+  max-width: 100%;
+  color: #fff;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.ins_image_layer{
+  text-align: center;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.ins_image_info {
+  z-index: 2;
+  color: #fff;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  text-align: center;
+  background: rgba(0,0,0,0);
+}
+
+.ins_image_info:hover {
+  background: rgba(0,0,0,0.4);
+}
+
+.ins_image_info .ins_image_info_likes,.ins_image_info .ins_image_info_comments,.ins_image_info .ins_image_info_username,.ins_image_info .ins_image_info_timestamp,.ins_image_info .ins_image_info_desc {
+  display: none;
+}
+
+.ins_image_info .ins_image_info_likes.show_default,.ins_image_info .ins_image_info_comments.show_default,
+.ins_image_info:hover .ins_image_info_likes,.ins_image_info:hover .ins_image_info_comments {
+  display: inline-block;
+}
+
+.ins_image_info .ins_image_info_username.show_default,.ins_image_info .ins_image_info_timestamp.show_default,.ins_image_info .ins_image_info_desc.show_default,
+.ins_image_info:hover .ins_image_info_username,.ins_image_info:hover .ins_image_info_timestamp,.ins_image_info:hover .ins_image_info_desc {
+  display: block;
+}
+
+.ins_image_info .ins_image_info_basic span {
+  padding: 0 6px;
+  font-size: 1.333em;
+}
+
+.ins_image_info_block .ins_image_info_basic span, .ins_image_info_block .ins_image_info_timestamp {
+  display: inline-block;
+  padding-right: 6px;
+}
+
+.instagram_con {
+  margin-bottom: 0;
+}
+
+
+.instagram_con.com_grid_view.row {
+  margin-left: 0;
+  margin-right: 0;
+  list-style: none;
+}
+
+.ins_image_info .ins_image_info_desc {
+  margin-top: 1em;
+}
+
+.ins_imagetype,.ins_view_larger {
+  position: absolute;
+  display: none;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  z-index: 5;
+  font-size: 1.5em;
+}
+
+.ins_imagetype {
+  display: block;
+}
+
+.ins_videoicon {
+  font-size: 2em;
+}
+
+.ins_view_larger {
+  top: auto;
+  bottom: 10px
+}
+
+.ins_external {
+  display: none;
+  font-size: 14px;
+  height: 26px;
+  line-height: 26px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 26px;
+  z-index: 5;
+  bottom: 0;
+  color: #444;
+  background: #fff;
+  background: rgba(255,255,255,0.8);
+}
+
+.ins_external:hover {
+  color: #444;
+  background: #fff;
+}
+
+.ins_pro_c {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.ins_pro_c_v {
+  font-weight: bold;
+  margin-right: 4px;
+  color: #444;
+}
+
+.instagram_block_footer .ins_pro_c {
+  min-width: 60px;
+  text-align: center;
+  margin-right: 0;
+}
+
+.instagram_block_footer .ins_pro_c_v {
+  display: block;
+  margin-right: 0;
+}
+
+.instagram_block_footer .ins_pro_c_k {
+  display: block;
+  font-size: 0.833em;
+}
+
+.ins_profile_img,.ins_fancy_profile_img,.instagram_list {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  -js-display: flex;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  width: 100%;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  box-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  -o-justify-content: flex-start;
+  justify-content: flex-start;
+  -ms-flex-pack: start;
+  -webkit-flex-flow: row nowrap;
+  -moz-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  margin-bottom: 8px;
+}
+
+.ins_fancy_profile_img {
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+}
+.instagram_list{
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+}
+.ins_profile_img_left {
+  display: none;
+  width: 70px;
+}
+
+.ins_fancy_profile_img_left {
+  display: none;
+  width: 30px;
+}
+
+.ins_show_avatar .ins_profile_img_left,.ins_show_avatar .ins_fancy_profile_img_left {
+  display: block;
+}
+
+.ins_profile_img_right, .ins_fancy_profile_img_right {
+  padding: 0px 6px;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.instagram_list {
+  margin: 0;
+  text-align: center;
+}
+
+.instagram_list li {
+  display: inline-block;
+  padding: 6px;
+}
+
+.instagram_list img {
+  width: 80px;
+}
+
+.ins_connecting {
+  text-align: center;
+}
+
+.ins_spinner {
+  display: none;
+  margin: 20px auto;
+  border-radius: 6px;
+  background: #fff;
+  height: 50px;
+  width: 50px;
+  background: url(../img/ajax-loader-1.gif) no-repeat center center;
+}
+
+.ins_connecting .ins_spinner {
+  display: inline-block;
+}
+
+.ins_ajax_error_box {
+  display: none;
+}
+
+.ins_ajax_error .ins_ajax_error_box {
+  display: inline-block;
+}
+
+.ins_profile_name {
+  display: block;
+  font-size: 1.166em;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.ins_image_info_basic, .ins_image_info_username, .ins_image_info_timestamp, .ins_image_info_desc {
+  margin-bottom: 4px;
+}
+
+.ins_profile_counts {
+  margin-bottom: 6px;
+}
+
+.ins_image_info_block {
+  padding: 6px;
+  background: #fff;
+}
+
+.ins_image_info_username {
+  font-weight: bold;
+}
+
+.ins_custom_content {
+}
+
+.ins_extra_box {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.ins_btn {
+  padding: 6px 18px;
+  font-size: 1.166em;
+  color: #fff;
+  background: #4ea1bf;
+  border-radius: 4px;
+  outline: 0;
+}
+.ins_profile_img_right a.ins_follow_btn{
+  color: #fff;
+}
+
+.ins_btn:hover,.ins_btn.ins_loading,.ins_btn:active,.ins_btn:focus,.ins_profile_img_right a.ins_follow_btn:hover {
+  background: #484848;
+  color: #fff;
+  outline: 0;
+  text-decoration: none;
+}
+
+.ins_btn i, .ins_fancy_info_item i {
+  margin-right: 4px;
+}
+
+.ins_btn.disabled {
+  background: #ccc;
+  color: #fff;
+}
+
+.ins_load_more {
+  display: none;
+  max-width: 220px;
+  width: 100%;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.ins_load_more.ins_has_more {
+  display: inline-block;
+}
+
+.ins_ajax_error .ins_extra_box,
+.ins_connecting .ins_extra_box {
+  display: none;
+}
+
+.ins_follow_btn {
+  display: inline-block;
+}
+
+.ins_fancy_info_item {
+  margin-right: 6px;
+  display: inline-block;
+  padding-right: 6px;
+  border-right: 1px solid #ccc;
+}
+
+.ins_fancy_info_item:last-child {
+  border-right: none;
+}
+
+.profile_picture img {
+  border-radius: 4px;
+  height: auto;
+  max-width: 100%;
+}
+
+.ins_round_avatar .profile_picture img {
+  border-radius: 918px;
+}
+
+.ins_round_avatar .profile_picture img {
+  border-radius: 918px;
+}
+
+#ins_video_player {
+  max-width: 100%;
+  max-height: 98%;
+}
+
+.ins_fancy_nav {
+  color: #fff;
+  position: absolute;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 100px;
+  top: 50%;
+  margin-top: -20px;
+  z-index: 8040;
+  background: #000;
+  background: rgba(0,0,0,0.4);
+}
+
+.ins_fancy_nav:hover {
+  color: #fff;
+  background: rgba(0,0,0,0.8);
+  outline: none;
+}
+
+.ins_fancy_next {
+  right: 0;
+}
+
+.ins_fancy_prev {
+  left: 0;
+}
+
+.ins_fancy_profile_img_right a {
+  font-weight: bold;
+}
+
+.ins_profile_img,.ins_profile_counts{
+  padding: 6px;
+  margin: 0;
+}
+.ins_profile_counts{
+  padding: 10px 6px;
+}
+
+.ins_fancy_box {
+  color: #777;
+}
+
+.ins_fancy_box a,.ins_profile_img_right a, .ins_image_info_block a, .ins_image_info_block .ins_image_info_username {
+  color: #484848;
+}
+
+.ins_fancy_box a:hover,.ins_profile_img_right a:hover, .ins_image_info_block a:hover {
+  color: #003569;
+  text-decoration: underline;
+}
+.ins_force_square{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ins_image_info_desc{
+  word-break: break-all;
+}
+.instagram_block_footer .collapse{
+  display: block;
+}
+.instagram_footer_title{
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.ins_apply_bg{
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.ins_image_info_timestamp{
+  text-transform: capitalize;
+}
+@media (max-width: 767px) {
+  .instagram_block_footer .collapse{
+    display: none;
+  }
+  .instagram_block_footer .collapse.in{
+    display: block;
+  }
+
+  .instagram_block_footer .title {
+    padding: 0.625rem;
+    border-bottom: 1px solid #f6f6f6;
+    cursor: pointer; }
+  .instagram_block_footer .title .collapse-icons .remove {
+      display: none; }
+  .instagram_block_footer .title[aria-expanded="true"] .collapse-icons .add {
+    display: none; }
+  .instagram_block_footer .title[aria-expanded="true"] .collapse-icons .remove {
+    display: block; }
+  .instagram_block_footer .navbar-toggler {
+      display: inline-block;
+      padding: 0; }
+}

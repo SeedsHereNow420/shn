@@ -1,0 +1,199 @@
+/**
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/osl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+*  @author    Presta-Module
+*  @author    202 ecommerce
+*  @copyright 2009-2016 Presta-Module
+*  @copyright 2017-2018 202 ecommerce
+*  @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+*/
+@font-face {
+    font-family: DNLTUL;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTUL.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTUL.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTUL.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTUL.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTUL.svg#DNLTUL") format("svg");
+}
+@font-face {
+    font-family: DNLTL;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTL.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTL.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTL.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTL.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTL.svg#DNLTL") format("svg");
+}
+@font-face {
+    font-family: DNLTR;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTR.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTR.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTR.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTR.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTR.svg#DNLTR") format("svg");
+}
+@font-face {
+    font-family: DNLTM;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTM.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTM.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTM.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTM.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTM.svg#DNLTM") format("svg");
+}
+@font-face {
+    font-family: DNLTB;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTB.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTB.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTB.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTB.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTB.svg#DNLTB") format("svg");
+}
+@font-face {
+    font-family: DNLTLI;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTLI.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTLI.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTLI.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTLI.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTLI.svg#DNLTLI") format("svg");
+}
+@font-face {
+    font-family: DNLTRI;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTRI.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTRI.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTRI.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTRI.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNLTRI.svg#DNLTRI") format("svg");
+}
+@font-face {
+    font-family: DNRL;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRL.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRL.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRL.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRL.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRL.svg#DNRL") format("svg");
+}
+@font-face {
+    font-family: DNRR;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRR.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRR.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRR.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRR.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRR.svg#DNRR") format("svg");
+}
+@font-face {
+    font-family: DNRM;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRM.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRM.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRM.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRM.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRM.svg#DNRM") format("svg");
+}
+@font-face {
+    font-family: DNRB;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRB.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRB.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRB.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRB.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/DNRB.svg#DNRB") format("svg");
+}
+@font-face {
+    font-family: PNT;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNT.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNT.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNT.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNT.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNT.svg#PNT") format("svg");
+}
+@font-face {
+    font-family: PNTI;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNTI.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNTI.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNTI.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNTI.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNTI.svg#PNTI") format("svg");
+}
+@font-face {
+    font-family: PNL;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNL.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNL.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNL.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNL.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNL.svg#PNL") format("svg");
+}
+@font-face {
+    font-family: PNLI;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNLI.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNLI.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNLI.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNLI.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNLI.svg#PNLI") format("svg");
+}
+@font-face {
+    font-family: PNR;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNR.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNR.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNR.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNR.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNR.svg#PNR") format("svg");
+}
+@font-face {
+    font-family: PNRI;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNRI.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNRI.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNRI.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNRI.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNRI.svg#PNRI") format("svg");
+}
+@font-face {
+    font-family: PNSB;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNSB.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNSB.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNSB.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNSB.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNSB.svg#PNSB") format("svg");
+}
+@font-face {
+    font-family: PNSBI;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNSBI.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNSBI.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNSBI.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNSBI.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNSBI.svg#PNSBI") format("svg");
+}
+@font-face {
+    font-family: PNB;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNB.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNB.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNB.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNB.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNB.svg#PNB") format("svg");
+}
+@font-face {
+    font-family: PNBI;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNBI.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNBI.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNBI.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNBI.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNBI.svg#PNBI") format("svg");
+}
+@font-face {
+    font-family: PNXB;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNXB.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNXB.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNXB.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNXB.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNXB.svg#PNXB") format("svg");
+}
+@font-face {
+    font-family: PNXBI;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNXBI.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNXBI.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNXBI.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNXBI.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNXBI.svg#PNXBI") format("svg");
+}
+@font-face {
+    font-family: PNBL;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNBL.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNBL.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNBL.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNBL.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNBL.svg#PNBL") format("svg");
+}
+@font-face {
+    font-family: PNBLI;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNBLI.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNBLI.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNBLI.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNBLI.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/PNBLI.svg#PNBLI") format("svg");
+}
+@font-face {
+    font-family: entypo;
+    -moz-font-feature-settings: "liga=0";
+    -moz-font-feature-settings: "liga" 0;
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/entypo.eot");
+    src: url("https://d1eipm3vz40hy0.cloudfront.net/fonts/entypo.eot?#iefix") format("embedded-opentype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/entypo.woff") format("woff"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/entypo.ttf") format("truetype"), url("https://d1eipm3vz40hy0.cloudfront.net/fonts/entypo.svg#entypo") format("svg");
+}

@@ -1,0 +1,1155 @@
+/**
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/osl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+*  @author    Presta-Module
+*  @author    202 ecommerce
+*  @copyright 2009-2016 Presta-Module
+*  @copyright 2017-2018 202 ecommerce
+*  @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+*/
+#module-zendesk-configuration h1, #module-zendesk-configuration h2, #module-zendesk-configuration h3, #module-zendesk-configuration h4, #module-zendesk-configuration .mobile-modal .mobile-modal-list li h5, #module-zendesk-configuration h5, #module-zendesk-configuration h6 {
+    font-family: DNRL;
+    font-weight: normal;
+}
+
+#module-zendesk-configuration ul, #module-zendesk-configuration ol {
+    margin: 0;
+    padding: 0;
+}
+#module-zendesk-configuration li {
+    list-style: none;
+}
+
+.nobootstrap #module-zendesk-configuration label {
+    width: inherit;
+    float: none;
+    text-align: left;
+}
+
+#module-zendesk-configuration article.reg-refresh * {
+    box-sizing: border-box;
+}
+#module-zendesk-configuration article.reg-refresh header, #module-zendesk-configuration article.reg-refresh form {
+    position: relative;
+    margin: 0 auto;
+}
+#module-zendesk-configuration article.reg-refresh h1 {
+    color: #000;
+    font: 44px/1 DNLTL;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh h1 {
+    font-size: 28px;
+    margin: 8px auto 4px;
+    width: 85%}
+} #module-zendesk-configuration article.reg-refresh .languages a, #module-zendesk-configuration article.reg-refresh .refer a {
+    background: #aaa;
+    display: inline-block;
+    line-height: 15px;
+    color: #fff;
+    padding: 4px 11px;
+    margin: 0 5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh .languages a, #module-zendesk-configuration article.reg-refresh .refer a {
+    padding: 4px 4px 2px 8px;
+}
+}#module-zendesk-configuration article.reg-refresh .languages a span, #module-zendesk-configuration article.reg-refresh .refer a span {
+    margin-left: 3px;
+}
+#module-zendesk-configuration article.reg-refresh form input[type="text"], #module-zendesk-configuration article.reg-refresh form input[type="email"], #module-zendesk-configuration article.reg-refresh form input[type="number"], #module-zendesk-configuration article.reg-refresh form input[type="password"] {
+    position: relative;
+    width: 100%;
+    font: 16px/1.5 DNLTR;
+    margin-top: 5px;
+    padding: 12px 0 12px 15px;
+    border-radius: 5px;
+    border: 1px solid #e1e2e3;
+    z-index: 1;
+}
+@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh form input[type="text"], #module-zendesk-configuration article.reg-refresh form input[type="email"], #module-zendesk-configuration article.reg-refresh form input[type="number"], #module-zendesk-configuration article.reg-refresh form input[type="password"] {
+    font-size: 22px;
+}
+}#module-zendesk-configuration article.reg-refresh span.check {
+    background: #fff;
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 10px;
+    width: 28px;
+    height: 28px;
+    padding: 6px 10px 15px 11px;
+    z-index: -1;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-box-shadow: 0 1px 6px rgba(41, 40, 40, 0.2);
+    -moz-box-shadow: 0 1px 6px rgba(41, 40, 40, 0.2);
+    -ms-box-shadow: 0 1px 6px rgba(41, 40, 40, 0.2);
+    -o-box-shadow: 0 1px 6px rgba(41, 40, 40, 0.2);
+    box-shadow: 0 1px 6px rgba(41, 40, 40, 0.2);
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+@media only screen and (max-width: 975px) {
+    #module-zendesk-configuration article.reg-refresh span.check {
+    right: 10px;
+}
+}#module-zendesk-configuration article.reg-refresh span.check:before, #module-zendesk-configuration article.reg-refresh span.check.ico-iphone:after {
+    content: '\e812';
+    color: #78a300;
+    font: 27px/1 entypo;
+    position: relative;
+    top: -5px;
+    left: -6px;
+}
+#module-zendesk-configuration article.reg-refresh span.domain-ping {
+    position: absolute;
+    display: none;
+    bottom: 25px;
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    padding: 7px 12px 14px 11px;
+    z-index: 2;
+}
+#module-zendesk-configuration article.reg-refresh span.domain-ping:before, #module-zendesk-configuration article.reg-refresh span.domain-ping.ico-iphone:after {
+    content: '\e891';
+    color: #aaa;
+    font: 27px/1 entypo;
+    filter: alpha(opacity=70);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+}
+#module-zendesk-configuration article.reg-refresh span.domain-ping.pulse {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: pulse;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-direction: normal;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: pulse;
+    -moz-animation-timing-function: ease-in-out;
+}
+@-webkit-keyframes pulse {
+    0% {
+    opacity: 1;
+}
+50% {
+    opacity: 0.3;
+}
+100% {
+    opacity: 1;
+}
+}@-moz-keyframes pulse {
+    0% {
+    opacity: 1;
+}
+50% {
+    opacity: 0.3;
+}
+100% {
+    opacity: 1;
+}
+}#module-zendesk-configuration article.reg-refresh span.info:before, #module-zendesk-configuration article.reg-refresh span.info.ico-iphone:after {
+    content: '\e81f';
+    font: 15px/1 entypo;
+}
+#module-zendesk-configuration article.reg-refresh form li {
+    position: relative;
+}
+#module-zendesk-configuration article.reg-refresh form select {
+    height: 50px;
+    width: 100%;
+    margin: 5px 0 0;
+    padding: 0 0 0 1em;
+    box-shadow: 0px 1px 1px #b8b6a5 inset;
+    border: 1px solid #B8B6A5;
+    color: #888;
+    cursor: pointer;
+    z-index: 5;
+    filter: alpha(opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+@media only screen and (max-width: 975px) {
+    #module-zendesk-configuration article.reg-refresh form select {
+    width: 100%}
+}#module-zendesk-configuration article.reg-refresh form .select {
+    position: absolute;
+    width: 100%;
+    letter-spacing: 0.02em;
+    color: #aaa;
+    margin: 20px 0;
+    padding: 0 4px 0 16px;
+    overflow: hidden;
+    background: #fff;
+    font: 16px/1.5 DNLTR;
+    margin: 5px 0 10px 0;
+    padding: 12px 0 12px 15px;
+    border: 1px solid #e1e2e3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh form .select {
+    font-size: 22px;
+}
+}#module-zendesk-configuration article.reg-refresh form .occasional-input {
+    display: none;
+}
+#module-zendesk-configuration article.reg-refresh form #select-agents span, #module-zendesk-configuration article.reg-refresh form #select-employees span {
+    float: right;
+    font-size: 30px;
+    position: absolute;
+    top: 55%;
+    right: 10px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#module-zendesk-configuration article.reg-refresh form #select-agents span:after, #module-zendesk-configuration article.reg-refresh form #select-employees span:after {
+    content: '\e877';
+    font-family: entypo;
+    pointer-events: none;
+}
+#module-zendesk-configuration article.reg-refresh form .select.focus {
+    color: #91be01;
+}
+#module-zendesk-configuration article.reg-refresh form a.span {
+    padding-left: 5px;
+}
+#module-zendesk-configuration article.reg-refresh form span.phantom {
+    position: absolute;
+    left: -9999em;
+    margin: 0;
+    padding: 0 0 0 5px;
+    word-spacing: normal;
+    letter-spacing: 0px;
+    border: 2px inset;
+    font: 27px/1 DNLTL;
+    visibility: hidden;
+}
+#module-zendesk-configuration article.reg-refresh form span.ie-password-label {
+    position: absolute;
+    display: none;
+    text-indent: -9999em;
+    color: #444;
+    margin: 37px 0 0 12px;
+    padding: 0 0 0 5px;
+    word-spacing: normal;
+    letter-spacing: 0px;
+    border: none;
+    font: 27px/1 DNLTR;
+    z-index: 2;
+}
+#module-zendesk-configuration article.reg-refresh form input:focus {
+    color: #333;
+}
+#module-zendesk-configuration article.reg-refresh form label {
+    display: none;
+    clear: both;
+}
+#module-zendesk-configuration article.reg-refresh form label span:before, #module-zendesk-configuration article.reg-refresh form label span.ico-iphone:after {
+    content: '\e83e';
+    font-family: entypo;
+    margin-right: 8px;
+}
+#module-zendesk-configuration article.reg-refresh form li label {
+    background: #fafafa;
+    padding: 10px 0 7px 20px;
+    font: 15px/2 DNRM;
+    color: #666;
+    -webkit-border-radius: 0 0 7px 7px;
+    -moz-border-radius: 0 0 7px 7px;
+    -ms-border-radius: 0 0 7px 7px;
+    -o-border-radius: 0 0 7px 7px;
+    border-radius: 0 0 7px 7px;
+}
+#module-zendesk-configuration article.reg-refresh form li.error label {
+    margin: -5px 0 0;
+}
+#module-zendesk-configuration article.reg-refresh form ul li.error .shadow {
+    top: 17px;
+}
+#module-zendesk-configuration article.reg-refresh form .select.set, #module-zendesk-configuration article.reg-refresh form input.set {
+    color: #666;
+    box-shadow: 0 1px 8px #D2D2D2;
+    background: rgba(255, 255, 255, 0.8);
+}
+#module-zendesk-configuration article.reg-refresh form input.focus {
+    color: #333;
+    text-shadow: none;
+    background: #fff;
+}
+#module-zendesk-configuration article.reg-refresh form .select.language, #module-zendesk-configuration article.reg-refresh form .select.refer {
+    position: absolute;
+    left: 0;
+    font: 14px/1 DNLTM;
+    color: #666;
+    width: auto;
+    height: 25px;
+    border: none;
+    padding: 0;
+    margin: 15px 0 5px;
+    overflow: hidden;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: none;
+}
+@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh form .select.language, #module-zendesk-configuration article.reg-refresh form .select.refer {
+    height: 45px;
+    font-size: 13px;
+}
+}#module-zendesk-configuration article.reg-refresh form .select.language span:after, #module-zendesk-configuration article.reg-refresh form .select.refer span:after {
+    content: '\e883';
+    font-family: entypo;
+}
+#module-zendesk-configuration article.reg-refresh form select.language, #module-zendesk-configuration article.reg-refresh form select.refer {
+    position: relative;
+    height: 30px;
+    margin: 15px 0 5px;
+    opacity: 0;
+    z-index: 5;
+}
+#module-zendesk-configuration article.reg-refresh form .subdomain.focus {
+    background: #fff;
+}
+#module-zendesk-configuration article.reg-refresh form .shadow {
+    display: none !important;
+    position: absolute;
+    top: 17px;
+    left: 167px;
+    height: 20px;
+    font: 27px/1 DNLTL;
+    color: #aaa;
+    padding: 0.8em 0 0.4em 0;
+    border: 0;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh form .shadow {
+    font-size: 20px;
+    top: 25px;
+}
+}#module-zendesk-configuration article.reg-refresh form input[type="image"] {
+    position: absolute;
+    top: 3px;
+    right: -3px;
+}
+#module-zendesk-configuration article.reg-refresh .button {
+    width: 100%;
+    padding: 5px 10px 0px;
+    margin: 15px 0;
+    font: 27px/2.2 DNRB;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+#module-zendesk-configuration .lang-es article.reg-refresh .button {
+    padding: 3px 10px 0px;
+    font: 22px/2.9 DNRB;
+}
+#module-zendesk-configuration article.reg-refresh form p.agreement {
+    clear: both;
+    color: #666;
+}
+#module-zendesk-configuration article.reg-refresh form p.agreement a {
+    color: #666;
+    text-decoration: underline;
+}
+#module-zendesk-configuration article.reg-refresh .loading {
+    display: none;
+    position: absolute;
+    top: 43.4%;
+    width: 100%;
+    text-align: center;
+}
+#module-zendesk-configuration article.reg-refresh .loading img {
+    width: 61px;
+    margin: 0 auto;
+}
+#module-zendesk-configuration article.reg-refresh .loading p {
+    font: 1.4em/1 DNLTRI;
+    color: #777;
+    padding-top: 21px;
+}
+#module-zendesk-configuration article.reg-refresh .plan {
+    position: fixed;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
+    width: 160px;
+    height: 160px;
+    box-shadow: 0 1px 19px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border-radius: 100px;
+    bottom: 20px;
+    left: 20px;
+    text-align: center;
+}
+#module-zendesk-configuration article.reg-refresh .plan h4, #module-zendesk-configuration article.reg-refresh .plan .mobile-modal .mobile-modal-list li h5, #module-zendesk-configuration .mobile-modal .mobile-modal-list li article.reg-refresh .plan h5 {
+    font: 14px DNLTM;
+    color: #78a300;
+    margin: 36px 0 0;
+}
+#module-zendesk-configuration article.reg-refresh .plan span.point {
+    font: 50px/1 DNLTL;
+    color: #444;
+    display: block;
+    margin: 4px 0 0px;
+}
+#module-zendesk-configuration article.reg-refresh .plan span.cycle {
+    display: block;
+    font: 12px DNLTR;
+    color: #a6a6a6;
+}
+#module-zendesk-configuration .lang-ja article.reg-refresh .plan span.cycle {
+    font-size: 10px;
+}
+#module-zendesk-configuration article.reg-refresh .js-progress {
+    position: fixed;
+    width: 200px;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -100px;
+    color: #fff;
+    text-align: center;
+}
+@media only screen and (max-width: 1030px) {
+    #module-zendesk-configuration article.reg-refresh .js-progress {
+    left: 16%;
+    position: absolute;
+    top: 10px;
+    width: 90%}
+}@media only screen and (max-width: 975px) {
+    #module-zendesk-configuration article.reg-refresh .js-progress {
+    position: fixed;
+    width: 200px;
+    bottom: 20px;
+    top: auto;
+    left: 50%}
+}@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh .js-progress {
+    left: 36%;
+    position: absolute;
+    top: 10px;
+    width: 90%}
+}#module-zendesk-configuration article.reg-refresh .js-progress h5 {
+    font: 20px DNLTM;
+    margin: 0 auto;
+    -webkit-text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    -moz-text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    -ms-text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    -o-text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+#module-zendesk-configuration article.reg-refresh .js-progress span {
+    display: inline-block;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border-radius: 25px;
+}
+#module-zendesk-configuration article.reg-refresh .js-progress span.active {
+    color: #78a300;
+    padding: 4px 10px 1px;
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;
+    -ms-text-shadow: none;
+    -o-text-shadow: none;
+    text-shadow: none;
+    background: #fff;
+}
+#module-zendesk-configuration .lang-fr article.reg-refresh .plan span, #module-zendesk-configuration .lang-pt article.reg-refresh .plan span, #module-zendesk-configuration .lang-es article.reg-refresh .plan span {
+    font: 20px/1 DNLTL;
+}
+#module-zendesk-configuration .lang-fr article.reg-refresh .plan span span, #module-zendesk-configuration .lang-pt article.reg-refresh .plan span span, #module-zendesk-configuration .lang-es article.reg-refresh .plan span span {
+    font: 50px/1 DNLTL;
+}
+#module-zendesk-configuration .lang-fr article.reg-refresh .plan span.point, #module-zendesk-configuration .lang-pt article.reg-refresh .plan span.point, #module-zendesk-configuration .lang-es article.reg-refresh .plan span.point {
+    font: 50px/1 DNLTL;
+}
+#module-zendesk-configuration .lang-fr article.reg-refresh .plan span.cycle, #module-zendesk-configuration .lang-pt article.reg-refresh .plan span.cycle, #module-zendesk-configuration .lang-es article.reg-refresh .plan span.cycle {
+    font: 12px DNLTR;
+}
+#module-zendesk-configuration article.reg-refresh .staging {
+    text-align: center;
+}
+#module-zendesk-configuration article.reg-refresh .staging h1 {
+    margin-bottom: 18px;
+}
+#module-zendesk-configuration article.reg-refresh .staging span.target-domain {
+    background: #f9f9f9;
+    border: 1px solid #dedede;
+    color: #434343;
+    display: inline-block;
+    font: 32px/1 DNLTL;
+    margin: 5px 0 30px 0;
+    padding: 15px 35px;
+    width: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 778px) {
+    #module-zendesk-configuration article.reg-refresh .staging span.target-domain {
+    font-size: 24px;
+}
+}@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh .staging span.target-domain {
+    font-size: 18px;
+}
+}#module-zendesk-configuration article.reg-refresh .staging span.http {
+    color: #434343;
+    text-shadow: none;
+}
+#module-zendesk-configuration article.reg-refresh .staging span.path {
+    color: #434343;
+}
+#module-zendesk-configuration article.reg-refresh .staging span.at-divider, #module-zendesk-configuration article.reg-refresh .staging span.secondary-info {
+    display: block;
+    font: 44px/1 DNLTR;
+    color: #78a300;
+    text-align: center;
+    margin: 0 0 12px 0;
+    clear: both;
+}
+#module-zendesk-configuration article.reg-refresh .staging span.secondary-info {
+    font-size: 26px;
+}
+#module-zendesk-configuration article.reg-refresh .step {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    margin: auto;
+    width: 100%;
+    padding: 0 0 80px 0;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh .step {
+    top: 0;
+    padding: 0 0 50px 0;
+    margin: 30px auto 0;
+    width: 100% !important;
+}
+}#module-zendesk-configuration article.reg-refresh .step.step-2, #module-zendesk-configuration article.reg-refresh .step.step-3, #module-zendesk-configuration article.reg-refresh .step.step-4 {
+    width: 400px;
+}
+#module-zendesk-configuration article.reg-refresh .step.step-2, #module-zendesk-configuration article.reg-refresh .step.step-3, #module-zendesk-configuration article.reg-refresh .step.step-4, #module-zendesk-configuration article.reg-refresh .step.step-5 {
+    display: none;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+#module-zendesk-configuration article.reg-refresh .step-4 h2 {
+    color: #fff;
+    margin-bottom: -15px;
+    font-weight: bold;
+    text-shadow: 0 1px 1px rgba(47, 99, 64, 0.6);
+}
+#module-zendesk-configuration article.reg-refresh .error ul li {
+    margin: 0 0 0 21px;
+    padding: 0;
+    list-style: disc;
+    font: 14px/1.2 DNRM;
+}
+#module-zendesk-configuration article.reg-refresh .error ul {
+    padding-bottom: 8px;
+}
+@media only screen and (max-width: 778px) {
+    #module-zendesk-configuration #backstretch img {
+    margin-left: -120px !important;
+}
+}@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration #backstretch img {
+    display: none;
+}
+}#module-zendesk-configuration article.reg-refresh form ul li {
+    padding-bottom: 5px;
+}
+#module-zendesk-configuration article.reg-refresh form ul li:last-child {
+    padding-top: 20px;
+}
+#module-zendesk-configuration article.reg-refresh form ul li .side-label {
+    display: none;
+}
+#module-zendesk-configuration article.reg-refresh form ul li.full.create.autodomain {
+    padding-top: 5px;
+}
+@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh .step section h1 {
+    margin-bottom: 20px;
+}
+}#module-zendesk-configuration article.reg-refresh.linkedin-loggedin ul li .side-label {
+    font: 30px/1.5 DNLTM;
+    display: block;
+    width: 250px;
+    position: absolute;
+    right: 414px;
+    top: 21px;
+    background: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    text-align: right;
+    text-shadow: 0 1px 1px #107e0b;
+}
+@media only screen and (max-width: 975px) {
+    #module-zendesk-configuration article.reg-refresh.linkedin-loggedin ul li .side-label {
+    display: none;
+}
+}#module-zendesk-configuration article.reg-refresh.linkedin-loggedin ul li.error .side-label {
+    top: 26px;
+}
+#module-zendesk-configuration article.reg-refresh.linkedin-loggedin.mobile ul li .side-label {
+    display: none;
+}
+#module-zendesk-configuration article.reg-refresh .loading-linkedin {
+    display: none;
+    text-align: center;
+}
+#module-zendesk-configuration article.reg-refresh .loading-linkedin img {
+    margin: 0 auto 30px;
+}
+#module-zendesk-configuration article.reg-refresh .placeholder {
+    color: #aaa;
+}
+#module-zendesk-configuration article.reg-refresh span.subdomain-note {
+    display: block;
+    padding-top: 20px;
+    color: #fff;
+    text-shadow: 0 1px 1px #107e0b;
+    font-size: 18px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+#module-zendesk-configuration .lang-fr article.reg-refresh .step section .googlelogin {
+    font: 24px/2.4 DNLTR;
+}
+@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration .lang-fr article.reg-refresh .step section .googlelogin {
+    font: 20px/1.9 DNLTR;
+}
+}#module-zendesk-configuration .lang-de article.reg-refresh .step section .create-account {
+    font: 20px/2.9 DNRB;
+}
+#module-zendesk-configuration .lang-ja article.reg-refresh .step section .subdomain {
+    font-family: DNLTL !important;
+}
+#module-zendesk-configuration .lang-ja article.reg-refresh .step section .create-account {
+    font: 22px/2.8 DNRB;
+}
+#module-zendesk-configuration .lang-es article.reg-refresh .step section .create-account {
+    font: 21px/3 DNRB;
+}
+#module-zendesk-configuration article.reg-refresh {
+    height: 100%}
+#module-zendesk-configuration article.reg-refresh .legal {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 380px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh .legal {
+    display: none;
+}
+}#module-zendesk-configuration article.reg-refresh .legal a, #module-zendesk-configuration article.reg-refresh .legal a:hover {
+    color: #bbb;
+}
+#module-zendesk-configuration article.reg-refresh .legal .terms {
+    text-decoration: underline;
+}
+#module-zendesk-configuration article.reg-refresh .logo {
+    background: url("//d1eipm3vz40hy0.cloudfront.net/images/l-chrome/logo-zendesk_2X.png") 0 0 no-repeat;
+    background-size: 200px 128px;
+    display: block;
+    height: 61px;
+    margin: 7px 0 0;
+    position: relative;
+    width: 205px;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap {
+    height: 100%;
+    position: relative;
+    margin: 0 auto 0;
+    max-width: 100%;
+    width: 800px;
+}
+@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh .step-wrap {
+    margin: auto;
+    width: 92%}
+}#module-zendesk-configuration article.reg-refresh .step-wrap .prompt {
+    margin-bottom: 30px;
+    text-align: center;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .cta, #module-zendesk-configuration article.reg-refresh .step-wrap .googlelogin {
+    color: #fff !important;
+    margin-top: 0;
+    border-radius: 5px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+    font: 15px/1 DNRM;
+    text-decoration: none;
+    width: 100%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+@media only screen and (max-width: 975px) {
+    #module-zendesk-configuration article.reg-refresh .step-wrap .cta, #module-zendesk-configuration article.reg-refresh .step-wrap .googlelogin {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+}@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh .step-wrap .cta, #module-zendesk-configuration article.reg-refresh .step-wrap .googlelogin {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+}#module-zendesk-configuration article.reg-refresh .step-wrap .cta.btn-blue, #module-zendesk-configuration article.reg-refresh .step-wrap .googlelogin.btn-blue {
+    background: #4a8bee;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .cta.btn-green, #module-zendesk-configuration article.reg-refresh .step-wrap .googlelogin.btn-green {
+    background: #78a300;
+    cursor: pointer;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .cta.btn-green:hover, #module-zendesk-configuration article.reg-refresh .step-wrap .googlelogin.btn-green:hover {
+    background-color: #618015 !important;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .googlelogin {
+    position: relative;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .googlelogin:after {
+    background: url("//d1eipm3vz40hy0.cloudfront.net/images/signup/google-icon.png");
+    background-size: 20px 20px;
+    content: "";
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .col-left {
+    padding: 0 5% 0 2%}
+@media only screen and (max-width: 975px) {
+    #module-zendesk-configuration article.reg-refresh .step-wrap .col-left {
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 30px !important;
+}
+}#module-zendesk-configuration article.reg-refresh .step-wrap .col-right {
+    padding: 0 2% 0 5%;
+    border-left: 1px solid #dedede;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .col-left, #module-zendesk-configuration article.reg-refresh .step-wrap .col-right {
+    margin-top: 30px;
+    width: 50%}
+@media only screen and (max-width: 975px) {
+    #module-zendesk-configuration article.reg-refresh .step-wrap .col-left, #module-zendesk-configuration article.reg-refresh .step-wrap .col-right {
+    border-left: none;
+    float: none;
+    margin: 30px auto;
+    padding: 0;
+    width: 400px;
+}
+}@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh .step-wrap .col-left, #module-zendesk-configuration article.reg-refresh .step-wrap .col-right {
+    width: 100%}
+}#module-zendesk-configuration article.reg-refresh .step-wrap .domain-box {
+    background-color: #f9f9f9;
+    display: inline-block;
+    font: 16px DNLTR;
+    margin: 0;
+    padding: 15px 15px 14px 15px;
+    position: absolute;
+    right: 1px;
+    top: 6px;
+    z-index: 1;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+}
+@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh .step-wrap .domain-box {
+    font-size: 22px;
+    padding: 15px 7px;
+}
+}#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container {
+    background: url("//d1eipm3vz40hy0.cloudfront.net/images/signup/farm-background.svg") 0 0 no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 483px;
+    margin: -80px auto 0;
+    position: relative;
+    overflow: hidden;
+}
+@media only screen and (max-width: 700px) {
+    #module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container {
+    display: none;
+}
+}#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step1 .egg {
+    -webkit-animation: eggCrackSmall 4s linear 1 forwards, eggCrackMedium 3s linear 4s infinite forwards;
+    -moz-animation: eggCrackSmall 4s linear 1 forwards, eggCrackMedium 3s linear 4s infinite forwards;
+    -ms-animation: eggCrackSmall 4s linear 1 forwards, eggCrackMedium 3s linear 4s infinite forwards;
+    -o-animation: eggCrackSmall 4s linear 1 forwards, eggCrackMedium 3s linear 4s infinite forwards;
+    animation: eggCrackSmall 4s linear 1 forwards, eggCrackMedium 3s linear 4s infinite forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step2 .egg {
+    -webkit-animation: eggCrackLarge 2s linear forwards;
+    -moz-animation: eggCrackLarge 2s linear forwards;
+    -ms-animation: eggCrackLarge 2s linear forwards;
+    -o-animation: eggCrackLarge 2s linear forwards;
+    animation: eggCrackLarge 2s linear forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step2 .egg-shell.left {
+    -webkit-animation: leftShell 5s linear 1.6s forwards;
+    -moz-animation: leftShell 5s linear 1.6s forwards;
+    -ms-animation: leftShell 5s linear 1.6s forwards;
+    -o-animation: leftShell 5s linear 1.6s forwards;
+    animation: leftShell 5s linear 1.6s forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step2 .egg-shell.middle {
+    -webkit-animation: middleShell 5s linear 1.6s forwards;
+    -moz-animation: middleShell 5s linear 1.6s forwards;
+    -ms-animation: middleShell 5s linear 1.6s forwards;
+    -o-animation: middleShell 5s linear 1.6s forwards;
+    animation: middleShell 5s linear 1.6s forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step2 .egg-shell.right {
+    -webkit-animation: rightShell 5s linear 1.6s forwards;
+    -moz-animation: rightShell 5s linear 1.6s forwards;
+    -ms-animation: rightShell 5s linear 1.6s forwards;
+    -o-animation: rightShell 5s linear 1.6s forwards;
+    animation: rightShell 5s linear 1.6s forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step2 .chicken-bodies {
+    -webkit-animation: chickenHatch 5s linear 1.6s forwards;
+    -moz-animation: chickenHatch 5s linear 1.6s forwards;
+    -ms-animation: chickenHatch 5s linear 1.6s forwards;
+    -o-animation: chickenHatch 5s linear 1.6s forwards;
+    animation: chickenHatch 5s linear 1.6s forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step3 {
+    -webkit-animation: farmMove 3s linear forwards;
+    -moz-animation: farmMove 3s linear forwards;
+    -ms-animation: farmMove 3s linear forwards;
+    -o-animation: farmMove 3s linear forwards;
+    animation: farmMove 3s linear forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step3 .egg-shell.left {
+    -webkit-animation: leftShellLeave 3s linear forwards;
+    -moz-animation: leftShellLeave 3s linear forwards;
+    -ms-animation: leftShellLeave 3s linear forwards;
+    -o-animation: leftShellLeave 3s linear forwards;
+    animation: leftShellLeave 3s linear forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step3 .egg-shell.middle {
+    -webkit-animation: middleShellLeave 3s linear forwards;
+    -moz-animation: middleShellLeave 3s linear forwards;
+    -ms-animation: middleShellLeave 3s linear forwards;
+    -o-animation: middleShellLeave 3s linear forwards;
+    animation: middleShellLeave 3s linear forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step3 .egg-shell.right {
+    -webkit-animation: rightShellLeave 3s linear forwards;
+    -moz-animation: rightShellLeave 3s linear forwards;
+    -ms-animation: rightShellLeave 3s linear forwards;
+    -o-animation: rightShellLeave 3s linear forwards;
+    animation: rightShellLeave 3s linear forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step3 .chicken-bodies {
+    width: 160px;
+    -webkit-animation: chickenMove 3s linear forwards, chickenEats 5s linear 3s forwards;
+    -moz-animation: chickenMove 3s linear forwards, chickenEats 5s linear 3s forwards;
+    -ms-animation: chickenMove 3s linear forwards, chickenEats 5s linear 3s forwards;
+    -o-animation: chickenMove 3s linear forwards, chickenEats 5s linear 3s forwards;
+    animation: chickenMove 3s linear forwards, chickenEats 5s linear 3s forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step3 .chicken-feet {
+    -webkit-animation: feetMove 3s step-end forwards;
+    -moz-animation: feetMove 3s step-end forwards;
+    -ms-animation: feetMove 3s step-end forwards;
+    -o-animation: feetMove 3s step-end forwards;
+    animation: feetMove 3s step-end forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step3 .food-grain.left {
+    -webkit-animation: foodMove 3s linear forwards, leftGrain 5s linear 3s forwards;
+    -moz-animation: foodMove 3s linear forwards, leftGrain 5s linear 3s forwards;
+    -ms-animation: foodMove 3s linear forwards, leftGrain 5s linear 3s forwards;
+    -o-animation: foodMove 3s linear forwards, leftGrain 5s linear 3s forwards;
+    animation: foodMove 3s linear forwards, leftGrain 5s linear 3s forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step3 .food-grain.middle {
+    -webkit-animation: foodMove 3s linear forwards, middleGrain 5s linear 3s forwards;
+    -moz-animation: foodMove 3s linear forwards, middleGrain 5s linear 3s forwards;
+    -ms-animation: foodMove 3s linear forwards, middleGrain 5s linear 3s forwards;
+    -o-animation: foodMove 3s linear forwards, middleGrain 5s linear 3s forwards;
+    animation: foodMove 3s linear forwards, middleGrain 5s linear 3s forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step3 .food-grain.right {
+    -webkit-animation: foodMove 3s linear forwards, rightGrain 5s linear 3s forwards;
+    -moz-animation: foodMove 3s linear forwards, rightGrain 5s linear 3s forwards;
+    -ms-animation: foodMove 3s linear forwards, rightGrain 5s linear 3s forwards;
+    -o-animation: foodMove 3s linear forwards, rightGrain 5s linear 3s forwards;
+    animation: foodMove 3s linear forwards, rightGrain 5s linear 3s forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step4 {
+    background-position: -125px;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step4 .egg {
+    bottom: 57px;
+    -webkit-transform: translateX(-50%) rotate(75deg);
+    -moz-transform: translateX(-50%) rotate(75deg);
+    -ms-transform: translateX(-50%) rotate(75deg);
+    -o-transform: translateX(-50%) rotate(75deg);
+    transform: translateX(-50%) rotate(75deg);
+    -webkit-animation: eggLay 6s linear forwards;
+    -moz-animation: eggLay 6s linear forwards;
+    -ms-animation: eggLay 6s linear forwards;
+    -o-animation: eggLay 6s linear forwards;
+    animation: eggLay 6s linear forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step4 .chicken-bodies {
+    -webkit-animation: chickenLay 6s linear forwards;
+    -moz-animation: chickenLay 6s linear forwards;
+    -ms-animation: chickenLay 6s linear forwards;
+    -o-animation: chickenLay 6s linear forwards;
+    animation: chickenLay 6s linear forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step4 .chicken-feet {
+    opacity: 1;
+    background-position: -150px;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step5 {
+    background-position: -125px;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step5 .egg {
+    opacity: 1;
+    left: 39%;
+    bottom: 42px;
+    -webkit-animation: eggCrackSmall 4s linear 3s forwards, eggCrackMedium 3s linear 7s infinite forwards;
+    -moz-animation: eggCrackSmall 4s linear 3s forwards, eggCrackMedium 3s linear 7s infinite forwards;
+    -ms-animation: eggCrackSmall 4s linear 3s forwards, eggCrackMedium 3s linear 7s infinite forwards;
+    -o-animation: eggCrackSmall 4s linear 3s forwards, eggCrackMedium 3s linear 7s infinite forwards;
+    animation: eggCrackSmall 4s linear 3s forwards, eggCrackMedium 3s linear 7s infinite forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step5 .chicken-bodies {
+    -webkit-animation: chickenLeave 6s linear forwards;
+    -moz-animation: chickenLeave 6s linear forwards;
+    -ms-animation: chickenLeave 6s linear forwards;
+    -o-animation: chickenLeave 6s linear forwards;
+    animation: chickenLeave 6s linear forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container.step5 .chicken-feet {
+    background-position: -150px;
+    -webkit-animation: feetLeave 6s linear forwards;
+    -moz-animation: feetLeave 6s linear forwards;
+    -ms-animation: feetLeave 6s linear forwards;
+    -o-animation: feetLeave 6s linear forwards;
+    animation: feetLeave 6s linear forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container .clouds {
+    background: url("//d1eipm3vz40hy0.cloudfront.net/images/signup/clouds.png") 80px 0 no-repeat;
+    height: 104px;
+    position: relative;
+    -webkit-animation: cloudsStart 50s linear forwards, cloudsFloat 100s linear 50s infinite forwards;
+    -moz-animation: cloudsStart 50s linear forwards, cloudsFloat 100s linear 50s infinite forwards;
+    -ms-animation: cloudsStart 50s linear forwards, cloudsFloat 100s linear 50s infinite forwards;
+    -o-animation: cloudsStart 50s linear forwards, cloudsFloat 100s linear 50s infinite forwards;
+    animation: cloudsStart 50s linear forwards, cloudsFloat 100s linear 50s infinite forwards;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container .egg {
+    background: url("//d1eipm3vz40hy0.cloudfront.net/images/signup/eggs.png") 0 0 no-repeat;
+    position: absolute;
+    bottom: 42px;
+    left: 50%;
+    opacity: 0;
+    height: 43px;
+    width: 35px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container .chicken-feet {
+    background: url("//d1eipm3vz40hy0.cloudfront.net/images/signup/chicken-feets.svg") 0 0 no-repeat;
+    background-size: 200px 50px;
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    opacity: 0;
+    height: 50px;
+    width: 50px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container .chicken-bodies {
+    background: url("//d1eipm3vz40hy0.cloudfront.net/images/signup/chicken-body-full.svg") 0 0 no-repeat;
+    background-size: 450px 150px;
+    position: absolute;
+    bottom: 28px;
+    left: calc(48% + 4px);
+    opacity: 0;
+    height: 150px;
+    width: 158px;
+    z-index: 10;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container .egg-shell {
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    opacity: 0;
+    height: 50px;
+    width: 100px;
+    z-index: 10;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container .egg-shell.left {
+    background: url("//d1eipm3vz40hy0.cloudfront.net/images/signup/left-shell.svg") 0 0 no-repeat;
+    bottom: 51px;
+    left: 46%;
+    -webkit-transform: translateX(-50%) rotate(-50deg);
+    -moz-transform: translateX(-50%) rotate(-50deg);
+    -ms-transform: translateX(-50%) rotate(-50deg);
+    -o-transform: translateX(-50%) rotate(-50deg);
+    transform: translateX(-50%) rotate(-50deg);
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container .egg-shell.middle {
+    background: url("//d1eipm3vz40hy0.cloudfront.net/images/signup/middle-shell.svg") 0 0 no-repeat;
+    bottom: 30px;
+    -webkit-transform: translateX(-50%) rotate(0deg);
+    -moz-transform: translateX(-50%) rotate(0deg);
+    -ms-transform: translateX(-50%) rotate(0deg);
+    -o-transform: translateX(-50%) rotate(0deg);
+    transform: translateX(-50%) rotate(0deg);
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container .egg-shell.right {
+    background: url("//d1eipm3vz40hy0.cloudfront.net/images/signup/right-shell.svg") 0 0 no-repeat;
+    bottom: 48px;
+    left: 55%;
+    -webkit-transform: translateX(-50%) rotate(60deg);
+    -moz-transform: translateX(-50%) rotate(60deg);
+    -ms-transform: translateX(-50%) rotate(60deg);
+    -o-transform: translateX(-50%) rotate(60deg);
+    transform: translateX(-50%) rotate(60deg);
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container .food-grain {
+    position: absolute;
+    bottom: 32px;
+    right: -5%;
+    height: 20px;
+    width: 20px;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container .food-grain.left {
+    background: url("//d1eipm3vz40hy0.cloudfront.net/images/signup/left-grain.svg") 0 0 no-repeat;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container .food-grain.middle {
+    background: url("//d1eipm3vz40hy0.cloudfront.net/images/signup/middle-grain.svg") 0 0 no-repeat;
+}
+#module-zendesk-configuration article.reg-refresh .step-wrap .chicken-container .food-grain.right {
+    background: url("//d1eipm3vz40hy0.cloudfront.net/images/signup/right-grain.svg") 0 0 no-repeat;
+}
+#module-zendesk-configuration .smartling-it article.reg-refresh .step-wrap .col-right {
+    border: none !important;
+    float: none !important;
+    margin: 0 auto;
+}

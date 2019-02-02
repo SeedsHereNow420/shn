@@ -1,0 +1,159 @@
+.selector_all
+{
+    position: relative;
+    float: right;
+    margin-top: -3px;
+    margin-right: -5px;
+}
+.selector_all .selector_checkbox
+{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.selector_all .selector_checkbox:checked + .checkbox_styler
+{
+    color: #306147;
+    border-left: 1px solid #8D8C8C;
+    background: #549970; /* Old browsers */
+    background: -moz-linear-gradient(top, #a4c980 0%, #549970 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a4c980), color-stop(100%,#549970)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #a4c980 0%,#549970 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #a4c980 0%,#549970 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #a4c980 0%,#549970 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #a4c980 0%,#549970 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4c980', endColorstr='#549970',GradientType=0 ); /* IE6-9 */
+}
+.selector_all .checkbox_styler
+{
+    color: #555555;
+    line-height: 24px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 0 5px;
+    display: block;
+}
+
+.selector_item
+{
+    display: none;
+}
+.selector_item
+{
+    position: absolute;
+    z-index: 10;
+    left: -340px;
+    padding: 15px;
+    width: 420px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 1px solid #A7A7A7;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    top: 30px;
+    margin-bottom: 60px;
+}
+
+.select_combinations {
+    left: inherit;
+    top: inherit;
+    right: 0;
+    display: none;
+}
+
+#attributes_select {
+    display: none;
+}
+
+.selector_item.view_top
+{
+    top: auto!important;
+    bottom: 30px!important;
+}
+
+.selector_item > div:not(:last-child)
+{
+    margin-bottom: 5px;
+}
+.selector_container
+{
+    position: relative;
+    border: 1px solid #8D8C8C;
+    border-radius: 3px;
+    background: #f2f2f2;
+    background: -moz-linear-gradient(top, #f2f2f2 1%, #dbdbdb 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f2f2f2), color-stop(100%,#dbdbdb));
+    background: -webkit-linear-gradient(top, #f2f2f2 1%,#dbdbdb 100%);
+    background: -o-linear-gradient(top, #f2f2f2 1%,#dbdbdb 100%);
+    background: -ms-linear-gradient(top, #f2f2f2 1%,#dbdbdb 100%);
+    background: linear-gradient(to bottom, #f2f2f2 1%,#dbdbdb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#dbdbdb',GradientType=0 );
+    font-size: 13px;
+}
+
+.selector_label.open
+{
+    background: #ddfaff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ddfaff 0%, #9ce7f4 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ddfaff), color-stop(100%,#9ce7f4)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ddfaff 0%,#9ce7f4 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ddfaff 0%,#9ce7f4 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ddfaff 0%,#9ce7f4 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ddfaff 0%,#9ce7f4 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddfaff', endColorstr='#9ce7f4',GradientType=0 ); /* IE6-9 */
+    color: #4ac4cb;
+}
+
+.selector_container .selector_label
+{
+    padding: 3px 5px;
+}
+
+.selector_container a.selector_list,
+.selector_container a.selector_list:hover,
+.selector_container a.selector_list:active
+{
+    color: #6C6C6C;
+    text-decoration: none;
+}
+
+.selector_label.open a,
+.selector_label.open a:hover,
+.selector_label.open a:active
+{
+    color: #4ac4cb;
+}
+
+.selector_container .selector_count
+{
+    line-height: 18px;
+    margin-left: 6px;
+}
+
+
+.selector_item .pa_attributes
+{
+    color: #333333;
+}
+.selector_item .pa_quantity
+{
+    color: #1cc3cb;
+}
+.selector_item .pa_price
+{
+    color: #c96840;
+}
+.selector_item .pa_price_final
+{
+    color: #84240E;
+}
+#attributes_select > div > div {
+    padding-top: 15px;
+}
+.button.start_select_combinations {
+    margin-top: 15px;
+}

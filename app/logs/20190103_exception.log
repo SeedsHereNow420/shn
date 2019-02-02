@@ -1,0 +1,38 @@
+*ERROR* 	v1.7.2.4	2019/01/03 - 17:08:51: Shop not found at line 418 in file classes/shop/Shop.php
+*ERROR* 	v1.7.2.4	2019/01/03 - 17:08:53: Shop not found at line 418 in file classes/shop/Shop.php
+*ERROR* 	v1.7.2.4	2019/01/03 - 17:08:54: Shop not found at line 418 in file classes/shop/Shop.php
+*ERROR* 	v1.7.2.4	2019/01/03 - 17:10:06: Table 'jfzrgzddeg.ps_shop_url' doesn't exist<br /><br /><pre>SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM ps_shop_url su
+                    LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = '18.233.42.33' OR su.domain_ssl = '18.233.42.33')
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC</pre> at line 744 in file classes/db/Db.php
+*ERROR* 	v1.7.2.4	2019/01/03 - 17:37:28: Table 'jfzrgzddeg.ps_shop_url' doesn't exist<br /><br /><pre>SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM ps_shop_url su
+                    LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = '18.233.42.33' OR su.domain_ssl = '18.233.42.33')
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC</pre> at line 744 in file classes/db/Db.php
+*ERROR* 	v1.7.2.4	2019/01/03 - 17:49:21: Table 'jfzrgzddeg.ps_shop_url' doesn't exist<br /><br /><pre>SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM ps_shop_url su
+                    LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = '18.233.42.33' OR su.domain_ssl = '18.233.42.33')
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC</pre> at line 744 in file classes/db/Db.php
+*ERROR* 	v1.7.2.4	2019/01/03 - 17:58:55: Table 'jfzrgzddeg.ps_shop_url' doesn't exist<br /><br /><pre>SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM ps_shop_url su
+                    LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = '18.233.42.33' OR su.domain_ssl = '18.233.42.33')
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC</pre> at line 744 in file classes/db/Db.php
+*ERROR* 	v1.7.2.4	2019/01/03 - 18:16:58: Table 'jfzrgzddeg.ps_shop_url' doesn't exist<br /><br /><pre>SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM ps_shop_url su
+                    LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = '18.233.42.33' OR su.domain_ssl = '18.233.42.33')
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC</pre> at line 744 in file classes/db/Db.php

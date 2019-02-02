@@ -1,0 +1,8 @@
+Account activation
+
+Hello {firstname} {lastname},
+
+Please click the activation link below to activate your account:
+{link}
+
+{shop_name}

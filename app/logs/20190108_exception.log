@@ -1,0 +1,9 @@
+*ERROR* 	v1.7.2.4	2019/01/08 - 02:38:22: Module layerslider not found at line 51 in file classes/controller/ModuleAdminController.php
+*ERROR* 	v1.7.2.4	2019/01/08 - 10:30:32: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.4	2019/01/08 - 10:30:32: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.4	2019/01/08 - 10:30:32: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.4	2019/01/08 - 10:30:32: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.4	2019/01/08 - 10:30:32: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.4	2019/01/08 - 18:30:32: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.4	2019/01/08 - 18:30:32: Link to database cannot be established:SQLSTATE[HY000] [2002] No such file or directory at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.4	2019/01/08 - 15:38:06: Module layerslider not found at line 51 in file classes/controller/ModuleAdminController.php

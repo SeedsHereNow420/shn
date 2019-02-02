@@ -1,0 +1,1 @@
+{if $product_name_full}{$product_name|escape:'htmlall':'UTF-8'}{else}{$product_name|escape:'htmlall':'UTF-8'|truncate:$length_of_product_name:'...'}{/if}

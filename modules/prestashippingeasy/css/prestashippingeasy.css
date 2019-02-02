@@ -1,0 +1,26 @@
+.shipeasy {clear: both; margin: 0px auto; width: 930px; overflow: hidden;}
+.shipeasy h1{ font-size: 36px; color: #2C8B10;}
+.shipeasy p{ font-size: 15px;}
+.shipeasy fieldset {float: left; width: 895px; margin: 20px 10px 0; }
+.shipeasy form {float: left; width: 895px; }
+.shipeasy form input[type=submit]{margin: 0 20px 0; }
+.shipeasy form span {float: right; margin: 20px 0 0; }
+.shipeasy fieldset label {float: left; margin: 0; width: auto; }
+.callbackurl {width:100%;}
+label[for=active_on],label[for=active_off] {float:none; width:auto;}
+a.shipeasy-logo { display: inline-block;}
+p.shipeasy-intro { color: #1F7EC9; font-size: 18px; line-height: 22px; margin: 7px 20px 0px 0px; overflow: hidden; }
+p.shipeasy-intro a:hover { color: #717171; text-decoration: none; }
+p.shipeasy-intro a, p.shipeasy-sign-up a { color: #F0B310; font-size: 14px; font-weight: bold; text-decoration: none;}
+a.shipeasy-create-btn { background-color: #348826!important; color: #FFF!important; display: inline-block; font-size: 16px; font-weight: bold; height: 48px; line-height: 36px; margin: 0!important; padding: 5px!important;}
+a.shipeasy-create-btn span { font-size:24px; display: block; height: 48px; margin: 0px -20px 0px 0px; padding: 0px 20px 0px 0px; }
+.shipeasy-content { border-bottom: #808080 solid 1px; border-top: #808080 solid 1px; clear: both; margin: 15px 0px; padding: 15px 0px; position: relative; overflow: hidden; }
+.shipeasy-content p { color: #808080; font-size: 13px; line-height: 18px; margin-bottom: 15px; width: 500px}
+.shipeasy-content p.H3 { color: #2C8B10; font-size: 18px; width: 500px; }
+.shipeasy-content h3 { color: #2C8B10; font-size: 18px; font-weight: normal; line-height: 20px; letter-spacing: 2px; margin: 0px 0px 15px 0px; text-transform: none!important; }
+.shipeasy-content ul { list-style-type: circle; }
+.shipeasy-content ul li { color: #808080; font-size: 12px; margin: 0px; padding: 0px 0px 0px 15px; }
+.shipeasy-leftCol { border-right: #808080 solid 1px; margin-right: 435px; padding-right: 20px; }
+.shipeasy-leftCol h3 {margin-left:0px !important;}
+.shipeasy-video { margin: 0px; overflow: hidden; position: absolute; top: 10px; right: 0px; width: 420px; }
+.shipeasy-video p { margin-top: 0px; }

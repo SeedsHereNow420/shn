@@ -1,0 +1,42 @@
+.product_img_link img.front-image, .product_image img.front-image{
+	transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+	
+    transition: transform 400ms ease-in-out;
+	-o-transition: transform 400ms ease-in-out;
+	-ms-transition: transform 400ms ease-in-out;
+	-moz-transition: transform 400ms ease-in-out;
+	-webkit-transition: transform 400ms ease-in-out;
+}
+.product_img_link img.back-image, .product_image img.back-image{
+	left: 0;
+	top: 0;
+	transform: translate3d(0, 100%, 0);
+	-o-transform: translate3d(0, 100%, 0);
+	-ms-transform: translate3d(0, 100%, 0);
+	-moz-transform: translate3d(0, 100%, 0);
+	-webkit-transform: translate3d(0, 100%, 0);
+	
+    transition: transform 400ms ease-in-out;
+	-o-transition: transform 400ms ease-in-out;
+	-ms-transition: transform 400ms ease-in-out;
+	-moz-transition: transform 400ms ease-in-out;
+	-webkit-transition: transform 400ms ease-in-out;
+}
+.pro_first_box.showhoverimage img.back-image{
+    -webkit-transform:translate3d(0,0,0);
+	-moz-transform:translate3d(0,0,0);
+	-ms-transform:translate3d(0,0,0);
+	-o-transform:translate3d(0,0,0);
+	transform:translate3d(0,0,0);
+}
+.pro_first_box.showhoverimage img.front-image{
+	-webkit-transform:translate3d(0,-100%,0);
+	-moz-transform:translate3d(0,-100%,0);
+	-ms-transform:translate3d(0,-100%,0);
+	-o-transform:translate3d(0,-100%,0);
+	transform:translate3d(0,-100%,0);
+}

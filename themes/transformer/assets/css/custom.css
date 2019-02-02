@@ -1,0 +1,141 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+.demo_stores span, .demo_blogs span {
+  display: inline-block;
+  width: 260px; }
+
+.demo_stores span {
+  height: 300px;
+  background: url(/upload/stmegamenu/stores.jpg) no-repeat left top; }
+
+.demo_stores.demo_item_2 span {
+  background-position: left -300px; }
+
+.demo_stores.demo_item_3 span {
+  background-position: left -600px; }
+
+.demo_stores.demo_item_4 span {
+  background-position: left -900px; }
+
+.demo_stores.demo_item_5 span {
+  background-position: left -1200px; }
+
+.demo_stores.demo_item_6 span {
+  background-position: left -1500px; }
+
+.demo_stores.demo_item_7 span {
+  background-position: left -1800px; }
+
+.demo_stores.demo_item_8 span {
+  background-position: left -2100px; }
+
+.demo_stores.demo_item_9 span {
+  background-position: left -2400px; }
+
+.demo_stores.demo_item_10 span {
+  background-position: left -2700px; }
+
+.demo_stores.demo_item_11 span {
+  background-position: left -3000px; }
+
+.demo_stores.demo_item_12 span {
+  background-position: left -3300px; }
+
+.demo_stores.demo_item_13 span {
+  background-position: left -3600px; }
+
+.demo_stores.demo_item_14 span {
+  background-position: left -3900px; }
+
+.demo_stores.demo_item_15 span {
+  background-position: left -4200px; }
+
+.demo_stores.demo_item_16 span {
+  background-position: left -4500px; }
+
+.demo_stores.demo_item_17 span {
+  background-position: left -4800px; }
+
+.demo_stores.demo_item_18 span {
+  background-position: left -5100px; }
+
+.demo_stores.demo_item_19 span {
+  background-position: left -5400px; }
+
+.demo_blogs span {
+  height: 410px;
+  background: url(/upload/stmegamenu/blogs.jpg) no-repeat left top; }
+
+.demo_blogs.demo_item_2 span {
+  background-position: left -410px; }
+
+.demo_blogs.demo_item_3 span {
+  background-position: left -820px; }
+
+.demo_blogs.demo_item_4 span {
+  background-position: left -1230px; }
+
+.demo_blogs.demo_item_5 span {
+  background-position: left -1640px; }
+
+.demo_blogs.demo_item_6 span {
+  background-position: left -2050px; }
+
+.demo_blogs.demo_item_7 span {
+  background-position: left -2460px; }
+
+.demo_blogs.demo_item_8 span {
+  background-position: left -2870px; }
+
+.demo_blogs.demo_item_9 span {
+  background-position: left -3280px; }
+
+.demo_blogs.demo_item_10 span {
+  background-position: left -3690px; }
+
+.demo_blogs.demo_item_11 span {
+  background-position: left -4100px; }
+
+.demo_blogs.demo_item_12 span {
+  background-position: left -4510px; }
+
+.demo_blogs.demo_item_13 span {
+  background-position: left -4920px; }
+
+.demo_product_pages {
+  text-align: center;
+  display: inline-block;
+  width: 210px;
+  margin: 10px 6px; }
+  .demo_product_pages .demo_item_image {
+    display: block;
+    height: 160px;
+    background: url(/upload/stmegamenu/product_pages.jpg) no-repeat left top;
+    margin-bottom: 6px; }
+  .demo_product_pages .demo_item_name {
+    display: block;
+    height: 1.5em;
+    line-height: 1.5em;
+    overflow: hidden; }
+    .demo_product_pages .demo_item_name.two_rows {
+      height: 3em; }
+  .demo_product_pages.demo_item_2 .demo_item_image {
+    background-position: left -160px; }
+  .demo_product_pages.demo_item_3 .demo_item_image {
+    background-position: left -320px; }
+  .demo_product_pages.demo_item_4 .demo_item_image {
+    background-position: left -480px; }
+  .demo_product_pages.demo_item_5 .demo_item_image {
+    background-position: left -640px; }
+  .demo_product_pages.demo_item_6 .demo_item_image {
+    background-position: left -800px; }
+  .demo_product_pages.demo_item_7 .demo_item_image {
+    background-position: left -960px; }
+  .demo_product_pages.demo_item_8 .demo_item_image {
+    background-position: left -1120px; }
+  .demo_product_pages.demo_item_9 .demo_item_image {
+    background-position: left -1280px; }
+  .demo_product_pages.demo_item_10 .demo_item_image {
+    background-position: left -1440px; }

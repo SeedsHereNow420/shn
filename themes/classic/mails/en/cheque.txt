@@ -1,0 +1,32 @@
+[{shop_url}] 
+
+Hi {firstname} {lastname},
+
+Thank you for shopping with {shop_name}! 
+
+Your order with the reference {order_name} has been placed
+SUCCESSFULLY and will be SHIPPED AS SOON AS WE RECEIVE YOUR PAYMENT. 
+
+You have selected to Pay By Check. 
+
+Here are the bank details for filling out your check:
+
+AMOUNT: {total_paid}
+
+PAYABLE TO THE ORDER OF: {check_name}
+
+PLEASE MAIL YOUR CHECK TO: {check_address} 		 
+
+PLEASE NOTE: We recommend that you always add tracking
+to the payments you send. This way, you can verify their 
+location at all times and verify when they have been 
+delivered.
+
+You can review your order and download your invoice from the
+"Order History" [{history_url}]
+section of your customer account by clicking "My Account"
+[{my_account_url}] on Seeds Here Now. 
+
+{shop_name} [{shop_url}] Powered
+By LOST WONKA. ALL RIGHTS RESERVED
+

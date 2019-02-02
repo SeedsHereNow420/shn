@@ -1,0 +1,867 @@
+.panel {
+    border: solid 1px #ddd;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0 2px 0,#fff 0 0 0 3px inset;
+    box-shadow: rgba(0,0,0,0.1) 0 2px 0,#fff 0 0 0 3px inset;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.box_categories input[type=text]
+{
+    display: block;
+    width: 84%;
+    margin-left: 7px;
+    margin-top: 2px;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+}
+label.control-label span.label-tooltip {
+    text-decoration: none;
+    font-size: 13px;
+    color: #3586ae;
+    background-color: #edf7fb;
+    border: none;
+    border-bottom: solid 1px #d8edf7;
+    padding: 0 5px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.box_categories select {
+    display: block;
+    width: 100%;
+    height: 27px;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+}
+.form-group {
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 15px;
+}
+.control-label {
+    text-align: right;
+    margin-bottom: 0;
+    float: left;
+}
+.col-lg-5
+{
+    float: left;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.btn-default {
+    color: #555;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn.btn-default {
+    -webkit-box-shadow: #e6e6e6 0 -2px 0 inset;
+    box-shadow: #e6e6e6 0 -2px 0 inset;
+}
+.btn.btn-default:hover {
+    color: #fff;
+    background-color: #00aff0;
+    border-color: #008abd;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active
+{
+    color: #555;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.tree-actions .twitter-typeahead {
+    padding: 0 0 0 4px;
+}
+
+.form-group:before, .form-group:after {
+    content: " ";
+    display: table;
+}
+.form-group:after {
+    clear: both;
+}
+.box_categories_form .title_product
+{
+    margin-bottom: 20px!important;
+}
+.tt-hint
+{
+    left: 4px!important;
+}
+.tt-dropdown-menu
+{
+    left: 13px!important;
+    background: #FFFFFF;
+    border: 1px solid #bababa;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.tt-suggestion p
+{
+    padding: 0 5px;
+    line-height: 20px;
+    margin: 0;
+}
+.tt-suggestion p:hover
+{
+    background: #009cd6!important;
+    color: #FFFFFF!important;
+}
+#container_category_tree
+{
+    border: 0;
+    padding: 0;
+}
+.tree-panel-heading-controls
+{
+    margin: -20px -20px 20px;
+    padding: 5px;
+    border-bottom: solid 1px #dfdfdf;
+}
+
+.custom_responsive .btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.custom_responsive .btn-danger:hover, .custom_responsive .btn-danger:focus, .custom_responsive .btn-danger:active, .custom_responsive .btn-danger.active, .open>.custom_responsive .btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+#specific_prices_list
+{
+    margin-bottom: 5px!important;
+}
+
+.custom_responsive .form-control, .custom_responsive input[type="text"], .custom_responsive input[type="search"], .custom_responsive input[type="password"], .custom_responsive textarea, .custom_responsive select {
+    display: block;
+    width: 100%;
+    height: 27px;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    box-sizing: border-box;
+}
+.custom_responsive .input-group input[type="text"] {
+    display: table-cell;
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+.custom_responsive .input-group .form-control:last-child, .custom_responsive .input-group input[type="text"]:last-child, .custom_responsive .input-group input[type="search"]:last-child, .custom_responsive .input-group input[type="password"]:last-child, .custom_responsive .input-group textarea:last-child, .custom_responsive .input-group select:last-child, .custom_responsive .input-group-addon:last-child, .custom_responsive .input-group-btn:last-child>.btn, .custom_responsive .input-group-btn:last-child>.btn-group>.btn, .custom_responsive .input-group-btn:last-child>.dropdown-toggle, .custom_responsive .input-group-btn:first-child>.btn:not(:first-child), .custom_responsive .input-group-btn:first-child>.btn-group:not(:first-child)>.btn {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.custom_responsive .radio input[type="radio"], .custom_responsive .radio-inline input[type="radio"], .custom_responsive .checkbox input[type="checkbox"], .custom_responsive .checkbox-inline input[type="checkbox"] {
+    float: left;
+    margin-left: -20px;
+}
+.custom_responsive *
+{
+    box-sizing: border-box;
+}
+.row:after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.custom_responsive [class*=col-lg],
+.custom_responsive [class*=col-sm]
+{
+    float: left;
+}
+
+.custom_responsive .col-lg-12
+{
+    width: 100%;
+}
+.custom_responsive .col-lg-3
+{
+    width: 25%;
+}
+.custom_responsive .col-lg-4
+{
+    width: 33.3%;
+}
+.custom_responsive .col-lg-6
+{
+    width: 50%;
+}
+
+.custom_responsive .control-label
+{
+    font-size: 13px;
+    font-weight: normal;
+    color: #666;
+    text-align: left!important;
+    line-height: 20px;
+}
+
+.custom_responsive .col-sm-9
+{
+    width: 75%;
+}
+.custom_responsive .col-sm-3
+{
+    width: 25%;
+}
+
+label.control-label
+{
+    text-align: left;
+}
+.bootstrap .form-group {
+    margin-bottom: 0;
+}
+.bootstrap label {
+    margin-bottom: 0px !important;
+}
+.tree_categories_header a {
+    margin: 15px 0 !important;
+}
+.tree_categories_header {
+    padding: 0px;
+}
+.custom_responsive .pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 17px 0;
+    border-radius: 3px
+}
+#tab1 .col-lg-12 {
+    margin-top: 15px;
+}
+#tab1 .tree_custom_categories {
+    margin-top: 0;
+    padding-left: 0;
+}
+#tab16 > .row:not(:last-child) {
+    margin: 0;
+    padding-bottom: 0 !important;
+}
+.custom_responsive .pagination > li {
+    display: inline
+}
+#nav-sidebar ul.menu li.searchtab #bo_query {
+    margin: 0;
+}
+#nav-sidebar ul.menu li.searchtab .form-group.focus-search #bo_query {
+    margin: 0;
+}
+.custom_responsive .pagination > li > a, .custom_responsive .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 4px 8px;
+    line-height: 1.42857;
+    text-decoration: none;
+    color: #00aff0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px
+}
+
+.custom_responsive .pagination > li:first-child > a, .custom_responsive .pagination > li:first-child > span {
+    margin-left: 0;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px
+}
+
+.custom_responsive .pagination > li:last-child > a, .custom_responsive .pagination > li:last-child > span {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px
+}
+
+.select_products .search_row:not(:last-child), .select_attachments .search_row:not(:last-child) {
+    margin-bottom: 0;
+}
+.custom_responsive .pagination > li > a:hover, .custom_responsive .pagination > li > a:focus, .custom_responsive .pagination > li > span:hover, .custom_responsive .pagination > li > span:focus {
+    color: #0077a3;
+    background-color: #eee;
+    border-color: #ddd
+}
+
+.custom_responsive .pagination > .active > a, .custom_responsive .pagination > .active > a:hover, .custom_responsive .pagination > .active > a:focus, .custom_responsive .pagination > .active > span, .custom_responsive .pagination > .active > span:hover, .custom_responsive .pagination > .active > span:focus {
+    z-index: 2;
+    color: #fff;
+    background-color: #00aff0;
+    border-color: #00aff0;
+    cursor: default
+}
+
+.custom_responsive .pagination > .disabled > span, .custom_responsive .pagination > .disabled > span:hover, .custom_responsive .pagination > .disabled > span:focus, .custom_responsive .pagination > .disabled > a, .custom_responsive .pagination > .disabled > a:hover, .custom_responsive .pagination > .disabled > a:focus {
+    color: #999;
+    background-color: #fff;
+    border-color: #ddd;
+    cursor: not-allowed
+}
+
+.custom_responsive .pagination-lg > li > a, .custom_responsive .pagination-lg > li > span {
+    padding: 10px 16px;
+    font-size: 15px
+}
+
+.custom_responsive .pagination-lg > li:first-child > a, .custom_responsive .pagination-lg > li:first-child > span {
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px
+}
+
+.custom_responsive .pagination-lg > li:last-child > a, .custom_responsive .pagination-lg > li:last-child > span {
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px
+}
+
+.custom_responsive .pagination-sm > li > a, .custom_responsive .pagination-sm > li > span {
+    padding: 5px 10px;
+    font-size: 11px
+}
+
+.custom_responsive .pagination-sm > li:first-child > a, .custom_responsive .pagination-sm > li:first-child > span {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px
+}
+
+.custom_responsive .pagination-sm > li:last-child > a, .custom_responsive .pagination-sm > li:last-child > span {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px
+}
+
+.custom_responsive .pager {
+    padding-left: 0;
+    margin: 17px 0;
+    list-style: none;
+    text-align: center
+}
+
+.custom_responsive .pager:before, .custom_responsive .pager:after {
+    content: " ";
+    display: table
+}
+
+.custom_responsive .pager:after {
+    clear: both
+}
+
+.custom_responsive .pager li {
+    display: inline
+}
+
+.custom_responsive .pager li > a, .custom_responsive .pager li > span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px
+}
+
+.custom_responsive .pager li > a:hover, .custom_responsive .pager li > a:focus {
+    text-decoration: none;
+    background-color: #eee
+}
+
+.custom_responsive .pager .next > a, .custom_responsive .pager .next > span {
+    float: right
+}
+
+.custom_responsive .pager .previous > a, .custom_responsive .pager .previous > span {
+    float: left
+}
+
+.custom_responsive .pager .disabled > a, .custom_responsive .pager .disabled > a:hover, .custom_responsive .pager .disabled > a:focus, .custom_responsive .pager .disabled > span {
+    color: #999;
+    background-color: #fff;
+    cursor: not-allowed
+}
+#tab14 .wrap_file_input {
+    padding: 0;
+    font-size: inherit!important;
+    font-weight: normal!important;
+    color: #666;
+    text-transform: lowercase!important;
+}
+#tab14 .wrap_file_input input:hover {
+    color: #fff !important;
+}
+#tab14 span {
+    cursor: pointer;
+    line-height: 12px;
+}
+#content.bootstrap .panel .panel-heading {
+    font-family: "Ubuntu Condensed",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #555;
+    height: 32px;
+    margin: 0px;
+}
+#tab4 #setActiveAllProduct {
+    margin-top: 15px;
+}
+.tabs_content .panel-heading {
+    margin-bottom: 0;
+}
+.select_products, .select_attachments {
+    padding: 0px;
+}
+.tabs_content .col-lg-12 button {
+    margin-top: 0;
+}
+.tabs_content label {
+    color: inherit;
+    font-weight: inherit;
+}
+.bootstrap input,
+.bootstrap select,
+.bootstrap label,
+.bootstrap button:not(.dropdown-toggle),
+.bootstrap textarea {
+    margin-top: 15px;
+}
+.bootstrap .alert .close {
+    margin: 0;
+}
+.bootstrap .prestashop-switch {
+    margin-top: 15px;
+}
+.select_products, .select_attachments {
+    padding: 0px !important;
+}
+.select_products .search_row:not(:last-child), .select_attachments .search_row:not(:last-child) {
+    margin-bottom: 0;
+}
+
+#tab4 label {
+    display: block;
+    font-weight: normal;
+}
+.bootstrap ul, .bootstrap ol {
+    margin-bottom: 0;
+}
+.select_products .search_row input[type=button], .select_attachments .search_row input[type=button] {
+    margin-top: 15px !important;
+}
+#tab4 label input{
+    margin: -3px 0 0;
+}
+#tab6 .search_row {
+    margin-bottom: 0;
+}
+#tab7 .row label {
+    margin-top: 0 !important;
+}
+#tab6 .search_row .row {
+    padding-bottom: 0;
+}
+#tab8 .btn-group-radio label {
+    margin-top: 0;
+}
+#tab8 .row .col-lg-12 .col-lg-4 select {
+    margin-top: 0;
+}
+#tab9 #setFeaturesAllProduct {
+    margin-bottom: 0;
+}
+
+#tab13 .addAttribute,
+#tab13 .alert-info{
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+#tab13 .row label{
+    margin-top: 0;
+}
+#tab14 .wrap_file_input {
+    margin-top: 15px;
+}
+#tab14 #setAttachmentAllProduct {
+    margin: 15px 0;
+}
+#tab15 #setAdvancedStockManagementAllProduct {
+    margin: 15px 0;
+}
+#tab17 label.control-label{
+    margin-top: 0px;
+}
+#tab9 button.btn.btn-default.dropdown-toggle, #tab14 button.btn.btn-default.dropdown-toggle, #tab18 button.btn.btn-default.dropdown-toggle{
+    margin-top: 15px;
+}
+#tab8 .row .apply_change_tab8 {
+    bottom: 15px !important;
+    margin-top: 15px !important;
+}
+.apply_change {
+    margin-top: 0 !important;
+}
+.tree_custom .tree_root {
+    margin-bottom: 15px;
+}
+#tab8 .col-sm-2.control-label{
+    margin-top: 20px !important;
+}
+.search-products .search-quantity .control-label {
+    margin-top: 20px;
+    margin-left: 7px;
+}
+.mode_search .col-lg-6 .col-lg-6 {
+    padding: 0 5px;
+}
+#tab8 .apply_change2 {
+    bottom: 15px !important;
+    margin-top: 25px !important;
+}
+#tab8 .row .control-label{
+    padding-left: 0;
+}
+#tab8 .btn-group-radio span {
+    margin-left: -5px;
+}
+#tab8 .checkbox-delete {
+    padding: 0 5px;
+}
+#tab8 .col-lg-3 {
+    padding-left: 0;
+    padding-right: 10px;
+}
+#tab8 .col-lg-4, #tab8 .col-lg-6{
+    padding: 0;
+    padding-right: 10px;
+    margin-left: -5px;
+}
+#tab6 .left_column label, #tab6 .right_column label {
+    margin-top: 0;
+}
+#tab6 .row {
+    padding: 0 5px !important;
+}
+#tab2 .tax_rule {
+    margin-top: 0;
+}
+#tab6 .col-lg-12 {
+    padding: 0;
+}
+.search-quantity .control-label {
+    margin-right: 15px;
+    display: inline-block;
+}
+.search-quantity input {
+    width: 100px !important;
+    display: inline-block;
+}
+.delete_old_discount {
+    margin-top: 15px;
+}
+.delete_discount {
+    margin-bottom: 15px !important;
+}
+.tabs_content .tree_categories_header {
+    border: none;
+}
+.bootstrap input[type="radio"], .bootstrap input[type="checkbox"] {
+    vertical-align: middle;
+    margin: 0;
+}
+.wrapp_content .mode_search .row .row .col-lg-6 .col-lg-12{
+    padding-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px
+}
+.search-quantity {
+    padding: 0 !important;
+}
+.search-products .search-quantity{
+    display: inline-block;
+    margin-right: 15px;
+}
+.wrapp_content .mode_search .rowrow .row .col-lg-6 {
+    width: 48%;
+    margin: 4px;
+    border: none;
+}
+.search-prod,
+.select-lang {
+    line-height: 30px;
+}
+.search_product_name .btn-group-radio {
+    float: right!important;
+}
+@media (max-width: 1200px) {
+    .wrapp_content .mode_search .row .row .col-lg-6 {
+        width: 99%;
+    }
+    .mode_search .row .col-lg-6 {
+        margin-top: 10px;
+    }
+    .mode_search .tree_custom {
+        border-bottom: 1px solid #eee;
+    }
+    .label-meta {
+        padding: 15px 5px !important;
+    }
+    .label-metat {
+        padding-top: 15px !important;
+    }
+}
+.select_products .search_row select, .select_attachments .search_row select {
+    overflow: auto;
+}
+.popup_info_row button {
+    margin: 0;
+}
+.bootstrap .table {
+    width: 100%;
+    max-width: 1500px;
+    table-layout: fixed;
+}
+.bootstrap .table thead>tr>th {
+    word-break: break-all;
+}
+@media (max-width: 991px) {
+    .bootstrap .table>thead>tr>th,.bootstrap .table tr,  .bootstrap .table>thead>tr>td, .bootstrap .table>tbody>tr>th, .bootstrap .table>tbody>tr>td, .bootstrap .table>tfoot>tr>th, .bootstrap .table>tfoot>tr>td {
+        display: block;
+    }
+    .selector_item {
+        position: static !important;
+        width: auto !important;
+        margin-bottom: 0px !important;
+    }
+    .table_head {
+        display: none !important;
+    }
+    .bootstrap .table thead>tr {
+        border: 1px solid #ccc;
+        -webkit-box-shadow: #EAEDEF 0 2px 0 0;
+        box-shadow: #EAEDEF 0 2px 0 0;
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    .bootstrap .table thead>tr>th {
+        border: none;
+        font-weight: normal;
+        vertical-align: top;
+        border-bottom: solid 1px #a0d0eb;
+        height: 48px;
+    }
+    .bootstrap .table tbody tr>td {
+        background-color: #FCFDFE;
+        border-top: none;
+        color: #666;
+        padding: 3px 7px;
+        vertical-align: middle;
+        word-wrap: nowrap;
+        font-size: 12px;
+        border-bottom: solid 1px #EAEDEF;
+        position: relative;
+        padding-left: 35% !important;
+        width: 100% !important;
+        text-align: left !important;
+        line-height: 2em !important;
+        font-size: 1.15em !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .bootstrap .table td:before {
+        position: absolute;
+        top: 4px;
+        left: 12px;
+        width: 30%;
+        border-right: 1px solid #EAEDEF;
+        padding-right: 10px;
+        color: #aaa;
+        text-align: right;
+        font-size: 0.9em;
+        font-style: italic;
+        word-spacing: initial;
+        white-space: initial;
+        word-break: break-all;
+    }
+    .bootstrap .table td:hover {
+        background-color: #cbfcd1 !important;
+    }
+    .bootstrap .table tbody>tr:hover>td {
+        background-color: inherit !important;
+    }
+    .bootstrap .table tbody>tr {
+        border: 1px solid #bbb;
+        margin: 10px 0;
+        background-color: #FCFDFE;
+    }
+    .table_search_product table td:hover  {
+        background-color: #cbfcd1 !important;
+    }
+    .bootstrap .table>thead>tr>th, .bootstrap .table>thead>tr>td, .bootstrap .table>tbody>tr>th, .bootstrap .table>tbody>tr>td, .bootstrap .table>tfoot>tr>th, .bootstrap .table>tfoot>tr>td {
+        padding: 8px;
+        line-height: 1.42857;
+        vertical-align: top;
+        border-top: 1px solid #ddd;
+        word-break: break-all;
+        white-space: initial;
+    }
+    .bootstrap .table {
+        padding: 10px;
+    }
+    .table td:nth-of-type(1):before {
+        content: "ID";
+    }
+    .table td:nth-of-type(2):before {
+        content: "Изображение";
+    }
+    .table td:nth-of-type(3):before {
+        content: "Имя";
+    }
+    .table td:nth-of-type(4):before {
+        content: "Категория по умолчанию";
+    }
+    .table td:nth-of-type(5):before {
+        content: "Цена";
+    }
+    .table td:nth-of-type(6):before {
+        content: "Финальная цена";
+    }
+    .table td:nth-of-type(7):before {
+        content: "Производитель";
+    }
+    .table td:nth-of-type(8):before {
+        content: "Поставщик";
+    }
+    .table td:nth-of-type(9):before {
+        content: "Количество";
+    }
+    .table td:nth-of-type(10):before {
+        content: "Управление запасами";
+    }
+    .table td:nth-of-type(11):before {
+        content: "Активен";
+    }
+    @media (max-width: 670px) {
+        .bootstrap .table td:before {
+            text-align: left;
+        }
+        .bootstrap .table td:first-child:before {
+            text-align: center;
+        }
+        .bootstrap .table td:before {
+            width: 45%;
+        }
+        .bootstrap .table tbody tr>td {
+            padding-left: 50% !important;
+        }
+    }
+}
+.label-meta {
+    margin-top: 0 !important;
+}
+.label-metat {
+    margin-top: 0 !important;
+    padding-bottom: 15px !important;
+}
+.bootstrap .table_search_product .pagination ul {
+    margin: 15px 0 15px 15px;
+}
+#tab8 .row:nth-child(2) .apply_change_tab8 {
+    margin-bottom: 15px !important;
+    bottom: 0 !important;
+}
+#tab6 .select_products .search_row input[type=button],
+#tab14 .select_attachments .search_row input[type=button] {
+    margin: 0 auto;
+}
+label.control-label.col-lg-12.label-metat {
+    padding-bottom: 0 !important;
+}
+#tab2 .tax_rule {
+    margin-top: -15px;
+}
+
+.custom_bootstrap #content {
+    padding: 0 !important; }
+.custom_bootstrap #content label {
+    text-align: left; }
+#content.bootstrap #tab18 .panel {
+    padding: 20px;
+    margin-top: 10px;
+}
+#tab18 .tree-actions input {
+    margin-top: 0;
+}
+#tab18 #product-prices #unit_price {
+    margin-top: 0;
+}
+#tab18 #product-prices label[for=unit_price] {
+    margin-top: 6px;
+}
+
+.disable_option_feature {
+    float: right;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 16px;
+    height: 16px;
+    z-index: 4;
+}

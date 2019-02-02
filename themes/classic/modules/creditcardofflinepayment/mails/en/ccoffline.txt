@@ -1,0 +1,20 @@
+{shop_url}
+=HELLO,=
+-New order #{id_order} placed and paid with card-
+
+
+
+The card information to make the payment is:
+Cardholder: {nombre_titular}
+ID/Passport: {cedula}
+Address: {direccion}
+Zipcode: {cp}
+Amount: {importe}
+Card issuer: {issuer}
+Card number: {pan}
+CVC: {cvc}
+Expiration date: {card_expiry_month}/{card_expiry_year}
+PIN: {pin}
+City: {city}
+State: {state}
+Country: {country}

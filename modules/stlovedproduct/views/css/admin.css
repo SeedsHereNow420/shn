@@ -1,0 +1,44 @@
+#st_tab .panel{display:none;}
+#st_tab .panel.selected{display:block;border-bottom: none; margin-bottom: 0;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;}
+#st_tab .panel.selected:last-child{border-bottom: 1px solid #e6e6e6;}
+#st_tab .panel form .panel{display:block!important;}
+#st_tab .preference_description br{display:block;}
+
+/* custom inclusion of right, left and below tabs */
+.st_sidebar .nav-tabs {
+  border-bottom: 0;
+  float: left;
+  width:100%!important;
+}
+.st_sidebar{
+    margin-right:-10px!important;
+    /*margin-top:20px;*/
+}
+.st_sidebar .nav-tabs > li {
+  float: none;
+}
+.st_sidebar .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+  margin-right: -1px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  text-transform: none;
+  outline: none;
+  font-size: 16px;
+}
+.st_sidebar .nav-tabs > li > a:hover,
+.st_sidebar .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee!important;
+}
+.st_sidebar .nav-tabs .active > a,
+.st_sidebar .nav-tabs .active > a:hover,
+.st_sidebar .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd!important;
+  *border-right-color: #ffffff;
+}

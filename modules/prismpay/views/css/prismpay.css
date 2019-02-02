@@ -1,0 +1,88 @@
+#prismpay_Form {
+	    margin-bottom: 25px;
+    background: #f7f7f7;
+}
+#prismpay_Form label {
+    color: #555;
+    display: block;
+    font-size: 14px;
+    font-weight: 400
+}
+#prismpay_Form input {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    color: #333;
+    display: block;
+    font-size: 18px;
+    height: 32px;
+    padding: 0 5px;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box
+}
+#pc-cr-ctn{
+    width: 274px;
+}
+#prismpay_Form input::-webkit-input-placeholder {
+    color: #ddd
+}
+#prismpay_Form input:-moz-placeholder {
+    color: #ddd;
+    opacity: 1
+}
+#prismpay_Form input::-moz-placeholder {
+    color: #ddd;
+    opacity: 1
+}
+#prismpay_Form input:-ms-input-placeholder {
+    color: #ddd
+}
+#prismpay_Form input:focus {
+    outline: 1px solid #38d
+}
+#prismpay_Form #pc_cardnum {
+    background-image: url(../img/creditcard_logos.png), url(../img/creditcard_logos.png);
+background-position: 2px -40px, 260px 18px;
+background-size: 47px 290px, 57px 305px;
+    background-repeat: no-repeat;
+    padding-left: 54px;
+}
+table.pc-crd-dtl{
+width: 340px;
+}
+#prismpay_Form .visa #pc_cardnum {
+    background-position: 2px -83px, 260px 18px;
+}
+#prismpay_Form .visa_electron #pc_cardnum {
+    background-position: 2px -127px, 260px 18px;
+}
+#prismpay_Form  .mastercard  #pc_cardnum {
+background-position: 2px -172px, 260px 18px;
+}
+#prismpay_Form  .maestro #pc_cardnum {
+background-position: 2px -215px, 260px 18px;
+}
+#prismpay_Form .discover #pc_cardnum {
+    background-position: 2px -260px, 260px 18px;
+}
+#prismpay_Form .valid.visa #pc_cardnum {
+    background-position: 2px -83px, 260px -5px
+}
+#prismpay_Form  .valid.visa_electron #pc_cardnum {
+    background-position: 2px -127px, 260px -5px
+}
+#prismpay_Form .valid.mastercard #pc_cardnum {
+    background-position: 2px -172px, 260px -5px
+}
+#prismpay_Form  .valid.maestro  #pc_cardnum{
+    background-position: 2px -215px, 260px -5px
+}
+#prismpay_Form  .valid.discover #pc_cardnum {
+    background-position: 2px -260px, 260px -5px
+}
+#errlbctn .error{
+    background: #ec9595;
+    padding: 5px;
+    color: #fff;
+    border-radius: 1px;
+	margin-bottom:5px;
+}

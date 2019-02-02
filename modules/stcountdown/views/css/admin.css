@@ -1,0 +1,9 @@
+.mce-i-template:before { font-family: Material Icons; content: "flash_on"; color: #FF8230;}
+.fontshow{
+    border: 1px solid #CCCED7;
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    font-size:16px;
+    text-align:center;
+}

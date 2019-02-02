@@ -1,0 +1,275 @@
+name: transformer
+display_name: Transformer
+version: 4.0.9
+author:
+  name: "St-themes Team"
+  email: "helloleemj@gmail.com"
+  url: "http://www.sunnytoo.com"
+
+meta:
+  compatibility:
+      from: 1.7.1.0
+      to: ~
+
+  available_layouts:
+    layout-full-width:
+      name: Full Width
+      description: No side columns, ideal for distraction-free pages such as product pages.
+    layout-both-columns:
+      name: Three Columns
+      description: One large central column and 2 side columns.
+    layout-left-column:
+      name: Two Columns, small left column
+      description: Two columns with a small left column
+    layout-right-column:
+      name: Two Columns, small right column
+      description: Two columns with a small right column
+
+#assets:
+  # If you're using this theme as child and you want to load
+  # the parent theme assets, uncomment this line.
+  # use_parent_assets: true
+
+  # The following lines are showing how to load assets in your page
+  # Uncomment and change value to start loading css or js files
+#  css:
+#    all:
+#      - id: custom-lib-style
+#        path: assets/css/custom-lib.css
+#    product:
+#      - id: product-style
+#        path: assets/css/product.css
+#        media: all
+#        priority: 200
+#  js:
+#    cart:
+#      - id: cat-extra-lib
+#        path: assets/js/cart-lib.js
+
+
+global_settings:
+  configuration:
+    PS_IMAGE_QUALITY: png
+  hooks:
+    modules_to_hook: []
+  modules:
+    to_enable:
+      - stthemeeditor
+      - stlanguageselector
+      - stcurrencyselector
+      - stcustomersignin
+      - stmultilink
+      - stsearchbar
+      - stshoppingcart
+      - stmegamenu
+      - stswiper
+      - stowlcarousel
+      - sttags
+      - stnewsletter
+      - steasycontent
+      - stbanner
+      - stfeaturedslider
+      - stfeaturedcategories
+      - sthomenew
+      - stblog
+      - stblogeditor
+      - stblogfeaturedarticles
+      - stbrandsslider
+      - stspecialslider
+      - stproductcomments
+      - stblogrecentarticles
+      - stsocial
+      - stbestsellers
+      - stblogarchives
+      - stblogblockcategory
+      - stblogcomments
+      - stbloglinknav
+      - stblogrelatedarticles
+      - stblogsearch
+      - stblogtags
+      - stcountdown
+      - stfblikebox
+      - sthoverimage
+      - stinstagram
+      - stlovedproduct
+      - stnotification
+      - stpagebanner
+      - stproductcategoriesslider
+      - stproductlinknav
+      - stqrcode
+      - strelatedproducts
+      - stsidebar
+      - ststickers
+      - sttwitterembeddedtimelines
+      - stvideo
+      - stviewedproducts
+      - stwishlist
+      - stoverride
+    to_disable:
+      - ps_linklist
+      - ps_shoppingcart
+      - ps_emailsubscription
+      - ps_contactinfo
+      - ps_searchbar
+      - blockreassurance
+      - ps_currencyselector
+      - ps_mainmenu
+      - ps_languageselector
+      - ps_featuredproducts
+      - ps_sharebuttons
+      - ps_customtext
+      - ps_socialfollow
+      - ps_imageslider
+      - ps_customeraccountlinks
+      - ps_banner
+      - ps_customersignin
+      - statsregistrations
+      - statsnewsletter
+      - statsequipment
+      - statsbestsuppliers
+      - pagesnotfound
+      - statspersonalinfos
+      - welcome
+      - statsbestvouchers
+      - statsbestcustomers
+      - statsbestcategories
+
+  image_types:
+    cart_default:
+      width: 70
+      height: 80
+      scope: [products]
+    small_default:
+      width: 105
+      height: 120
+      scope: [products]
+    medium_default:
+      width: 370
+      height: 423
+      scope: [products, categories]
+    home_default:
+      width: 280
+      height: 320
+      scope: [products, categories]
+    large_default:
+      width: 700
+      height: 800
+      scope: [products]
+    category_default:
+      width: 140
+      height: 160
+      scope: [categories]
+    stores_default:
+      width: 270
+      height: 150
+      scope: [stores]
+    small_default_2x:
+      width: 210
+      height: 240
+      scope: [products]
+    medium_default_2x:
+      width: 740
+      height: 846
+      scope: [products, categories]
+    large_default_2x:
+      width: 1200
+      height: 1372
+      scope: [products]
+    home_default_2x:
+      width: 560
+      height: 640
+      scope: [products, categories]
+    category_default_2x:
+      width: 280
+      height: 320
+      scope: [categories]
+    brand_default_2x:
+      width: 308
+      height: 190
+      scope: [manufacturers, suppliers]
+    brand_default:
+      width: 154
+      height: 95
+      scope: [manufacturers, suppliers]
+    superlarge_default:
+      width: 1200
+      height: 1372
+      scope: [products]
+    superlarge_default_2x:
+      width: 1200
+      height: 1372
+      scope: [products]
+    cart_default_2x:
+      width: 140
+      height: 160
+      scope: [products]
+
+dependencies:
+  modules:
+    - stthemeeditor
+    - stbanner
+    - stbestsellers
+    - stblog
+    - stblogarchives
+    - stblogblockcategory
+    - stblogcomments
+    - stblogeditor
+    - stblogfeaturedarticles
+    - stbloglinknav
+    - stblogrecentarticles
+    - stblogrelatedarticles
+    - stblogsearch
+    - stblogtags
+    - stbrandsslider
+    - stcountdown
+    - stcurrencyselector
+    - stcustomersignin
+    - steasycontent
+    - stfblikebox
+    - stfeaturedcategories
+    - stfeaturedslider
+    - sthomenew
+    - sthoverimage
+    - stinstagram
+    - stlanguageselector
+    - stlovedproduct
+    - stmegamenu
+    - stmultilink
+    - stnewsletter
+    - stnotification
+    - stowlcarousel
+    - stpagebanner
+    - stproductcategoriesslider
+    - stproductlinknav
+    - stqrcode
+    - strelatedproducts
+    - stsearchbar
+    - stshoppingcart
+    - stsidebar
+    - stsocial
+    - stspecialslider
+    - ststickers
+    - stswiper
+    - sttags
+    - sttwitterembeddedtimelines
+    - stvideo
+    - stviewedproducts
+    - stwishlist
+    - stproductcomments
+    - stoverride
+    - stxlfgenerator
+
+theme_settings:
+  default_layout: layout-full-width
+  layouts:
+    category: layout-left-column
+    best-sales: layout-left-column
+    new-products: layout-left-column
+    prices-drop: layout-left-column
+    search: layout-left-column
+    manufacturer: layout-left-column
+    supplier: layout-left-column
+    module-stblog-category: layout-left-column
+    module-stblog-article: layout-left-column
+    module-stblogsearch-default: layout-left-column
+    module-stblogarchives-default: layout-left-column

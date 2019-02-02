@@ -1,0 +1,133 @@
+#st_tab .panel{display:none;}
+#st_tab .panel.selected{display:block;border-bottom: none; margin-bottom: 0;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;}
+#st_tab .panel.selected:last-child{border-bottom: 1px solid #e6e6e6;}
+#st_tab .panel form .panel{display:block!important;}
+#st_tab .preference_description br{display:block;}
+
+/* custom inclusion of right, left and below tabs */
+.st_sidebar .nav-tabs {
+  border-bottom: 0;
+  float: left;
+  width:100%!important;
+}
+.st_sidebar{
+    margin-right:-10px!important;
+    /*margin-top:20px;*/
+}
+.st_sidebar .nav-tabs > li {
+  float: none;
+}
+.st_sidebar .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+  margin-right: -1px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  text-transform: none;
+  outline: none;
+  font-size: 16px;
+}
+.st_sidebar .nav-tabs > li > a:hover,
+.st_sidebar .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee!important;
+}
+.st_sidebar .nav-tabs .active > a,
+.st_sidebar .nav-tabs .active > a:hover,
+.st_sidebar .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd!important;
+  *border-right-color: #ffffff;
+}
+
+.pattern{
+	display: block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	background-color: #fff;
+	margin: 0px 6px 6px 0;
+ }
+.delete_image{display:block;}
+.img_preview{max-height: 200px;}
+.st_thumb_nail{max-width: 200px;}
+.parttern_wrap{display:inline-block;position:relative;width: 60px;height:60px;overflow:hidden;margin-right:3px;}
+.parttern_wrap span{position:absolute;left:0;top:0;color:#333;display:inline-block;background:#fff;padding:2px;}
+.fontshow{
+    border: 1px solid #CCCED7;
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    font-size:16px;
+    text-align:center;
+}
+
+.fontello_list{
+  list-style: none;
+}
+.fontello_list li{
+  float: left;
+  min-width: 60px;
+}
+[class^="fto-"]:before, [class*=" fto-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  font-size: 16px;
+}
+.st_tab tr.filter{display:none;}
+label.circle{
+    display:inline-block;
+    background:#92d097;
+    border-radius:5px;
+    color:#fff;
+    width:22px;
+    height:15px;
+    vertical-align: baseline;
+    margin-right:3px;
+    text-align: center;
+}
+.pc_images_list li{
+  list-style: none;
+  float: left;
+  padding:0 10px 10px 0;
+  text-align: center;
+}
+.pc_images_list img{
+  display: block;
+  margin-bottom: 6px;
+  max-width: 120px;
+}
+.pc_images_list a{
+  display: block;
+}

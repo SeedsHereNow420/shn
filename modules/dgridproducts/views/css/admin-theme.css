@@ -1,0 +1,221 @@
+.panel {
+    border: solid 1px #ddd;
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0 2px 0,#fff 0 0 0 3px inset;
+    box-shadow: rgba(0,0,0,0.1) 0 2px 0,#fff 0 0 0 3px inset;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.box_categories input[type=text]
+{
+    display: block;
+    width: 84%;
+    margin-left: 7px;
+    margin-top: 2px;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+}
+label.control-label span.label-tooltip {
+    text-decoration: none;
+    font-size: 13px;
+    color: #3586ae;
+    background-color: #edf7fb;
+    border: none;
+    border-bottom: solid 1px #d8edf7;
+    padding: 0 5px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.box_categories select {
+    display: block;
+    width: 100%;
+    height: 27px;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+}
+.form-group {
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 15px;
+}
+.control-label {
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 5px;
+    float: left;
+}
+.col-lg-5
+{
+    float: left;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.btn-default {
+    color: #555;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn.btn-default {
+    -webkit-box-shadow: #e6e6e6 0 -2px 0 inset;
+    box-shadow: #e6e6e6 0 -2px 0 inset;
+}
+.btn.btn-default:hover {
+    color: #fff;
+    background-color: #00aff0;
+    border-color: #008abd;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active
+{
+    color: #555;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.tree-actions .twitter-typeahead {
+    padding: 0 0 0 4px;
+}
+
+.form-group:before, .form-group:after {
+    content: " ";
+    display: table;
+}
+.form-group:after {
+    clear: both;
+}
+.box_categories_form .title_product
+{
+    margin-bottom: 20px!important;
+}
+.tt-hint
+{
+    left: 4px!important;
+}
+.tt-dropdown-menu
+{
+    left: 13px!important;
+    background: #FFFFFF;
+    border: 1px solid #bababa;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.tt-suggestion p
+{
+    padding: 0 5px;
+    line-height: 20px;
+    margin: 0;
+}
+.tt-suggestion p:hover
+{
+    background: #009cd6!important;
+    color: #FFFFFF!important;
+}
+#container_category_tree
+{
+    border: 0;
+    padding: 0;
+}
+.tree-panel-heading-controls
+{
+    margin: -20px -20px 20px;
+    padding: 5px;
+    border-bottom: solid 1px #dfdfdf;
+}
+
+.bootstrap .btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.bootstrap .btn-danger:hover, .bootstrap .btn-danger:focus, .bootstrap .btn-danger:active, .bootstrap .btn-danger.active, .open>.bootstrap .btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+#specific_prices_list
+{
+    margin-bottom: 5px!important;
+}
+
+.bootstrap .form-control, .bootstrap input[type="text"], .bootstrap input[type="search"], .bootstrap input[type="password"], .bootstrap textarea, .bootstrap select {
+    display: block;
+    width: 100%;
+    height: 27px;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s,box-shadow ease-in-out 0.15s;
+    box-sizing: border-box;
+}
+.bootstrap .input-group input[type="text"] {
+    display: table-cell;
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+.bootstrap .input-group .form-control:last-child, .bootstrap .input-group input[type="text"]:last-child, .bootstrap .input-group input[type="search"]:last-child, .bootstrap .input-group input[type="password"]:last-child, .bootstrap .input-group textarea:last-child, .bootstrap .input-group select:last-child, .bootstrap .input-group-addon:last-child, .bootstrap .input-group-btn:last-child>.btn, .bootstrap .input-group-btn:last-child>.btn-group>.btn, .bootstrap .input-group-btn:last-child>.dropdown-toggle, .bootstrap .input-group-btn:first-child>.btn:not(:first-child), .bootstrap .input-group-btn:first-child>.btn-group:not(:first-child)>.btn {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.bootstrap .radio input[type="radio"], .bootstrap .radio-inline input[type="radio"], .bootstrap .checkbox input[type="checkbox"], .bootstrap .checkbox-inline input[type="checkbox"] {
+    float: left;
+    margin-left: -20px;
+}

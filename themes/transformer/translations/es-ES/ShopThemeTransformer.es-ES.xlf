@@ -1,0 +1,1466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en-US" target-language="es-ES" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="f73cc399b5ce12735a57f03414f09ef9" resname="Subcategories">
+        <source>Subcategories</source>
+        <target>Subcategorías</target>
+      </trans-unit>
+      <trans-unit id="09dc02ecbb078868a3a86dded030076d" resname="No products">
+        <source>No products</source>
+        <target>No hay productos</target>
+      </trans-unit>
+      <trans-unit id="ac1c8b10f902beb899e9350f6a73a246" resname="There are no products on the category.">
+        <source>There are no products on the category.</source>
+        <target>There are no products on the category.</target>
+      </trans-unit>
+      <trans-unit id="63d5049791d9d79d86e9a108b0a999ca" resname="Reference">
+        <source>Reference</source>
+        <target>Referencia</target>
+      </trans-unit>
+      <trans-unit id="189f63f277cd73395561651753563065" resname="Tags">
+        <source>Tags</source>
+        <target>Etiquetas</target>
+      </trans-unit>
+      <trans-unit id="49fa2426b7903b3d4c89e2c1874d9346" resname="More about">
+        <source>More about</source>
+        <target>Más sobre</target>
+      </trans-unit>
+      <trans-unit id="e2fd940b0a6ce6b8a01459550b53e959" resname="Toggle filters">
+        <source>Toggle filters</source>
+        <target>Alternar filtros</target>
+      </trans-unit>
+      <trans-unit id="b24344b6a2c4a94c9b0d0ebd4602aeca" resname="View more">
+        <source>View more</source>
+        <target>Ver más</target>
+      </trans-unit>
+      <trans-unit id="ddd939ce0f9bfb3f2caeb2924bbb705e" resname="Select options">
+        <source>Select options</source>
+        <target>Seleccione opciones</target>
+      </trans-unit>
+      <trans-unit id="b67dc2f157f2fde2b9ff23ae1ea127c7" resname="Limited special offer">
+        <source>Limited special offer</source>
+        <target>Oferta especial limitada</target>
+      </trans-unit>
+      <trans-unit id="1be6f9eb563f3bf85c78b4219bf09de9" resname="Brand">
+        <source>Brand</source>
+        <target>Marca</target>
+      </trans-unit>
+      <trans-unit id="7b3c20940670ce993d65580288f400af" resname="Click here to see all products of this brand">
+        <source>Click here to see all products of this brand</source>
+        <target>Haga clic aquí para ver todos los productos de esta marca</target>
+      </trans-unit>
+      <trans-unit id="4cbd24514aad8a62ae9691f7eb5500fc" resname="View all reviews">
+        <source>View all reviews</source>
+        <target>View all reviews</target>
+      </trans-unit>
+      <trans-unit id="2cd3a1900dd0060540b418b2a60f6eec" resname="Show all images">
+        <source>Show all images</source>
+        <target>Mostrar todas las imágenes</target>
+      </trans-unit>
+      <trans-unit id="ca82a26622d0b1f383e1302f7d1a14d6" resname="Limited time offer">
+        <source>Limited time offer</source>
+        <target>Oferta por tiempo limitado</target>
+      </trans-unit>
+      <trans-unit id="b3d7c37eb8d31a2ca32fdc5850306f60" resname="Grid view">
+        <source>Grid view</source>
+        <target>Vista en cuadrícula</target>
+      </trans-unit>
+      <trans-unit id="f13001876be336c48ead8577c8d809fe" resname="List view">
+        <source>List view</source>
+        <target>Vista de la lista</target>
+      </trans-unit>
+      <trans-unit id="b61541208db7fa7dba42c85224405911" resname="Menu">
+        <source>Menu</source>
+        <target>Menú</target>
+      </trans-unit>
+      <trans-unit id="d67b2f92fba3afdd2b0fd8784d842943" resname="New customers?">
+        <source>New customers?</source>
+        <target>¿Nuevos clientes?</target>
+      </trans-unit>
+      <trans-unit id="7d54e03ad7125d84a56616d97b6572f9" resname="It\'s quick and easy to create an account to shop faster and save your order to account.">
+        <source>It\'s quick and easy to create an account to shop faster and save your order to account.</source>
+        <target>Es rápido y fácil crear una cuenta para comprar más rápido y guardar su pedido en cuenta.</target>
+      </trans-unit>
+      <trans-unit id="dc95b3873e63aae82b503ffebbc3874c" resname="Registered customers">
+        <source>Registered customers</source>
+        <target>Clientes Registrados</target>
+      </trans-unit>
+      <trans-unit id="2938c7f7e560ed972f8a4f68e80ff834" resname="Dashboard">
+        <source>Dashboard</source>
+        <target>Dashboard</target>
+      </trans-unit>
+      <trans-unit id="c995f1d92345735f592c86713cdb86ce" resname="This site is under maintenance">
+        <source>This site is under maintenance</source>
+        <target>Este sitio está bajo mantenimiento</target>
+      </trans-unit>
+      <trans-unit id="9033e0e305f247c0c3c80d0c7848c8b3" resname="!">
+        <source>!</source>
+        <target>¡!</target>
+      </trans-unit>
+      <trans-unit id="ee254dec73b84bedf9b83d596a2cecdd" resname="Toggle left column">
+        <source>Toggle left column</source>
+        <target>Alternar columna izquierda</target>
+      </trans-unit>
+      <trans-unit id="f9e4884c7654daa6581b42ed90aeaba4" resname="Left column">
+        <source>Left column</source>
+        <target>Columna izquierda</target>
+      </trans-unit>
+      <trans-unit id="7aa3a6aacb162e2e3643077b91180b45" resname="Toggle right column">
+        <source>Toggle right column</source>
+        <target>Alternar columna derecha</target>
+      </trans-unit>
+      <trans-unit id="feb6cc332459769fe15570bf332a6b50" resname="Right column">
+        <source>Right column</source>
+        <target>Columna derecha</target>
+      </trans-unit>
+      <trans-unit id="f564b0cc09b7655a75674474e52b85db" resname="Please sign in first.">
+        <source>Please sign in first.</source>
+        <target>Please sign in first.</target>
+      </trans-unit>
+      <trans-unit id="b6d4223e60986fa4c9af77ee5f7149c5" resname="Sign in">
+        <source>Sign in</source>
+        <target>Registrarse</target>
+      </trans-unit>
+      <trans-unit id="0da8d9a75492046bea7f314521e07cae" resname="Payment methods">
+        <source>Payment methods</source>
+        <target>Métodos de pago</target>
+      </trans-unit>
+      <trans-unit id="ba8e5ddc34003b5b2a2059cbf6c526db" resname="Load More Products">
+        <source>Load More Products</source>
+        <target>Cargar más productos</target>
+      </trans-unit>
+      <trans-unit id="3cb29f0ccc5fd220a97df89dafe46290" resname="Top sellers">
+        <source>Top sellers</source>
+        <target>¡Lo más vendido!</target>
+      </trans-unit>
+      <trans-unit id="be8df1f28c0abc85a0ed0c6860e5d832" resname="Blog">
+        <source>Blog</source>
+        <target>Blog</target>
+      </trans-unit>
+      <trans-unit id="24fc6fbf93a9d551ea7da4cd69f3da3e" resname="(%s selected)">
+        <source>(%s selected)</source>
+        <target>(% S seleccionado)</target>
+      </trans-unit>
+      <trans-unit id="bebe39eef720d7cbb479d8b3428e4c04" resname="Group: %s">
+        <source>Group: %s</source>
+        <target>Grupo: %s</target>
+      </trans-unit>
+      <trans-unit id="0941e6250506a6c73a7a782e28a7f31c" resname="Posted on">
+        <source>Posted on</source>
+        <target>Publicado en</target>
+      </trans-unit>
+      <trans-unit id="58038ee4a4e2d0e2f764aa223fbecfae" resname="Just now">
+        <source>Just now</source>
+        <target>Justo ahora</target>
+      </trans-unit>
+      <trans-unit id="537c66b24ef5c83b7382cdc3f34885f2" resname="Year">
+        <source>Year</source>
+        <target>Año</target>
+      </trans-unit>
+      <trans-unit id="e4a00407f4e14849a66f076123f38494" resname="Years">
+        <source>Years</source>
+        <target>Años</target>
+      </trans-unit>
+      <trans-unit id="7cbb885aa1164b390a0bc050a64e1812" resname="Month">
+        <source>Month</source>
+        <target>Mes</target>
+      </trans-unit>
+      <trans-unit id="ef831a7b020689074c3df21c36dfc3c0" resname="Months">
+        <source>Months</source>
+        <target>Meses</target>
+      </trans-unit>
+      <trans-unit id="d2ce009594dcc60befa6a4e6cbeb71fc" resname="Week">
+        <source>Week</source>
+        <target>Semana</target>
+      </trans-unit>
+      <trans-unit id="be71e9f41f9bc90aa6c88d78954051c7" resname="Weeks">
+        <source>Weeks</source>
+        <target>Semanas</target>
+      </trans-unit>
+      <trans-unit id="03727ac48595a24daed975559c944a44" resname="Day">
+        <source>Day</source>
+        <target>Día</target>
+      </trans-unit>
+      <trans-unit id="e807d3ccf8d24c8c1a3d86db5da78da8" resname="Days">
+        <source>Days</source>
+        <target>Días</target>
+      </trans-unit>
+      <trans-unit id="b55e509c697e4cca0e1d160a7806698f" resname="Hour">
+        <source>Hour</source>
+        <target>Hora</target>
+      </trans-unit>
+      <trans-unit id="6a7e73161603d87b26a8eac49dab0a9c" resname="Hours">
+        <source>Hours</source>
+        <target>Horas de trabajo</target>
+      </trans-unit>
+      <trans-unit id="62902641c38f3a4a8eb3212454360e24" resname="Minute">
+        <source>Minute</source>
+        <target>Minuto</target>
+      </trans-unit>
+      <trans-unit id="f670ea66cfb0e90bd6090472ad692694" resname="Minutes">
+        <source>Minutes</source>
+        <target>Minutos</target>
+      </trans-unit>
+      <trans-unit id="6d0a578ca2f2c0e792fc923002fccbe3" resname="ago">
+        <source>ago</source>
+        <target>hace</target>
+      </trans-unit>
+      <trans-unit id="df3f079de6961496f0460dcfdbf9bca3" resname="by">
+        <source>by</source>
+        <target>por</target>
+      </trans-unit>
+      <trans-unit id="c101058e7ea21bbbf2a5ac893088e90b" resname="Tag">
+        <source>Tag</source>
+        <target>Etiqueta</target>
+      </trans-unit>
+      <trans-unit id="2f4e54ec9bebe1122b5c23217e764828" resname="This category is currently unavailable.">
+        <source>This category is currently unavailable.</source>
+        <target>Esta categoría no está disponible en este momento.</target>
+      </trans-unit>
+      <trans-unit id="5dba4ea347df6bb8582d76a1ef8fda3b" resname="No posts">
+        <source>No posts</source>
+        <target>No hay mensajes</target>
+      </trans-unit>
+      <trans-unit id="8413c683b4b27cc3f4dbd4c90329d8ba" resname="Comments">
+        <source>Comments</source>
+        <target>Comentarios</target>
+      </trans-unit>
+      <trans-unit id="0be8406951cdfda82f00f79328cf4efc" resname="Comment">
+        <source>Comment</source>
+        <target>Comentario</target>
+      </trans-unit>
+      <trans-unit id="88183b946cc5f0e8c96b2e66e1c74a7e" resname="Unknown">
+        <source>Unknown</source>
+        <target>Desconocido</target>
+      </trans-unit>
+      <trans-unit id="a03a2c3188e645a1856cc0a8b5b9a309" resname="Archive for">
+        <source>Archive for</source>
+        <target>Archivo de</target>
+      </trans-unit>
+      <trans-unit id="86f5978d9b80124f509bdb71786e929e" resname="January">
+        <source>January</source>
+        <target>Enero</target>
+      </trans-unit>
+      <trans-unit id="659e59f062c75f81259d22786d6c44aa" resname="February">
+        <source>February</source>
+        <target>Febrero</target>
+      </trans-unit>
+      <trans-unit id="fa3e5edac607a88d8fd7ecb9d6d67424" resname="March">
+        <source>March</source>
+        <target>Marzo</target>
+      </trans-unit>
+      <trans-unit id="3fcf026bbfffb63fb24b8de9d0446949" resname="April">
+        <source>April</source>
+        <target>Abril</target>
+      </trans-unit>
+      <trans-unit id="195fbb57ffe7449796d23466085ce6d8" resname="May">
+        <source>May</source>
+        <target>Mayo</target>
+      </trans-unit>
+      <trans-unit id="688937ccaf2a2b0c45a1c9bbba09698d" resname="June">
+        <source>June</source>
+        <target>Junio</target>
+      </trans-unit>
+      <trans-unit id="1b539f6f34e8503c97f6d3421346b63c" resname="July">
+        <source>July</source>
+        <target>Julio</target>
+      </trans-unit>
+      <trans-unit id="41ba70891fb6f39327d8ccb9b1dafb84" resname="August">
+        <source>August</source>
+        <target>Agosto</target>
+      </trans-unit>
+      <trans-unit id="cc5d90569e1c8313c2b1c2aab1401174" resname="September">
+        <source>September</source>
+        <target>Septiembre</target>
+      </trans-unit>
+      <trans-unit id="eca60ae8611369fe28a02e2ab8c5d12e" resname="October">
+        <source>October</source>
+        <target>Octubre</target>
+      </trans-unit>
+      <trans-unit id="7e823b37564da492ca1629b4732289a8" resname="November">
+        <source>November</source>
+        <target>Noviembre</target>
+      </trans-unit>
+      <trans-unit id="82331503174acbae012b2004f6431fa5" resname="December">
+        <source>December</source>
+        <target>Diciembre</target>
+      </trans-unit>
+      <trans-unit id="3a81b1c988c7819869edfc5ebad8b444" resname="Blog archives">
+        <source>Blog archives</source>
+        <target>Archivos del blog</target>
+      </trans-unit>
+      <trans-unit id="3cfd94e5b1e020a2b88c15f49d57886e" resname="Blog categories">
+        <source>Blog categories</source>
+        <target>Categorías del blog</target>
+      </trans-unit>
+      <trans-unit id="d3b16dc96995563bfaa6b9aa685feccf" resname="Invalid blog ID">
+        <source>Invalid blog ID</source>
+        <target>Blog ID invalido</target>
+      </trans-unit>
+      <trans-unit id="4dff297561fc55aefe04b5fb26dc95f2" resname="Your comment is too short. Please try again">
+        <source>Your comment is too short. Please try again</source>
+        <target>Tu comentario es demasiado corto. Por favor, inténtalo de nuevo</target>
+      </trans-unit>
+      <trans-unit id="f7be610de149d865c59ad5ffdc865ae4" resname="Customer name is empty">
+        <source>Customer name is empty</source>
+        <target>Nombre del cliente está vacía</target>
+      </trans-unit>
+      <trans-unit id="f20b37dde3bb1efae3b1ffb4d8a58585" resname="Customer email is invalidate">
+        <source>Customer email is invalidate</source>
+        <target>Email del cliente es invalida</target>
+      </trans-unit>
+      <trans-unit id="06855113a630ab927e6b36c1100914fe" resname="Please login to post a comment">
+        <source>Please login to post a comment</source>
+        <target>Logueate para publicar un comentario</target>
+      </trans-unit>
+      <trans-unit id="729efa82e79f51e0e9a4884e4fe13661" resname="Blog not found">
+        <source>Blog not found</source>
+        <target>Blog no encontrado</target>
+      </trans-unit>
+      <trans-unit id="5e31590ed82034bdc59db115e592ae69" resname="Thank you for your comment.">
+        <source>Thank you for your comment.</source>
+        <target>Gracias por tu comentario.</target>
+      </trans-unit>
+      <trans-unit id="e94f81965bcc5291cd57cbff7d2fa066" resname="Your comment may be awaiting moderation before being published.">
+        <source>Your comment may be awaiting moderation before being published.</source>
+        <target>Su comentario está pendiente de moderación.</target>
+      </trans-unit>
+      <trans-unit id="bf7d2a886102e50ff039f3f62f067c52" resname="Please refresh the page and try again">
+        <source>Please refresh the page and try again</source>
+        <target>Por favor, re-carga la página e inténtalo de nuevo</target>
+      </trans-unit>
+      <trans-unit id="389eda3f60b5756efc4cc8fd9db7fc04" resname="Avatar uploaded successfully">
+        <source>Avatar uploaded successfully</source>
+        <target>Avatar cargado correctamente</target>
+      </trans-unit>
+      <trans-unit id="99a1efe61dea09d05bf424c9b8988724" resname="Failed to upload avatar">
+        <source>Failed to upload avatar</source>
+        <target>Fallida al subir avatar</target>
+      </trans-unit>
+      <trans-unit id="a092b7e990c73bbd7d24534c7b263318" resname="This image is too large to be uploaded.">
+        <source>This image is too large to be uploaded.</source>
+        <target>Esta imagen es demasiado grande como para ser subida.</target>
+      </trans-unit>
+      <trans-unit id="2cb3efed36d07a236379e347369c6ed0" resname="Unable to upload this image, upload folder is not writable.">
+        <source>Unable to upload this image, upload folder is not writable.</source>
+        <target>No fue posible cargar esta imagen, el archivo de destino no tiene permiso de escritura.</target>
+      </trans-unit>
+      <trans-unit id="d5d5f6a5e68d69a07406c93188deedf4" resname="Avatar deleted successfully">
+        <source>Avatar deleted successfully</source>
+        <target>Avatar eliminado correctamente</target>
+      </trans-unit>
+      <trans-unit id="122bacdffd9cf893af42328f5e72e44b" resname="Failed to delete avatar">
+        <source>Failed to delete avatar</source>
+        <target>No se pudo eliminar el avatar</target>
+      </trans-unit>
+      <trans-unit id="a470939604c5868bbe55e210ca7976b8" resname="My comments of blog">
+        <source>My comments of blog</source>
+        <target>My comments of blog</target>
+      </trans-unit>
+      <trans-unit id="9f18ee985a83967e88020e0cd4c54264" resname="Blog comments">
+        <source>Blog comments</source>
+        <target>Comentarios</target>
+      </trans-unit>
+      <trans-unit id="32036005d1f6ed59803ba3e13c80993e" resname="Avatar">
+        <source>Avatar</source>
+        <target>Avatar</target>
+      </trans-unit>
+      <trans-unit id="299792fafd08fed4871019ed0a603afa" resname="Upload a new avatar(JPEG 80x80px)">
+        <source>Upload a new avatar(JPEG 80x80px)</source>
+        <target>Subir un nuevo avatar(JPEG 80x80px)</target>
+      </trans-unit>
+      <trans-unit id="91412465ea9169dfd901dd5e7c96dd99" resname="Upload">
+        <source>Upload</source>
+        <target>Subir</target>
+      </trans-unit>
+      <trans-unit id="18d2833f3521aae3659901e620253894" resname="Use default">
+        <source>Use default</source>
+        <target>Usar el predeterminado</target>
+      </trans-unit>
+      <trans-unit id="6f74a521f22ce5cb87045f191d1e40ac" resname="My Comments">
+        <source>My Comments</source>
+        <target>Mis comentarios</target>
+      </trans-unit>
+      <trans-unit id="521c36a31c2762741cf0f8890cbe05e3" resname="On">
+        <source>On</source>
+        <target>En</target>
+      </trans-unit>
+      <trans-unit id="25d8df6e580905091a0d5ef5b9e05bf0" resname="Reply">
+        <source>Reply</source>
+        <target>Responder</target>
+      </trans-unit>
+      <trans-unit id="4a190b7396189db19d3156a040898e6d" resname="Latest Comments">
+        <source>Latest Comments</source>
+        <target>Últimos comentarios</target>
+      </trans-unit>
+      <trans-unit id="ed2b5c0139cec8ad2873829dc1117d50" resname="on">
+        <source>on</source>
+        <target>en</target>
+      </trans-unit>
+      <trans-unit id="962491a09ce43604118343d78d4fdb2a" resname="No comments">
+        <source>No comments</source>
+        <target>Sin comentarios</target>
+      </trans-unit>
+      <trans-unit id="898a7414a92986350d30bf856123ca87" resname="Leave a Comment">
+        <source>Leave a Comment</source>
+        <target>Dejar un comentario</target>
+      </trans-unit>
+      <trans-unit id="7d584ae1dc7a65646c5f2073284f9be6" resname="Leave a Reply">
+        <source>Leave a Reply</source>
+        <target>Deja su comentario</target>
+      </trans-unit>
+      <trans-unit id="c8cf97015c98815234011807fce40a8e" resname="Name (required)">
+        <source>Name (required)</source>
+        <target>Nombre (obligatorio)</target>
+      </trans-unit>
+      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d" resname="Email">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="5f94404bf7a236db3599df0135a590ac" resname="Post comment">
+        <source>Post comment</source>
+        <target>Publicar comentario</target>
+      </trans-unit>
+      <trans-unit id="221a1031b8dbdfc36dfba7bbb259317b" resname="Cancel reply">
+        <source>Cancel reply</source>
+        <target>Cancelar respuesta</target>
+      </trans-unit>
+      <trans-unit id="dd10518dc14327620c725e78b82fb305" resname="Please [1]login[/1] to post a comment.">
+        <source>Please [1]login[/1] to post a comment.</source>
+        <target>Por favor [1]login[/1] para publicar un comentario.</target>
+      </trans-unit>
+      <trans-unit id="454aab9464f8eae9afa3bf0ac0ce891d" resname="You should wait %delay% seconds before posting a new comment.">
+        <source>You should wait %delay% seconds before posting a new comment.</source>
+        <target>Debería esperar %delay% segundos antes de publicar un nuevo comentario.</target>
+      </trans-unit>
+      <trans-unit id="38070661d5ad384d9c7d21895dc4e784" resname="Related products">
+        <source>Related products</source>
+        <target>Productos relacionados</target>
+      </trans-unit>
+      <trans-unit id="c7d463ae029acff1301095868842750b" resname="Recent articles">
+        <source>Recent articles</source>
+        <target>Artículos Recientes</target>
+      </trans-unit>
+      <trans-unit id="d14d7c73d84d73aaf09b9751f50d1afc" resname="Featured articles">
+        <source>Featured articles</source>
+        <target>Artículos relacionados</target>
+      </trans-unit>
+      <trans-unit id="8de4aa207531f5f6da407387e1e5c27c" resname="Previous article">
+        <source>Previous article</source>
+        <target>Artículo anterior</target>
+      </trans-unit>
+      <trans-unit id="33a1d8dcdb78887ccfcd41d7fac0fa65" resname="Next article">
+        <source>Next article</source>
+        <target>Artículo anterior</target>
+      </trans-unit>
+      <trans-unit id="14230d11143a03f4330c6433d5032a9d" resname="Prev">
+        <source>Prev</source>
+        <target>Anterior</target>
+      </trans-unit>
+      <trans-unit id="10ac3d04253ef7e1ddc73e6091c0cd55" resname="Next">
+        <source>Next</source>
+        <target>Siguiente</target>
+      </trans-unit>
+      <trans-unit id="164a2c547e23be9feca13912598efd75" resname="Related articles">
+        <source>Related articles</source>
+        <target>Artículos relacionados</target>
+      </trans-unit>
+      <trans-unit id="43340e6cc4e88197d57f8d6d5ea50a46" resname="Read more">
+        <source>Read more</source>
+        <target>Lee mas</target>
+      </trans-unit>
+      <trans-unit id="13348442cc6a27032d2b4aa28b75a5d3" resname="Search">
+        <source>Search</source>
+        <target>Buscar</target>
+      </trans-unit>
+      <trans-unit id="b2c56c8b57680e576c61c1b5df0d0c2d" resname="No results were found for your search">
+        <source>No results were found for your search</source>
+        <target>No se encontraron resultados para tu búsqueda</target>
+      </trans-unit>
+      <trans-unit id="3a93aed43691aed28d2ce3a53d3c63f8" resname="%d result has been found.">
+        <source>%d result has been found.</source>
+        <target>%d resultado ha sido encontrado.</target>
+      </trans-unit>
+      <trans-unit id="a09e4037d02313230a191007246e1694" resname="%d results have been found.">
+        <source>%d results have been found.</source>
+        <target>%d resultado ha sido encontrado.</target>
+      </trans-unit>
+      <trans-unit id="e3d388b2c43e5ba0905702620ae2abc1" resname="Search for">
+        <source>Search for</source>
+        <target>Buscar</target>
+      </trans-unit>
+      <trans-unit id="dd1f775e443ff3b9a89270713580a51b" resname="Previous">
+        <source>Previous</source>
+        <target>Anterior</target>
+      </trans-unit>
+      <trans-unit id="8f586a6f7d67739f6c83fa1e94a95f0b" resname="Blog search">
+        <source>Blog search</source>
+        <target>Búsqueda de blogs</target>
+      </trans-unit>
+      <trans-unit id="2b8ba42c8bb3f57b0d36f683bdc7e8ba" resname="No tags">
+        <source>No tags</source>
+        <target>No etiquetas</target>
+      </trans-unit>
+      <trans-unit id="84be54bb4bd1b755a27d86388700d097" resname="Brands">
+        <source>Brands</source>
+        <target>Marcas</target>
+      </trans-unit>
+      <trans-unit id="341b97a436284994121c7e009e1170d2" resname="Product Brands">
+        <source>Product Brands</source>
+        <target>Marcas de productos</target>
+      </trans-unit>
+      <trans-unit id="1d766602a6356248ab48c94b43026fb6" resname="No product Brands">
+        <source>No product Brands</source>
+        <target>No hay productos Marcas</target>
+      </trans-unit>
+      <trans-unit id="628b7db04235f228d40adc671413a8c8" resname="day">
+        <source>day</source>
+        <target>día</target>
+      </trans-unit>
+      <trans-unit id="44fdec47036f482b68b748f9d786801b" resname="days">
+        <source>days</source>
+        <target>días</target>
+      </trans-unit>
+      <trans-unit id="c760237f74bcc7e3f90ad956086edb66" resname="hrs">
+        <source>hrs</source>
+        <target>horas</target>
+      </trans-unit>
+      <trans-unit id="d8bd79cc131920d5de426f914d17405a" resname="min">
+        <source>min</source>
+        <target>min</target>
+      </trans-unit>
+      <trans-unit id="74459ca3cf85a81df90da95ff6e7a207" resname="sec">
+        <source>sec</source>
+        <target>segundo</target>
+      </trans-unit>
+      <trans-unit id="00c58c99c7d18513360d0185a2d85aab" resname="Currency selector">
+        <source>Currency selector</source>
+        <target>Selector de moneda</target>
+      </trans-unit>
+      <trans-unit id="f4f70727dc34561dfde1a3c529b6205c" resname="Settings">
+        <source>Settings</source>
+        <target>Ajustes</target>
+      </trans-unit>
+      <trans-unit id="2cbfb6731610056e1d0aaacde07096c1" resname="View my customer account">
+        <source>View my customer account</source>
+        <target>Ver mi cuenta de cliente</target>
+      </trans-unit>
+      <trans-unit id="4b877ba8588b19f1b278510bf2b57ebb" resname="Log me out">
+        <source>Log me out</source>
+        <target>Desconéctame</target>
+      </trans-unit>
+      <trans-unit id="c87aacf5673fada1108c9f809d354311" resname="Sign out">
+        <source>Sign out</source>
+        <target>Desconectar</target>
+      </trans-unit>
+      <trans-unit id="d4151a9a3959bdd43690735737034f27" resname="Log in to your customer account">
+        <source>Log in to your customer account</source>
+        <target>Acceda a su cuenta de cliente</target>
+      </trans-unit>
+      <trans-unit id="99dea78007133396a7b8ed70578ac6ae" resname="Login">
+        <source>Login</source>
+        <target>Iniciar sesión</target>
+      </trans-unit>
+      <trans-unit id="9d49ad109839c245a2b91451ab5be076" resname="Loved items">
+        <source>Loved items</source>
+        <target>Artículos amados</target>
+      </trans-unit>
+      <trans-unit id="641254d77e7a473aa5910574f3f9453c" resname="Wishlist">
+        <source>Wishlist</source>
+        <target>Lista de deseos</target>
+      </trans-unit>
+      <trans-unit id="01a569ddc6cf67ddec2a683f0a5f5956" resname="Forgot your password?">
+        <source>Forgot your password?</source>
+        <target>¿Olvidaste tu contraseña?</target>
+      </trans-unit>
+      <trans-unit id="2fdfd506efea08144c0794c32ca8250a" resname="Create an account">
+        <source>Create an account</source>
+        <target>Crea una cuenta</target>
+      </trans-unit>
+      <trans-unit id="d85544fce402c7a2a96a48078edaf203" resname="Facebook">
+        <source>Facebook</source>
+        <target>Facebook</target>
+      </trans-unit>
+      <trans-unit id="ddadcae3e0e8f747111903e9d995bc51" resname="Featured categories">
+        <source>Featured categories</source>
+        <target>Categorías Destacadas</target>
+      </trans-unit>
+      <trans-unit id="13c2058e83adc3598f8bd7967e4a310d" resname="No featured categories">
+        <source>No featured categories</source>
+        <target>No hay categorías destacadas</target>
+      </trans-unit>
+      <trans-unit id="cf8156f1f57a8603cd6b3a28c9c2c61b" resname="Featured Products">
+        <source>Featured Products</source>
+        <target>Productos Destacados</target>
+      </trans-unit>
+      <trans-unit id="9ff0635f5737513b1a6f559ac2bff745" resname="New products">
+        <source>New products</source>
+        <target>Nuevos productos</target>
+      </trans-unit>
+      <trans-unit id="3903aab323863bd2e9b68218a7a65ebd" resname="Follow">
+        <source>Follow</source>
+        <target>Síganos</target>
+      </trans-unit>
+      <trans-unit id="5dc52ca9ffdc26147075682c92a0a853" resname="Posts">
+        <source>Posts</source>
+        <target>Contenido</target>
+      </trans-unit>
+      <trans-unit id="24c714ccb3857346b52bfe17e287d210" resname="Followers">
+        <source>Followers</source>
+        <target>Seguidores</target>
+      </trans-unit>
+      <trans-unit id="6f796b0e6deb4f4c2c0ee0ed5e10e117" resname="Following">
+        <source>Following</source>
+        <target>Seguiendo</target>
+      </trans-unit>
+      <trans-unit id="c538b29b410ea1b6b2ba82defaeaa7ea" resname="View in Instagram">
+        <source>View in Instagram</source>
+        <target>Vistazo en Instagram</target>
+      </trans-unit>
+      <trans-unit id="dc12c0f99de0cc6e5a28a2b39a276936" resname="Click to view larger">
+        <source>Click to view larger</source>
+        <target>Haz un vistazo grande</target>
+      </trans-unit>
+      <trans-unit id="9aa587bfb76008ca6b764747b7e43aff" resname="from now">
+        <source>from now</source>
+        <target>a partir de ahora</target>
+      </trans-unit>
+      <trans-unit id="099899e9baf0268431b66c98ca342205" resname="any moment now">
+        <source>any moment now</source>
+        <target>cualquier momento ahora</target>
+      </trans-unit>
+      <trans-unit id="6f868bbac8c98a848d1d8cdca1fdcba4" resname="less than a minute">
+        <source>less than a minute</source>
+        <target>menos de un minuto</target>
+      </trans-unit>
+      <trans-unit id="baa77686ef8bf03ed13d8024727e280d" resname="about a minute">
+        <source>about a minute</source>
+        <target>alrededor de un minuto</target>
+      </trans-unit>
+      <trans-unit id="640fd0cc0ffa0316ae087652871f4486" resname="minutes">
+        <source>minutes</source>
+        <target>minutos</target>
+      </trans-unit>
+      <trans-unit id="277651963931f6a38e1d8029f8f55ca6" resname="about an hour">
+        <source>about an hour</source>
+        <target>alrededor de una hora</target>
+      </trans-unit>
+      <trans-unit id="5788e17e590a1bac33ce41645f83b00e" resname="about #d hours">
+        <source>about #d hours</source>
+        <target>aproximadamente #d horas</target>
+      </trans-unit>
+      <trans-unit id="849490640e65410418220e5c179a1477" resname="a day">
+        <source>a day</source>
+        <target>un día</target>
+      </trans-unit>
+      <trans-unit id="70ea691fc556bf60f6fb1c03f3fbc4c5" resname="about a month">
+        <source>about a month</source>
+        <target>alrededor de un mes</target>
+      </trans-unit>
+      <trans-unit id="da36cfaf48b9e19896e23e1207040d1e" resname="months">
+        <source>months</source>
+        <target>meses</target>
+      </trans-unit>
+      <trans-unit id="4af3f2ea17981b46fc0ed4351e130f65" resname="about a year">
+        <source>about a year</source>
+        <target>alrededor de un año</target>
+      </trans-unit>
+      <trans-unit id="75aeb98e5241592ad6a6c2c4c78a16ef" resname="years">
+        <source>years</source>
+        <target>años</target>
+      </trans-unit>
+      <trans-unit id="bd949c553522f212b60b94048762eca9" resname="Can not connect to Instagram or you do not have permissions to get media from Instagram.">
+        <source>Can not connect to Instagram or you do not have permissions to get media from Instagram.</source>
+        <target>No se puede conectar a Instagram o no tienes permisos para obtener medios de Instagram.</target>
+      </trans-unit>
+      <trans-unit id="77b65f3dbd7f79da73c04351f64eba97" resname="No images">
+        <source>No images</source>
+        <target>No hay imágenes</target>
+      </trans-unit>
+      <trans-unit id="f6b5f35f6564a567f1810df0b730e3dc" resname="Load more">
+        <source>Load more</source>
+        <target>Carga más</target>
+      </trans-unit>
+      <trans-unit id="0f9ab8032abb6075c0744049018d078f" resname="Follow us on Instagram">
+        <source>Follow us on Instagram</source>
+        <target>Síguenos en Instagram</target>
+      </trans-unit>
+      <trans-unit id="38b8ef09a16dcd7478c622ca3cb58729" resname="No media">
+        <source>No media</source>
+        <target>Sin contenido</target>
+      </trans-unit>
+      <trans-unit id="d67948e84a87361c893a842b1916904d" resname="Language selector">
+        <source>Language selector</source>
+        <target>Selector de idioma</target>
+      </trans-unit>
+      <trans-unit id="41495e85a963f4eec1d505ff44225f9d" resname="Method doesn\'t exist">
+        <source>Method doesn\'t exist</source>
+        <target>El método no existe</target>
+      </trans-unit>
+      <trans-unit id="6253e193e6e17cb8255eb66deff72289" resname="Product deleted">
+        <source>Product deleted</source>
+        <target>Producto eliminado</target>
+      </trans-unit>
+      <trans-unit id="a3ce1b5ee93e47691191b32f6fb3f620" resname="Failed to delete  this product">
+        <source>Failed to delete  this product</source>
+        <target>No se pudo eliminar este producto</target>
+      </trans-unit>
+      <trans-unit id="71603896daaff64ea5222aef6dbcab02" resname="Loved it!">
+        <source>Loved it!</source>
+        <target>¡Me encantó!</target>
+      </trans-unit>
+      <trans-unit id="5b789a60f897ed9eb87fd1e453477233" resname="Adding to love failed">
+        <source>Adding to love failed</source>
+        <target>Añadir a favoritos fallo</target>
+      </trans-unit>
+      <trans-unit id="850d8cde02eff8a434aa79fd066dbaf1" resname="My loved products">
+        <source>My loved products</source>
+        <target>Mis productos favoritos</target>
+      </trans-unit>
+      <trans-unit id="f2a6c498fb90ee345d997f888fce3b18" resname="Delete">
+        <source>Delete</source>
+        <target>Eliminar</target>
+      </trans-unit>
+      <trans-unit id="08b645f1217b4c62d85c77bf8f15b337" resname="My loved articles">
+        <source>My loved articles</source>
+        <target>Mis artículos favoritos</target>
+      </trans-unit>
+      <trans-unit id="0efc8436967cae0be4f434cf62a36c6e" resname="You haven\'t loved yet.">
+        <source>You haven\'t loved yet.</source>
+        <target>No está en tus favoritos.</target>
+      </trans-unit>
+      <trans-unit id="8bd7a1153a88761ad9d37e2f2394c947" resname="Love">
+        <source>Love</source>
+        <target>Favorito</target>
+      </trans-unit>
+      <trans-unit id="02ad491669caf45b91a184ecc0fc3e85" resname="Create a free account to save loved items.">
+        <source>Create a free account to save loved items.</source>
+        <target>Crear una cuenta gratuita para guardar tus favoritos.</target>
+      </trans-unit>
+      <trans-unit id="f19d27898ef0c30f121e74405f95f575" resname="Add to loved">
+        <source>Add to loved</source>
+        <target>Agregado a favoritos</target>
+      </trans-unit>
+      <trans-unit id="0a462ea5aa21cea3cad641f9355dbd62" resname="View my loved products">
+        <source>View my loved products</source>
+        <target>Ver mis productos favoritos</target>
+      </trans-unit>
+      <trans-unit id="67ab2fcc44b513a6051717d67479a81e" resname="Loved">
+        <source>Loved</source>
+        <target>Me ha gustado</target>
+      </trans-unit>
+      <trans-unit id="a9c3acbd7574939f7bbf44dc141cd252" resname="My loved items">
+        <source>My loved items</source>
+        <target>Mis artículos amados</target>
+      </trans-unit>
+      <trans-unit id="d3d2e617335f08df83599665eef8a418" resname="Close">
+        <source>Close</source>
+        <target>Cerca</target>
+      </trans-unit>
+      <trans-unit id="c65b71a9e2448d9113d537336206b813" resname="Loved products">
+        <source>Loved products</source>
+        <target>Productos queridos</target>
+      </trans-unit>
+      <trans-unit id="053ef796632515ed6b0ca867ebf7ec42" resname="Loved articles">
+        <source>Loved articles</source>
+        <target>Artículos amados</target>
+      </trans-unit>
+      <trans-unit id="1776af3cd4354cb742a4d740aeff1392" resname="No items">
+        <source>No items</source>
+        <target>No hay artículos</target>
+      </trans-unit>
+      <trans-unit id="0b4db271fc4624853e634ef6882ea8be" resname="View all">
+        <source>View all</source>
+        <target>Ver todo</target>
+      </trans-unit>
+      <trans-unit id="5bbb97c30e82ad5460486bf0ef409a18" resname="Create a free account to save loved products and articles.">
+        <source>Create a free account to save loved products and articles.</source>
+        <target>Crear una cuenta gratuita para guardar los productos y artículos amados.</target>
+      </trans-unit>
+      <trans-unit id="af1b98adf7f686b84cd0b443e022b7a0" resname="Categories">
+        <source>Categories</source>
+        <target>Categorías</target>
+      </trans-unit>
+      <trans-unit id="d95cf4ab2cbf1dfb63f066b50558b07d" resname="My account">
+        <source>My account</source>
+        <target>My account</target>
+      </trans-unit>
+      <trans-unit id="4ad22eefecca9d26b9aaef0937d3cdc5" resname="manage my customer account">
+        <source>manage my customer account</source>
+        <target>manage my customer account</target>
+      </trans-unit>
+      <trans-unit id="74ecd9234b2a42ca13e775193f391833" resname="My orders">
+        <source>My orders</source>
+        <target>My orders</target>
+      </trans-unit>
+      <trans-unit id="e6078daebed328ba21fbf5dbe3c57cda" resname="my merchandise returns">
+        <source>my merchandise returns</source>
+        <target>my merchandise returns</target>
+      </trans-unit>
+      <trans-unit id="5973e925605a501b18e48280f04f0347" resname="My returns">
+        <source>My returns</source>
+        <target>My returns</target>
+      </trans-unit>
+      <trans-unit id="9132bc7bac91dd4e1c453d4e96edf219" resname="My credit slips">
+        <source>My credit slips</source>
+        <target>My credit slips</target>
+      </trans-unit>
+      <trans-unit id="e45be0a0d4a0b62b15694c1a631e6e62" resname="My addresses">
+        <source>My addresses</source>
+        <target>My addresses</target>
+      </trans-unit>
+      <trans-unit id="63b1ba91576576e6cf2da6fab7617e58" resname="My personal info">
+        <source>My personal info</source>
+        <target>My personal info</target>
+      </trans-unit>
+      <trans-unit id="ee809017ace3e088bf5bff57b7b25519" resname="manage my personal information">
+        <source>manage my personal information</source>
+        <target>manage my personal information</target>
+      </trans-unit>
+      <trans-unit id="95d2137c196c7f84df5753ed78f18332" resname="My vouchers">
+        <source>My vouchers</source>
+        <target>My vouchers</target>
+      </trans-unit>
+      <trans-unit id="d1aa22a3126f04664e0fe3f598994014" resname="Specials">
+        <source>Specials</source>
+        <target>Promociones especiales</target>
+      </trans-unit>
+      <trans-unit id="34c869c542dee932ef8cd96d2f91cae6" resname="Our stores">
+        <source>Our stores</source>
+        <target>Our stores</target>
+      </trans-unit>
+      <trans-unit id="02d4482d332e1aef3437cd61c9bcc624" resname="Contact us">
+        <source>Contact us</source>
+        <target>Contact us</target>
+      </trans-unit>
+      <trans-unit id="5813ce0ec7196c492c97596718f71969" resname="Sitemap">
+        <source>Sitemap</source>
+        <target>Sitemap</target>
+      </trans-unit>
+      <trans-unit id="ffb7e666a70151215b4c55c6268d7d72" resname="Newsletter">
+        <source>Newsletter</source>
+        <target>Hoja informativa</target>
+      </trans-unit>
+      <trans-unit id="625f93a63da35ee7150341160460f31e" resname="Your e-mail">
+        <source>Your e-mail</source>
+        <target>Tu correo electrónico</target>
+      </trans-unit>
+      <trans-unit id="b26917587d98330d93f87808fc9d7267" resname="Subscribe">
+        <source>Subscribe</source>
+        <target>Suscribir</target>
+      </trans-unit>
+      <trans-unit id="85ad208b585d1e5db413e485c53c87f3" resname="Do not show again">
+        <source>Do not show again</source>
+        <target>No mostrar de nuevo</target>
+      </trans-unit>
+      <trans-unit id="b78a3223503896721cca1303f776159b" resname="Title">
+        <source>Title</source>
+        <target>Título</target>
+      </trans-unit>
+      <trans-unit id="96d008db67fc0b5551a926842bbb6a71" resname="Notification">
+        <source>Notification</source>
+        <target>Notificación</target>
+      </trans-unit>
+      <trans-unit id="08bd40c7543007ad06e4fce31618f6ec" resname="Account">
+        <source>Account</source>
+        <target>Cuenta</target>
+      </trans-unit>
+      <trans-unit id="501891ad8688cce296ab7709c9a40479" resname="Recaptcha site key and secret key required.">
+        <source>Recaptcha site key and secret key required.</source>
+        <target>Recaptcha site key and secret key required.</target>
+      </trans-unit>
+      <trans-unit id="04b31a7b464d670eeb0baaabb71084e2" resname="Recaptcha validate failed.">
+        <source>Recaptcha validate failed.</source>
+        <target>Recaptcha validate failed.</target>
+      </trans-unit>
+      <trans-unit id="ac704ef275778d9b3ce24862705bf9f0" resname="Invalid Product ID">
+        <source>Invalid Product ID</source>
+        <target>Invalid Product ID</target>
+      </trans-unit>
+      <trans-unit id="dfbe69c6d9568ecb0e65e7b32ed92a3a" resname="Product not found">
+        <source>Product not found</source>
+        <target>Product not found</target>
+      </trans-unit>
+      <trans-unit id="957952a87acc3c8a823bea64a59846fb" resname="Invalid parameter">
+        <source>Invalid parameter</source>
+        <target>Invalid parameter</target>
+      </trans-unit>
+      <trans-unit id="1e8dd96c5b2cbe90687f4f48b840ae32" resname="Invalid name">
+        <source>Invalid name</source>
+        <target>Invalid name</target>
+      </trans-unit>
+      <trans-unit id="797b5c17c0eb1a97a82ee683ebbff90f" resname="Thank you for your reply.">
+        <source>Thank you for your reply.</source>
+        <target>Thank you for your reply.</target>
+      </trans-unit>
+      <trans-unit id="07b8c09e490f7afbdcfa9cd5bfcfd4a9" resname="An error occurred during the image upload.">
+        <source>An error occurred during the image upload.</source>
+        <target>An error occurred during the image upload.</target>
+      </trans-unit>
+      <trans-unit id="b6a9fb485250d00ec76fece4c59d47bd" resname="Please upload an image.">
+        <source>Please upload an image.</source>
+        <target>Please upload an image.</target>
+      </trans-unit>
+      <trans-unit id="e7824dadd49c42208df1fedd25b6202d" resname="Invalid parameters">
+        <source>Invalid parameters</source>
+        <target>Invalid parameters</target>
+      </trans-unit>
+      <trans-unit id="34e80a799d144cfe4af46815e103f017" resname="Reviews">
+        <source>Reviews</source>
+        <target>Reviews</target>
+      </trans-unit>
+      <trans-unit id="e22269bb51f9f2394e148716babbafbb" resname="Popularity">
+        <source>Popularity</source>
+        <target>Popularity</target>
+      </trans-unit>
+      <trans-unit id="ca87155f28e4610349f1b3124d932f78" resname="Most helpful">
+        <source>Most helpful</source>
+        <target>Most helpful</target>
+      </trans-unit>
+      <trans-unit id="ac71d8452c267207bcf9f1c93c6419e8" resname="Newest">
+        <source>Newest</source>
+        <target>Newest</target>
+      </trans-unit>
+      <trans-unit id="4df211924b23a31142bb7a6ac9a33832" resname="Oldest">
+        <source>Oldest</source>
+        <target>Oldest</target>
+      </trans-unit>
+      <trans-unit id="446cd4313834146fee69d65172e143cf" resname="Most commented">
+        <source>Most commented</source>
+        <target>Most commented</target>
+      </trans-unit>
+      <trans-unit id="6dab6c13e63de677d4f6819dcf27b62e" resname="5 stars">
+        <source>5 stars</source>
+        <target>5 stars</target>
+      </trans-unit>
+      <trans-unit id="d7a5e23bf00b4f0b749ea123881f2c54" resname="4 stars">
+        <source>4 stars</source>
+        <target>4 stars</target>
+      </trans-unit>
+      <trans-unit id="e8c02d2030c385b7c784d234e4944832" resname="3 stars">
+        <source>3 stars</source>
+        <target>3 stars</target>
+      </trans-unit>
+      <trans-unit id="2a0399fd2d9a9b628376105b7105f914" resname="2 stars">
+        <source>2 stars</source>
+        <target>2 stars</target>
+      </trans-unit>
+      <trans-unit id="b911cf575d5af2a0a7478cfbc7836b4f" resname="1 stars">
+        <source>1 stars</source>
+        <target>1 stars</target>
+      </trans-unit>
+      <trans-unit id="b22b2c73f15152aa3c44a3eb74585718" resname="Invalid Parameeters">
+        <source>Invalid Parameeters</source>
+        <target>Invalid Parameeters</target>
+      </trans-unit>
+      <trans-unit id="4880120a085cd976958dde0cec6348bc" resname="Comment was deleted.">
+        <source>Comment was deleted.</source>
+        <target>Comment was deleted.</target>
+      </trans-unit>
+      <trans-unit id="48a824942a5fcc6bde5313c23464c577" resname="Error occurred when deleting comment.">
+        <source>Error occurred when deleting comment.</source>
+        <target>Error occurred when deleting comment.</target>
+      </trans-unit>
+      <trans-unit id="c35b8a54fbcae3e7829ecbc7b793c15c" resname="Invalid secure key">
+        <source>Invalid secure key</source>
+        <target>Invalid secure key</target>
+      </trans-unit>
+      <trans-unit id="35be86603b2675793ca2c3114f3bbb9b" resname="Product comments">
+        <source>Product comments</source>
+        <target>Product comments</target>
+      </trans-unit>
+      <trans-unit id="694e8d1f2ee056f98ee488bdc4982d73" resname="Quantity">
+        <source>Quantity</source>
+        <target>Cantidad</target>
+      </trans-unit>
+      <trans-unit id="5d4710f9a8250b13164a82c94d5b00d1" resname="Order reference">
+        <source>Order reference</source>
+        <target>Order reference</target>
+      </trans-unit>
+      <trans-unit id="44749712dbec183e983dcd78a7736c41" resname="Date">
+        <source>Date</source>
+        <target>Date</target>
+      </trans-unit>
+      <trans-unit id="2e1978d4d89702df6af232de8e7839ee" resname="You have commented on the product.">
+        <source>You have commented on the product.</source>
+        <target>You have commented on the product.</target>
+      </trans-unit>
+      <trans-unit id="906fc93d17b575758c33fabd045a019e" resname="view my comment">
+        <source>view my comment</source>
+        <target>view my comment</target>
+      </trans-unit>
+      <trans-unit id="e8f3d7707eeba378c6ffc1f44ae9b867" resname="Use a comma to seperate words.">
+        <source>Use a comma to seperate words.</source>
+        <target>Use a comma to seperate words.</target>
+      </trans-unit>
+      <trans-unit id="d6e835053cf55c89505136464189a6d7" resname="Back to my comments">
+        <source>Back to my comments</source>
+        <target>Back to my comments</target>
+      </trans-unit>
+      <trans-unit id="15a99170bef578c9f143258032d7bf7b" resname="Your comment is awaiting moderation before being published.">
+        <source>Your comment is awaiting moderation before being published.</source>
+        <target>Your comment is awaiting moderation before being published.</target>
+      </trans-unit>
+      <trans-unit id="fd2f820569d83784238e1027897b463e" resname="Enter your name">
+        <source>Enter your name</source>
+        <target>Enter your name</target>
+      </trans-unit>
+      <trans-unit id="a4d3b161ce1309df1c4e25df28694b7b" resname="Submit">
+        <source>Submit</source>
+        <target>Submit</target>
+      </trans-unit>
+      <trans-unit id="b913dabf84a2fbeb711e6873210228b7" resname="Order reference:">
+        <source>Order reference:</source>
+        <target>Order reference:</target>
+      </trans-unit>
+      <trans-unit id="a0e8e26f6f9354192425b9a23227a5ba" resname="Payment:">
+        <source>Payment:</source>
+        <target>Payment:</target>
+      </trans-unit>
+      <trans-unit id="0d8d58008ef5dd7afce337373ef73993" resname="Date:">
+        <source>Date:</source>
+        <target>Date:</target>
+      </trans-unit>
+      <trans-unit id="016d6c4f5e93faf1eea54a1d9851090a" resname="View my review">
+        <source>View my review</source>
+        <target>View my review</target>
+      </trans-unit>
+      <trans-unit id="c31732fda0c6f01c446db7163b214de4" resname="Write a review">
+        <source>Write a review</source>
+        <target>Write a review</target>
+      </trans-unit>
+      <trans-unit id="f79131cb64106ca3537b2e15e3300514" resname="Order is pending">
+        <source>Order is pending</source>
+        <target>Order is pending</target>
+      </trans-unit>
+      <trans-unit id="26a19827f167a53fecc1332de7e76872" resname="No order items">
+        <source>No order items</source>
+        <target>No order items</target>
+      </trans-unit>
+      <trans-unit id="08cfa7751d1812e961560f623e082aba" resname="No orders">
+        <source>No orders</source>
+        <target>No orders</target>
+      </trans-unit>
+      <trans-unit id="dbd6840a15bc5549a0e5c09cce3a04b3" resname="Overall rating">
+        <source>Overall rating</source>
+        <target>Overall rating</target>
+      </trans-unit>
+      <trans-unit id="457dd55184faedb7885afd4009d70163" resname="Review">
+        <source>Review</source>
+        <target>Review</target>
+      </trans-unit>
+      <trans-unit id="aaec8f7cde1b31eaf9a852e971919860" resname="Someone">
+        <source>Someone</source>
+        <target>Someone</target>
+      </trans-unit>
+      <trans-unit id="89f4e2835048d378912dc99a5bf035bb" resname="Click to zoom out">
+        <source>Click to zoom out</source>
+        <target>Click to zoom out</target>
+      </trans-unit>
+      <trans-unit id="28b3b1e564a00f572c5d4e21da986d49" resname="Report abuse">
+        <source>Report abuse</source>
+        <target>Report abuse</target>
+      </trans-unit>
+      <trans-unit id="175fd8a23b58b6b7ce1958698686d284" resname="Helpful?">
+        <source>Helpful?</source>
+        <target>Helpful?</target>
+      </trans-unit>
+      <trans-unit id="93cba07454f06a4a960172bbd6e2a435" resname="Yes">
+        <source>Yes</source>
+        <target>Yes</target>
+      </trans-unit>
+      <trans-unit id="bafd7322c6e97d25b6299b5d6fe8920b" resname="No">
+        <source>No</source>
+        <target>No</target>
+      </trans-unit>
+      <trans-unit id="b4f3a7d0c04f42f31566f4828518e4c7" resname="All reviews">
+        <source>All reviews</source>
+        <target>All reviews</target>
+      </trans-unit>
+      <trans-unit id="9b5157a2778e9bc086c3c5736ed255f1" resname="All stars">
+        <source>All stars</source>
+        <target>All stars</target>
+      </trans-unit>
+      <trans-unit id="e424db87359ccedd0f02bfb671b4dbc2" resname="With pictures">
+        <source>With pictures</source>
+        <target>With pictures</target>
+      </trans-unit>
+      <trans-unit id="06f1ac65b0a6a548339a38b348e64d79" resname="Sort order">
+        <source>Sort order</source>
+        <target>Sort order</target>
+      </trans-unit>
+      <trans-unit id="5289f1a930358cba4623a7234db5c71e" resname="Testimonial">
+        <source>Testimonial</source>
+        <target>Testimonial</target>
+      </trans-unit>
+      <trans-unit id="53e5aa2c97fef1555d2511de8218c544" resname="By">
+        <source>By</source>
+        <target>By</target>
+      </trans-unit>
+      <trans-unit id="a0f17ef01e569e92f9d6e91288a1b294" resname="Previous product">
+        <source>Previous product</source>
+        <target>Producto anterior</target>
+      </trans-unit>
+      <trans-unit id="b1afaa3aa4110c54791e61e8a8e7b7ee" resname="Next product">
+        <source>Next product</source>
+        <target>Producto siguiente</target>
+      </trans-unit>
+      <trans-unit id="9c12f952ca3695bb3043ddcc0ceaaf80" resname="QR code">
+        <source>QR code</source>
+        <target>Código QR</target>
+      </trans-unit>
+      <trans-unit id="28dd0aefbf93d337e85e9aabb6ab35ae" resname="Scan the QR code to open this page on your phone.">
+        <source>Scan the QR code to open this page on your phone.</source>
+        <target>Escanee el código QR para abrir esta página en su teléfono.</target>
+      </trans-unit>
+      <trans-unit id="5bdba1fc0fba1010d61ce253c2e57da8" resname="Search our catalog">
+        <source>Search our catalog</source>
+        <target>Busque en nuestro catálogo</target>
+      </trans-unit>
+      <trans-unit id="e42eb781b2242bd2f486895b4548e6a4" resname="More products.">
+        <source>More products.</source>
+        <target>Más productos.</target>
+      </trans-unit>
+      <trans-unit id="bad4b967e2961d37f68fc5f4e32f3152" resname="Click for more products.">
+        <source>Click for more products.</source>
+        <target>Haga clic para más productos.</target>
+      </trans-unit>
+      <trans-unit id="08042f569cc7bde578061ef23349feac" resname="No produts were found.">
+        <source>No produts were found.</source>
+        <target>No se encontraron productos.</target>
+      </trans-unit>
+      <trans-unit id="208ffe17f7e29e5f5699c3146e3d259c" resname="Search here">
+        <source>Search here</source>
+        <target>Busca aquí</target>
+      </trans-unit>
+      <trans-unit id="0c78a15cc99bed0cf491543781cd8475" resname="More products »">
+        <source>More products »</source>
+        <target>Más productos "</target>
+      </trans-unit>
+      <trans-unit id="ef2b66b0b65479e08ff0cce29e19d006" resname="Customers who bought this product also bought:">
+        <source>Customers who bought this product also bought:</source>
+        <target>Los clientes que compraron este producto también han comprado:</target>
+      </trans-unit>
+      <trans-unit id="4351cfebe4b61d8aa5efa1d020710005" resname="View">
+        <source>View</source>
+        <target>Ver</target>
+      </trans-unit>
+      <trans-unit id="0185a13a5a1a7eb41e3f3b7d937ba237" resname="Popup shopping cart">
+        <source>Popup shopping cart</source>
+        <target>Carro de compras emergente</target>
+      </trans-unit>
+      <trans-unit id="544c3bd0eac526113a9c66542be1e5bc" resname="Product successfully added to your shopping cart">
+        <source>Product successfully added to your shopping cart</source>
+        <target>Producto añadido correctamente a su carrito de la compra</target>
+      </trans-unit>
+      <trans-unit id="300225ee958b6350abc51805dab83c24" resname="Continue shopping">
+        <source>Continue shopping</source>
+        <target>Continuar la compra</target>
+      </trans-unit>
+      <trans-unit id="7e0bf6d67701868aac3116ade8fea957" resname="Proceed to checkout">
+        <source>Proceed to checkout</source>
+        <target>Ir a la caja</target>
+      </trans-unit>
+      <trans-unit id="119cc7b512a1b861401fd61ae265fb60" resname="Products you may like">
+        <source>Products you may like</source>
+        <target>Productos que te pueden gustar</target>
+      </trans-unit>
+      <trans-unit id="879f6b8877752685a966564d072f498f" resname="Your shopping cart is empty.">
+        <source>Your shopping cart is empty.</source>
+        <target>Su carrito de compras está vacío.</target>
+      </trans-unit>
+      <trans-unit id="a85eba4c6c699122b2bb1387ea4813ad" resname="Cart">
+        <source>Cart</source>
+        <target>Carro</target>
+      </trans-unit>
+      <trans-unit id="0c3bf3014aafb90201805e45b5e62881" resname="View my shopping cart">
+        <source>View my shopping cart</source>
+        <target>Ver mi carrito de compra</target>
+      </trans-unit>
+      <trans-unit id="f373b403975d367491574fb2c739fef7" resname="Shopping cart">
+        <source>Shopping cart</source>
+        <target>Carrito de compras</target>
+      </trans-unit>
+      <trans-unit id="3812464e9c462762cb7f1b1f3a8f0e30" resname="item(s)">
+        <source>item(s)</source>
+        <target>artículo(s)</target>
+      </trans-unit>
+      <trans-unit id="336d5ebc5436534e61d16e63ddfca327" resname="-">
+        <source>-</source>
+        <target>-</target>
+      </trans-unit>
+      <trans-unit id="534ed3f39af7a636f6cf7a59f74fe824" resname="Recently Viewed">
+        <source>Recently Viewed</source>
+        <target>visto recientemente</target>
+      </trans-unit>
+      <trans-unit id="5e729042e30967c9d6f65c6eab73e2fe" resname="Viewed">
+        <source>Viewed</source>
+        <target>Visto</target>
+      </trans-unit>
+      <trans-unit id="a4ffdcf0dc1f31b9acaf295d75b51d00" resname="Top">
+        <source>Top</source>
+        <target>Arriba</target>
+      </trans-unit>
+      <trans-unit id="5a95a425f74314a96f13a2f136992178" resname="Share">
+        <source>Share</source>
+        <target>Compartir</target>
+      </trans-unit>
+      <trans-unit id="3ce2f446dd2969980d56a32765034fc6" resname="Compare Products">
+        <source>Compare Products</source>
+        <target>Comparar productos</target>
+      </trans-unit>
+      <trans-unit id="7eece51cf3938103677db7a5051ef8f5" resname="Compare">
+        <source>Compare</source>
+        <target>Comparar</target>
+      </trans-unit>
+      <trans-unit id="7c491b68fcdc8169f7aadfffbafaf47d" resname="Back to top">
+        <source>Back to top</source>
+        <target>Volver arriba</target>
+      </trans-unit>
+      <trans-unit id="85a1f0c3e9edadbc5cae5a33009b0d2a" resname="Share on social networks">
+        <source>Share on social networks</source>
+        <target>Compartir en redes sociales</target>
+      </trans-unit>
+      <trans-unit id="0a4aff6d3f48e4ce67728efa1e00e6a0" resname="Popular tags">
+        <source>Popular tags</source>
+        <target>Etiquetas populares</target>
+      </trans-unit>
+      <trans-unit id="a540aed9c112c1f744a919c972dbc372" resname="All products of this manufacturer">
+        <source>All products of this manufacturer</source>
+        <target>Todos los productos de este fabricante</target>
+      </trans-unit>
+      <trans-unit id="2d96bb66d8541a89620d3c158ceef42b" resname="Add to wishlist">
+        <source>Add to wishlist</source>
+        <target>A lista de deseos</target>
+      </trans-unit>
+      <trans-unit id="d15305d7a4e34e02489c74a5ef542f36" resname="Off">
+        <source>Off</source>
+        <target>Off</target>
+      </trans-unit>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354" resname="Save">
+        <source>Save</source>
+        <target>Guardar</target>
+      </trans-unit>
+      <trans-unit id="e0fd9b310aba555f96e76738ff192ac3" resname="Wishlists">
+        <source>Wishlists</source>
+        <target>Lista de deseos</target>
+      </trans-unit>
+      <trans-unit id="8a6830ac12924a940aa0a83d5e7c76ff" resname="The product was successfully added to your wishlist.">
+        <source>The product was successfully added to your wishlist.</source>
+        <target>El producto se ha añadido con éxito a su lista de deseos.</target>
+      </trans-unit>
+      <trans-unit id="33010ef6524c87c41380e2cc5e212f73" resname="Add to %s">
+        <source>Add to %s</source>
+        <target>Añadir a %s</target>
+      </trans-unit>
+      <trans-unit id="7ec9cceb94985909c6994e95c31c1aa8" resname="My wishlists">
+        <source>My wishlists</source>
+        <target>Mis listas de deseos</target>
+      </trans-unit>
+      <trans-unit id="23c6f6362e156aa243ba4550fdd50c83" resname="Open video">
+        <source>Open video</source>
+        <target>Abrir video</target>
+      </trans-unit>
+      <trans-unit id="e0c74e0f43f5802bfc76cd15adab81d9" resname="View video">
+        <source>View video</source>
+        <target>Ver video</target>
+      </trans-unit>
+      <trans-unit id="b30545c7b2d429352b9afdd85be810c7" resname="You must specify a name.">
+        <source>You must specify a name.</source>
+        <target>Debe especificar un nombre.</target>
+      </trans-unit>
+      <trans-unit id="b74c118d823d908d653cfbf1c877ae55" resname="This name is already used by another list.">
+        <source>This name is already used by another list.</source>
+        <target>Este nombre ya está siendo utilizado por otra lista.</target>
+      </trans-unit>
+      <trans-unit id="7098d49878bbd102b13038a748125e27" resname="Cannot delete this wishlist">
+        <source>Cannot delete this wishlist</source>
+        <target>Imposible suprimir esta lista de deseos</target>
+      </trans-unit>
+      <trans-unit id="25d2da6c1c75c1fa5568f78a96193f31" resname="Product added to wishlist.">
+        <source>Product added to wishlist.</source>
+        <target>Producto añadido a lista de deseos.</target>
+      </trans-unit>
+      <trans-unit id="5f75fcc9d8d5437e78078ba50898dd5e" resname="Error occurred when adding products.">
+        <source>Error occurred when adding products.</source>
+        <target>Error al agregar productos.</target>
+      </trans-unit>
+      <trans-unit id="14c8c36c7ad705ce2d5e2da07b7a589a" resname="Failed to delete this product">
+        <source>Failed to delete this product</source>
+        <target>No se pudo eliminar este producto</target>
+      </trans-unit>
+      <trans-unit id="72b9348182e935d74fdd40a3dd5831e9" resname="This name is already used by another list">
+        <source>This name is already used by another list</source>
+        <target>Este nombre ya está siendo utilizado por otra lista</target>
+      </trans-unit>
+      <trans-unit id="ab1a1f810f3982242c03f759d728099d" resname="Wishlist created">
+        <source>Wishlist created</source>
+        <target>Lista de deseos creada</target>
+      </trans-unit>
+      <trans-unit id="967b23fe236269ccdd9e5aa414ee2d2a" resname="Create wishilist failed">
+        <source>Create wishilist failed</source>
+        <target>Crear lista de deseos fallo</target>
+      </trans-unit>
+      <trans-unit id="7270c1ef9486f8f3c43af2e8fa6c978a" resname="Quantity updated">
+        <source>Quantity updated</source>
+        <target>Cantidad actualizada</target>
+      </trans-unit>
+      <trans-unit id="a3f1da0fb94ef79ac715be3eb2976ab4" resname="Update quantity failed">
+        <source>Update quantity failed</source>
+        <target>Actualizar cantidad fallo</target>
+      </trans-unit>
+      <trans-unit id="0ed5b4b890730e9130137cb27e58c7c4" resname="Email Address is not correct:">
+        <source>Email Address is not correct:</source>
+        <target>Dirección de correo electrónico no es correcta:</target>
+      </trans-unit>
+      <trans-unit id="b3fe9a6c86f261a4d9c571b083ced0d3" resname="This wishlist does not exist">
+        <source>This wishlist does not exist</source>
+        <target>Esta lista no existe</target>
+      </trans-unit>
+      <trans-unit id="9b85d3d306f7ba025189299dbcd9991d" resname="An error occurred when sending this wishlist.">
+        <source>An error occurred when sending this wishlist.</source>
+        <target>Se ha producido un error al enviar esta lista de deseos.</target>
+      </trans-unit>
+      <trans-unit id="9475177df74030214d1e6cf3ee642a9a" resname="An error occurred:">
+        <source>An error occurred:</source>
+        <target>Se ha producido un error:</target>
+      </trans-unit>
+      <trans-unit id="396ee40ef73b69684a6c7884146edd1c" resname="This wishlist was sent.">
+        <source>This wishlist was sent.</source>
+        <target>Esta lista fue enviada.</target>
+      </trans-unit>
+      <trans-unit id="182512c75067e798421c4b1ada6388af" resname="Create a wishlist">
+        <source>Create a wishlist</source>
+        <target>Crear una lista de deseos</target>
+      </trans-unit>
+      <trans-unit id="686e697538050e4664636337cc3b834f" resname="Create">
+        <source>Create</source>
+        <target>Crear</target>
+      </trans-unit>
+      <trans-unit id="1beb403d31c2e510c90d78c71460c088" resname="Delete wishlist">
+        <source>Delete wishlist</source>
+        <target>Eliminar la list de deseos</target>
+      </trans-unit>
+      <trans-unit id="b75833669968adbef634495636e3fe50" resname="Copy link">
+        <source>Copy link</source>
+        <target>Copiar enlace</target>
+      </trans-unit>
+      <trans-unit id="98405f06b6972f0ec02816a384d095ba" resname="Share with a friend">
+        <source>Share with a friend</source>
+        <target>Compartir a sus amigos</target>
+      </trans-unit>
+      <trans-unit id="b357b524e740bc85b9790a0712d84a30" resname="Email address">
+        <source>Email address</source>
+        <target>Correo electrónico</target>
+      </trans-unit>
+      <trans-unit id="94966d90747b97d1f0f206c98a8b1ac3" resname="Send">
+        <source>Send</source>
+        <target>Enviar</target>
+      </trans-unit>
+      <trans-unit id="c9083fc6738b2ff0dea8602592d48310" resname="Back to wishlists">
+        <source>Back to wishlists</source>
+        <target>Volver a listas de deseos</target>
+      </trans-unit>
+      <trans-unit id="a8715df59bc7f8b7100e4723966eed6b" resname="No products.">
+        <source>No products.</source>
+        <target>No hay productos.</target>
+      </trans-unit>
+      <trans-unit id="e1ed9f0cc9c6229a88eb27427d85afb7" resname="Create a free account to use wishlists.">
+        <source>Create a free account to use wishlists.</source>
+        <target>Crear una cuenta gratuita para usar listas de deseos.</target>
+      </trans-unit>
+      <trans-unit id="c9a73dfae26a93baa554e66eefde2a67" resname="View my wishlists">
+        <source>View my wishlists</source>
+        <target>Ver mis listas de deseos</target>
+      </trans-unit>
+      <trans-unit id="31914028cde1e24134119883e21b0bbb" resname="Save to wishlist">
+        <source>Save to wishlist</source>
+        <target>Guardar en lista de deseos</target>
+      </trans-unit>
+      <trans-unit id="df040b8c8c1b76d6b9885b43c21da96c" resname="Describe this product using simple and short words.">
+        <source>Describe this product using simple and short words.</source>
+        <target>Describe this product using simple and short words.</target>
+      </trans-unit>
+      <trans-unit id="b6b17548d694ab74a35b328f30a2e123" resname="Drop images here or click to upload.">
+        <source>Drop images here or click to upload.</source>
+        <target>Drop images here or click to upload.</target>
+      </trans-unit>
+      <trans-unit id="b65736001bfe3cc53a665b2e077e5653" resname="Sign up for our newsletter[1][2]%conditions%[/2]">
+        <source>Sign up for our newsletter[1][2]%conditions%[/2]</source>
+        <target>Sign up for our newsletter[1][2]%conditions%[/2]</target>
+      </trans-unit>
+      <trans-unit id="897677f2dca3d5a580b12441f4f296ce" resname="You should wait %seconds% seconds before posting a new comment.">
+        <source>You should wait %seconds% seconds before posting a new comment.</source>
+        <target>You should wait %seconds% seconds before posting a new comment.</target>
+      </trans-unit>
+      <trans-unit id="e267e2be02cf3e29f4ba53b5d97cf78a" resname="Invalid email address.">
+        <source>Invalid email address.</source>
+        <target>Invalid email address.</target>
+      </trans-unit>
+      <trans-unit id="1c623b291d95f4f1b1d0c03d0dc0ffa1" resname="This email address is not registered.">
+        <source>This email address is not registered.</source>
+        <target>This email address is not registered.</target>
+      </trans-unit>
+      <trans-unit id="3b1f17a6fd92e35bc744e986b8e7a61c" resname="An error occurred while attempting to unsubscribe.">
+        <source>An error occurred while attempting to unsubscribe.</source>
+        <target>An error occurred while attempting to unsubscribe.</target>
+      </trans-unit>
+      <trans-unit id="d4197f3e8e8b4b5d06b599bc45d683bb" resname="Unsubscription successful.">
+        <source>Unsubscription successful.</source>
+        <target>Unsubscription successful.</target>
+      </trans-unit>
+      <trans-unit id="f6618fce0acbfca15e1f2b0991ddbcd0" resname="This email address is already registered.">
+        <source>This email address is already registered.</source>
+        <target>This email address is already registered.</target>
+      </trans-unit>
+      <trans-unit id="e172cb581e84f43a3bd8ee4e3b512197" resname="An error occurred during the subscription process.">
+        <source>An error occurred during the subscription process.</source>
+        <target>An error occurred during the subscription process.</target>
+      </trans-unit>
+      <trans-unit id="ebc069b1b9a2c48edfa39e344103be1e" resname="A verification email has been sent. Please check your inbox.">
+        <source>A verification email has been sent. Please check your inbox.</source>
+        <target>A verification email has been sent. Please check your inbox.</target>
+      </trans-unit>
+      <trans-unit id="77c576a354d5d6f5e2c1ba50167addf8" resname="You have successfully subscribed to this newsletter.">
+        <source>You have successfully subscribed to this newsletter.</source>
+        <target>You have successfully subscribed to this newsletter.</target>
+      </trans-unit>
+      <trans-unit id="99c8b8e5e51bf8f00f1d66820684be9a" resname="This email is already registered and/or invalid.">
+        <source>This email is already registered and/or invalid.</source>
+        <target>This email is already registered and/or invalid.</target>
+      </trans-unit>
+      <trans-unit id="4e1c51e233f1ed368c58db9ef09010ba" resname="Thank you for subscribing to our newsletter.">
+        <source>Thank you for subscribing to our newsletter.</source>
+        <target>Thank you for subscribing to our newsletter.</target>
+      </trans-unit>
+      <trans-unit id="a02d713b5206d9353e6fb85c7f81ce3f" resname="Are you sure report abuse ?">
+        <source>Are you sure report abuse ?</source>
+        <target>Are you sure report abuse ?</target>
+      </trans-unit>
+      <trans-unit id="1063e38cb53d94d386f21227fcd84717" resname="Remove">
+        <source>Remove</source>
+        <target>Remove</target>
+      </trans-unit>
+      <trans-unit id="19bb169e9b97fbeca45b76caf381d5a5" resname="#left / #max Characters left.">
+        <source>#left / #max Characters left.</source>
+        <target>#left / #max Characters left.</target>
+      </trans-unit>
+      <trans-unit id="ec588883ef95eaf8d7f844685b1cfb7c" resname="Describe it:">
+        <source>Describe it:</source>
+        <target>Describe it:</target>
+      </trans-unit>
+      <trans-unit id="f749127db6724af1cd417fba7ec55963" resname="Review(required):">
+        <source>Review(required):</source>
+        <target>Review(required):</target>
+      </trans-unit>
+      <trans-unit id="63a6114784d4f4bea9e1773e76192ce2" resname="Upload images:">
+        <source>Upload images:</source>
+        <target>Upload images:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

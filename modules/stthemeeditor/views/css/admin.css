@@ -1,0 +1,150 @@
+a:focus{
+  outline: thin dotted;
+  -moz-outline-style: none;
+}
+a:active,a:hover{
+  outline: 0;
+}
+a:focus,:focus{ 
+  outline: none!important;
+}
+.fontshow{
+    border: 1px solid #CCCED7;
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    font-size:16px;
+    text-align:center;
+}
+.pattern{
+	display: block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	background-color: #fff;
+	margin: 0px 6px 6px 0;
+ }
+ .delete_image{display:block;}
+ .img_preview{max-height: 200px;}
+ .st_thumb_nail{max-width: 200px;}
+ .parttern_wrap{display:inline-block;position:relative;width: 60px;height:60px;overflow:hidden;margin-right:3px;background-position: left center;}
+ .parttern_wrap.repeat_x{background-repeat: repeat-x;}
+ .parttern_wrap span{position:absolute;left:0;top:0;color:#333;display:inline-block;background:#fff;padding:2px;}
+#content.bootstrap .panel{display:none;}
+#content.bootstrap .panel.selected{display:block;border-bottom: none; margin-bottom: 0;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;}
+#content.bootstrap .panel.selected:last-child{border-bottom: 1px solid #e6e6e6;}
+#content.bootstrap .preference_description br{display:block;}
+.st_tabs li{float:left;list-style: none;}
+.st_tabs li a{display:inline-block;padding:10px 6px;background:#FAFAFA;border: 1px solid #CCCED7;border-right:none;font-size:14px;font-weight:normal;margin-bottom:-1px;}
+.st_tabs li:last-child a{border-right: 1px solid #CCCED7;}
+.st_tabs li a:hover,
+.st_tabs li.selected a{background:#EBEDF4;border-bottom-color:#EBEDF4;}
+
+.st_toolbtn .button {
+	display:block;
+	float:left;
+	font-size:12px;
+	line-height:24px;
+	margin-bottom:10px;
+	cursor:pointer;
+}
+.st_toolbtn .button i {
+	margin-right:2px;
+	color:#090;
+	font-size:18px;
+}
+.st_toolbtn li{
+    list-style:none;
+}
+.st_toolbtn li.dropdown{
+    float:left!important;
+    margin-right:2px;
+    margin-bottom:2px;
+}
+.st_toolbtn li.dropdown .btn.btn-default i{
+    margin-left:2px;
+}
+
+.st_toolbtn .form-group{margin-top:10px;}
+.st_toolbtn .form-group .control-label{padding-top:15px;}
+#custom_css,#custom_js,#tracking_code,#head_code{height:auto!important;overflow:scroll!important;text-align: left!important;direction: ltr!important;}
+#content > div.stthemeeditor + .bootstrap{display:none!important;}
+
+/* custom inclusion of right, left and below tabs */
+.stthemeeditor .nav-tabs {
+  border-bottom: 0;
+  float: left;
+  width:100%!important;
+}
+.stthemeeditor > .st_sidebar{
+    margin-right:-10px!important;
+    /*margin-top:20px;*/
+}
+.stthemeeditor .nav-tabs > li {
+  float: none;
+}
+.stthemeeditor .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+  margin-right: -1px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.stthemeeditor .nav-tabs > li > a:hover,
+.stthemeeditor .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee!important;
+}
+.stthemeeditor .nav-tabs .active > a,
+.stthemeeditor .nav-tabs .active > a:hover,
+.stthemeeditor .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd!important;
+  *border-right-color: #ffffff;
+}
+
+.st_toolbtn{width:99%;margin-left:2px;}
+
+.fontello_list{
+  list-style: none;
+}
+.fontello_list li{
+  float: left;
+  min-width: 60px;
+}
+[class^="fto-"]:before, [class*=" fto-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  font-size: 16px;
+}

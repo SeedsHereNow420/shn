@@ -1,0 +1,47 @@
+.btn-hlf{
+width: 100%;
+    font-size: 10px !important;
+}
+.smlr-fnt input,.sml-fnt select{
+	    font-size: 10px !important;
+}
+.smlr-fnt{
+    padding: 0px !important;
+}
+.refnd-bdrop{
+	display:none;
+	z-index: 10000;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.refd-cntr{
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.rfnd-cls{
+font-size: 30px;
+    position: absolute;
+    right: -23px;
+    top: -36px;
+    padding: 5px;
+}
+.hd-refd{
+font-size: 16px;
+    color: #fff;
+    background: #66d0e8;
+    padding: 20px;
+}
+.refd-ctn{
+	background: #ccc; 
+	padding: 30px;
+}
+.refd-ctn  .amnt-rfnd{
+width: 90% !important;
+}

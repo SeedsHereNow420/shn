@@ -1,0 +1,108 @@
+/* Prestalia Header */
+
+#mHeader {
+    height: 92px;
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius: 3px;
+    padding: 10px 10px 10px 20px;
+}
+#mHeader_sx {
+    float: left;
+}
+#mHeader_menu {
+    float: right;
+}
+@media (max-width: 600px) {
+    #mHeader_menu {
+        min-height: 120px;
+        margin: 10px 0;
+    }
+    #mHeader_menu a span { display:none; }
+    #mHeader_menu a{
+        padding: 4px 10px 3px 10px;
+        min-height: 20px;
+        width: 22px;
+    }
+}
+
+#btnGuide, #btnAssistenza {
+    margin: 1px 1px 0 1px;
+    display: block;
+    float:left;
+    padding: 5px 10px 10px 10px;
+    border: 2px solid #b4eae7;
+    max-width: 80px;
+    min-height: 50px;
+    text-align:center;
+    margin: 1px 1px 0 0;
+    text-align:center;
+    text-decoration:none;
+}
+#btnGuide:hover, #btnAssistenza:hover, #btnAdv:hover {
+    background: url(../img/prestalia_header/text1_10.png) #D8F4F2;
+}
+
+#btnGuide i:before {
+    font-family: "FontAwesome";
+    font-size: 24px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    display: block;
+    font-style: normal;
+    content: "\f05A";
+    color:#08bdb3;
+}
+#btnAssistenza i:before {
+    font-family: "FontAwesome";
+    font-size: 24px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    display: block;
+    font-style: normal;
+    content: "\f0fa";
+    /*content: "\f1CD";*/
+    color:#08bdb3;
+}
+
+#btnAdv {
+    display: block;
+    float:left;
+    padding: 5px 10px 10px 10px;
+    border: 2px solid #b4eae7;
+    min-height: 50px;
+    text-align:center;
+    margin: 1px 1px 0 0;
+    text-decoration:none;
+}
+#btnAdv i:before {
+    font-family: "FontAwesome";
+    font-size: 24px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    display: block;
+    font-style: normal;
+    content: "\f055";
+    color:#08bdb3;
+}
+
+#mHeader_logo {
+    float: right;
+}
+#mHeader_logo img {
+    width: 160px;
+    padding: 10px;
+}
+@media (max-width: 1200px) {
+    #mHeader_logo {
+        display: none;
+    }
+    /*#mHeader_dx img{ width:50%;}*/
+}
+
+#module-version {
+    display: block;
+    position: relative;
+    bottom: 26px;
+    left: 70px;
+}

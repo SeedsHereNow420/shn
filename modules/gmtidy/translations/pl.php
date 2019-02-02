@@ -1,0 +1,33 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{gmtidy}prestashop>gmtidy_8a9f89f8ac0b72fa756eceafda373a74'] = 'Tidy';
+$_MODULE['<{gmtidy}prestashop>gmtidy_95d6576a1ea436d4af37606efd81bda5'] = 'Pomaga uporządkować sklep';
+$_MODULE['<{gmtidy}prestashop>gmtidy_ae203a71cbb45ce3d57f7c6c4209c32d'] = 'Usuń stare porzucone koszyki';
+$_MODULE['<{gmtidy}prestashop>gmtidy_b370eee78467071c1e97e0af59adb28f'] = 'Usuń stare statystyki odwiedzin';
+$_MODULE['<{gmtidy}prestashop>gmtidy_453e2d718708096cd5d65f023c442eb2'] = 'Usuń stare logi wysłanych maili';
+$_MODULE['<{gmtidy}prestashop>gmtidy_52e30d6dd578a734ed12942a4c6272a7'] = 'Usuń przeterminowane specyficzne ceny';
+$_MODULE['<{gmtidy}prestashop>gmtidy_a489f0797364c6658c8b9e2ef6b8835d'] = 'Wygeneruj przyjazne URL-e dla produktów';
+$_MODULE['<{gmtidy}prestashop>gmtidy_6bce42b58bcfecbbdd86066b1b7ae0d6'] = 'Wygeneruj przyjazne URL-e dla kategorii';
+$_MODULE['<{gmtidy}prestashop>gmtidy_b2596303b1064476e7b33adabf5076fd'] = 'Ustaw najgłębszą kategorię produktu jako domyślną';
+$_MODULE['<{gmtidy}prestashop>gmtidy_abbfd133deccb5aa839df6052cdc455e'] = 'Przypisz produkty do nadrzędnych kategorii';
+$_MODULE['<{gmtidy}prestashop>gmtidy_ac6c5cf77ef03db098a5ac427dd6c3ec'] = 'Przypisz wszystkie grupy użytkowników do wszystkich kategorii';
+$_MODULE['<{gmtidy}prestashop>gmtidy_b6f47a3bad4b6f70fb695f8192654b4c'] = 'Wyłącz aktywne kategorie bez aktywnych produktów';
+$_MODULE['<{gmtidy}prestashop>gmtidy_fe05a1ecf80d397f1a3f6a19c7b3e7fc'] = 'Włącz nieaktywne kategorie posiadające aktywne produkty';
+$_MODULE['<{gmtidy}prestashop>gmtidy_1bbfe364ef9470ecb0a289f6fa4cdc3c'] = 'Wyłącz aktywne produkty bez aktywnych kategorii';
+$_MODULE['<{gmtidy}prestashop>gmtidy_342933523bb6927294e4bab91760f411'] = 'Wyłącz aktywnych producentów bez aktywnych produktów';
+$_MODULE['<{gmtidy}prestashop>gmtidy_e0e82f3cde0e11ef76121016c6e5a479'] = 'Włącz nieaktywnych producentów posiadających aktywne produkty';
+$_MODULE['<{gmtidy}prestashop>gmtidy_6ab11aaff4f17c356cb1475ca604cfc0'] = 'Ustaw produktom bez okładki pierwszy obraz jako okładkę';
+$_MODULE['<{gmtidy}prestashop>gmtidy_5abac9b5f7c9740ffd987b017b7bde8d'] = 'Ustaw okładkę jako pierwszy obraz';
+$_MODULE['<{gmtidy}prestashop>gmtidy_63c5c594aa2ce674e06c8a4ac7cedaef'] = 'Usuń tymczasowe obrazy';
+$_MODULE['<{gmtidy}prestashop>gmtidy_c33e404a441c6ba9648f88af3c68a1ca'] = 'Statystyki';
+$_MODULE['<{gmtidy}prestashop>gmtidy_42a3fdea8ffc3d9146422f9e91ed421e'] = 'Porzucone koszyki:';
+$_MODULE['<{gmtidy}prestashop>gmtidy_933e88e6d08a5d75d4aa9014286f9cc9'] = 'Liczba wierszy statystyk odwiedzin:';
+$_MODULE['<{gmtidy}prestashop>gmtidy_f4f70727dc34561dfde1a3c529b6205c'] = 'Ustawienia';
+$_MODULE['<{gmtidy}prestashop>gmtidy_22c565112aca14e8d732f61f91b81877'] = 'Liczba dni';
+$_MODULE['<{gmtidy}prestashop>gmtidy_d6252fb4f6e71e39d903bcfa2146bc64'] = 'Wykorzystywane przy usuwaniu danych';
+$_MODULE['<{gmtidy}prestashop>gmtidy_c9cc8cce247e49bae79f15173ce97354'] = 'Zapisz';
+$_MODULE['<{gmtidy}prestashop>gmtidy_984844af1d89879ae4f852f2e2b8c02c'] = 'URL Cron:';
+$_MODULE['<{gmtidy}prestashop>gmtidy_c888438d14855d7d96a2724ee9c306bd'] = 'Zapisano ustawienia';
+$_MODULE['<{gmtidy}prestashop>gmtidy_4c43a1552954d50337573c449354578b'] = 'Wykonano operację';

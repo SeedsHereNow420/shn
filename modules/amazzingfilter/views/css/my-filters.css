@@ -1,0 +1,60 @@
+a.js-action:hover, a.js-action:focus, a.js-action:active {
+	text-decoration: none;
+}
+.af-parent-category ul {
+	margin: 0 0 0 15px;
+}
+.my-filter-group {
+	padding: 15px;
+}
+.my-filter-group .panel-heading {
+	padding: 15px 10px;
+	margin: 0;
+}
+.my-filter-group .content{
+	border: 1px solid #DDD;
+	border-radius: 5px;
+}
+.my-filter-group .criteria {
+	padding: 15px;
+	height: 300px;
+	overflow-y: scroll;
+	display: none;
+}
+.success {
+	color: #71B238;
+}
+.my-filter-group.open .criteria {
+	display: block;
+}
+.clear-both {
+	clear: both;
+}
+.criteria .checker {
+	display: inline-block;
+}
+.af.checkbox {
+	float: left;
+	margin: 0 5px 0 0;
+}
+.form-footer {
+	margin-top: 15px;
+}
+
+/* extended compatibility */
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
+.hidden {
+	display: none;
+}
+
+@media (min-width: 1200px) {
+	.my-filter-group.sibling-with-margin {
+		margin-bottom: 300px;
+	}
+}
+/* since 2.5.0 */
